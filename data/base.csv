@@ -1,0 +1,1260 @@
+np,type,alité avant,age,taille,sexe,poids_ad,poids_ac,igs,alb,crp,choc,diar,vent,sed,cort,cura,mal_ad,mal_tab,eer,ecmo,nut,esc adm,service_id,nb_esc_j
+1,medical,non,16,190,NA,73,73,6,NA,NA,non,non,non,non,non,non,oui,non,non,non,entéral,NA,0,0
+2,medical,non,20,132,NA,42,42,NA,27,NA,non,non,non,non,non,non,non,non,oui,non,per os,0,78,0
+3,chirurgical reglé,non,70,170,NA,73,73,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,parentéral,0,78,0
+4,chirurgical reglé,NA,71,182,NA,63,62,NA,26,NA,non,non,non,non,non,non,non,non,non,non,parentéral,0,78,0
+5,chirurgical reglé,non,59,179,NA,115,125,18,NA,3,non,oui,oui,oui,oui,non,non,non,non,non,entéral,0,0,0
+6,chirurgical reglé,non,63,154,NA,70,70,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,parentéral,0,78,0
+7,medical,non,37,179,NA,58,58,12,NA,5,non,non,non,non,non,non,non,non,non,non,per os,0,55,0
+8,medical,non,78,171,NA,72,71,48,27,NA,non,oui,oui,non,non,non,oui,non,non,non,entéral,NA,0,2
+9,chirurgical reglé,non,73,183,H,115,113,24,30,216,non,non,non,non,non,non,non,non,non,non,per os,0,55,0
+10,medical,non,75,180,H,95,93,49,NA,NA,non,non,non,non,oui,non,non,non,non,non,per os,0,55,0
+11,medical,oui,45,176,NA,60,58,36,18,212,non,non,non,non,non,non,non,non,non,NA,per os,0,55,0
+12,medical,non,75,145,NA,61,74,35,31,1,non,non,non,non,non,non,non,non,non,non,per os,0,55,0
+13,chirurgical reglé,non,74,177,NA,69,69,31,NA,NA,non,non,non,non,non,non,non,non,non,non,parentéral,0,78,0
+14,chirurgical reglé,non,67,180,NA,75,75,20,40,NA,non,non,non,non,non,non,non,non,non,non,parentéral,0,78,0
+17,chirurgical reglé,non,75,165,NA,79,76,31,26,NA,non,non,non,non,NA,non,non,non,non,non,per os,0,78,0
+18,medical,oui,70,158,NA,54,54,97,27,70,distributif,non,non,non,non,non,non,non,non,non,per os,1,55,1
+19,chirurgical reglé,non,59,172,NA,68,68,16,18,NA,hypovolémique,oui,oui,oui,non,non,non,non,non,non,per os,0,78,0
+20,medical,non,53,175,F,64,69,52,NA,53,non,non,oui,oui,non,non,non,non,non,non,entéral,0,123,0
+21,medical,non,82,NA,NA,82,90,28,NA,NA,hypovolémique,non,non,non,non,non,non,NA,NA,non,per os,0,78,0
+22,medical,non,66,180,NA,103,107,50,22,47,distributif,non,oui,oui,non,oui,non,oui,non,non,entéral,0,55,0
+23,medical,NA,68,155,NA,49,49,75,NA,103,cardiogénique,oui,oui,oui,non,non,oui,non,oui,non,entéral,0,123,0
+24,medical,non,61,151,NA,48,54,49,21,NA,cardiogénique,oui,non,non,oui,non,non,non,non,non,per os,0,78,0
+25,chirurgical urgent,oui,70,165,NA,82,120,84,19,NA,distributif,oui,oui,oui,oui,non,oui,non,oui,non,entéral,1,0,0
+27,medical,non,76,145,NA,47,47,NA,19,258,hypovolémique,non,non,non,non,non,non,non,non,non,per os,0,121,0
+29,medical,NA,56,174,NA,82,76,60,28,NA,distributif,oui,oui,oui,oui,non,oui,non,oui,non,per os,0,1,2
+30,medical,non,62,160,NA,62,75,70,29,38,distributif,non,oui,oui,non,oui,oui,oui,non,non,entéral,0,121,0
+31,chirurgical reglé,non,71,174,NA,125,136,39,26,NA,distributif,non,oui,oui,non,non,non,non,non,non,per os,0,78,0
+32,medical,oui,56,163,NA,62,72,59,23,120,distributif,oui,oui,oui,non,oui,oui,non,oui,non,entéral,1,121,2
+33,medical,non,83,147,NA,65,64,38,NA,NA,non,non,non,non,non,non,oui,non,non,non,per os,0,121,0
+34,medical,non,59,173,NA,100,78,47,25,NA,distributif,oui,oui,oui,oui,oui,oui,non,oui,non,parentéral,4,1,4
+39,chirurgical reglé,non,61,158,NA,54,54,56,40,NA,hypovolémique,non,oui,oui,non,oui,non,non,non,non,parentéral,0,78,0
+40,NA,NA,54,174,NA,94,93,13,31,21,distributif,oui,oui,oui,non,oui,non,non,oui,non,parentéral,0,121,0
+41,chirurgical urgent,NA,57,157,NA,56,53,41,28,NA,distributif,oui,non,non,non,non,non,non,non,non,per os,0,78,0
+42,medical,NA,58,175,NA,57,57,NA,30,NA,distributif,non,non,non,non,non,NA,non,non,non,per os,1,78,2
+43,medical,non,55,177,NA,83,84,33,29,64,non,non,oui,oui,oui,oui,oui,non,non,non,entéral,0,121,0
+56,chirurgical urgent,non,63,160,NA,118,102,49,NA,NA,non,non,oui,oui,oui,non,oui,non,non,non,entéral,1,127,1
+45,chirurgical urgent,non,70,180,NA,78,76,57,21,NA,distributif,non,oui,oui,non,non,non,non,NA,non,parentéral,0,78,0
+46,medical,non,52,180,NA,79,62,27,26,10,non,oui,oui,oui,non,oui,non,oui,non,non,per os,0,121,0
+48,NA,NA,57,180,NA,96,93,65,30,NA,distributif,oui,non,non,non,non,non,non,non,non,parentéral,0,78,0
+49,medical,oui,29,156,NA,44,48,26,32,80,distributif,non,oui,oui,oui,oui,oui,non,non,non,NA,NA,1,1
+55,medical,non,80,170,H,72,63,45,NA,NA,distributif,oui,oui,oui,oui,oui,oui,non,non,non,per os,0,0,0
+51,medical,oui,80,165,NA,77,74,48,NA,688,distributif,non,oui,non,oui,non,non,non,non,non,entéral,0,0,0
+57,medical,NA,73,NA,F,NA,56,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,entéral,0,52,0
+58,chirurgical urgent,non,24,175,NA,NA,NA,29,NA,NA,non,non,oui,oui,non,oui,oui,non,oui,non,entéral,1,127,4
+59,medical,NA,77,NA,F,NA,123,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,per os,0,52,0
+60,medical,NA,44,NA,H,83,105,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,entéral,0,52,0
+61,medical,NA,53,NA,F,NA,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,52,0
+62,medical,oui,68,165,H,43,45,32,NA,NA,non,non,non,non,non,non,non,non,non,non,entéral,1,71,2
+63,medical,NA,60,NA,H,NA,85,NA,NA,NA,NA,NA,oui,oui,NA,NA,non,oui,non,non,NA,1,52,1
+64,chirurgical urgent,non,70,170,NA,72,70,39,NA,NA,non,non,oui,oui,non,non,non,non,non,non,per os,0,127,0
+65,medical,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,52,0
+66,medical,oui,48,179,H,74,80,18,NA,NA,non,oui,oui,non,oui,non,non,non,non,non,per os,1,71,2
+67,medical,oui,45,165,F,60,60,33,NA,NA,non,non,non,non,non,non,non,non,non,non,entéral,0,71,0
+68,medical,non,67,160,F,62,61,50,NA,NA,distributif,non,oui,oui,non,non,non,oui,non,non,per os,0,71,0
+69,medical,non,67,NA,H,NA,NA,40,NA,248,non,non,non,non,non,non,oui,non,non,non,per os,1,123,1
+70,medical,non,91,145,F,60,60,33,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,71,0
+71,medical,non,42,165,F,57,73,76,NA,NA,distributif,oui,oui,oui,oui,oui,oui,non,non,non,entéral,0,71,0
+72,chirurgical reglé,non,79,179,NA,97,NA,15,NA,23,non,non,non,non,non,non,non,non,non,non,per os,0,123,0
+73,medical,non,74,190,H,74,74,39,NA,NA,non,non,non,non,non,non,oui,non,non,non,NA,0,71,0
+74,medical,non,81,180,H,70,NA,60,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,71,0
+75,medical,non,73,176,H,70,NA,23,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,71,0
+76,medical,non,75,165,H,82,NA,32,NA,59,distributif,non,oui,oui,non,non,oui,non,non,non,entéral,0,123,0
+77,medical,non,81,163,F,73,67,75,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,0,0
+78,medical,non,41,184,H,78,61,36,NA,NA,non,oui,oui,oui,oui,oui,non,non,non,non,entéral,1,71,1
+79,medical,non,56,NA,NA,NA,NA,44,NA,23,non,oui,oui,oui,non,non,non,oui,non,non,per os,0,123,0
+80,medical,non,70,175,H,90,102,50,NA,NA,non,oui,oui,oui,oui,oui,oui,non,non,non,NA,0,0,0
+81,medical,non,66,NA,NA,87,NA,47,NA,17,non,non,non,non,non,non,non,non,oui,non,per os,0,123,0
+82,medical,non,86,165,F,77,NA,49,NA,NA,non,oui,non,non,non,non,non,non,non,non,per os,1,71,1
+83,medical,non,18,177,H,86,85,24,NA,NA,non,non,oui,oui,non,oui,non,non,non,non,per os,0,71,0
+84,medical,non,60,155,F,66,69,37,NA,NA,non,non,oui,oui,non,oui,non,non,non,non,NA,0,71,0
+85,medical,non,67,173,H,102,96,20,NA,NA,non,non,non,non,oui,non,non,non,non,non,per os,0,71,0
+86,medical,non,43,188,H,72,63,28,NA,33,non,non,oui,oui,non,non,oui,oui,non,non,per os,0,1,4
+87,medical,non,65,171,H,73,76,45,NA,NA,hypovolémique,non,oui,oui,non,oui,non,oui,non,non,parentéral,0,71,0
+88,medical,non,69,162,NA,109,103,45,24,139,non,oui,oui,oui,oui,oui,oui,oui,oui,non,per os,0,1,1
+89,medical,non,81,164,F,66,66,58,NA,NA,cardiogénique,non,oui,oui,non,non,oui,non,non,non,per os,0,71,0
+90,medical,non,79,172,NA,84,84,41,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,71,0
+91,chirurgical urgent,non,36,175,H,103,90,11,NA,17,cardiogénique,non,oui,oui,non,non,non,non,non,non,per os,0,123,0
+92,medical,NA,46,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,52,0
+93,chirurgical urgent,non,53,160,NA,41,43,45,NA,NA,hypovolémique,non,oui,oui,non,oui,non,non,non,non,per os,0,109,0
+94,medical,NA,42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,52,0
+95,medical,NA,26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0
+96,medical,NA,57,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,52,0
+97,medical,non,78,150,NA,61,61,45,NA,4,non,non,non,non,non,non,non,non,non,non,NA,0,109,0
+98,medical,non,82,170,H,84,84,99,NA,NA,distributif,oui,oui,oui,non,non,non,non,non,non,NA,1,71,3
+99,medical,NA,65,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,52,0
+100,medical,NA,63,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,52,0
+101,medical,non,66,177,H,95,92,31,NA,NA,hypovolémique,oui,oui,oui,non,oui,non,non,non,non,NA,0,71,0
+102,medical,non,65,160,NA,114,117,45,17,21,distributif,non,oui,oui,non,oui,non,non,oui,non,entéral,0,109,0
+103,medical,non,38,160,F,73,69,42,NA,NA,distributif,oui,oui,oui,non,non,oui,non,oui,non,parentéral,0,71,0
+104,chirurgical reglé,non,72,168,NA,69,71,45,19,NA,non,non,non,non,non,non,non,non,non,non,entéral,0,109,0
+105,medical,oui,39,188,H,58,74,31,NA,NA,non,non,oui,oui,oui,non,non,non,non,non,entéral,0,71,0
+106,medical,non,60,180,NA,85,79,NA,NA,21,non,non,non,non,non,non,non,oui,non,non,per os,0,109,0
+107,chirurgical urgent,NA,84,NA,NA,NA,NA,25,30,NA,distributif,oui,oui,oui,non,non,non,non,non,non,NA,0,51,0
+108,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0
+109,medical,non,64,176,H,80,81,67,NA,NA,non,oui,oui,non,oui,non,non,non,non,non,entéral,0,71,0
+110,medical,oui,67,167,H,96,97,51,NA,NA,non,oui,oui,oui,non,non,non,non,non,non,parentéral,0,31,0
+111,medical,non,70,180,NA,102,102,NA,NA,NA,non,non,oui,oui,non,oui,non,non,non,non,entéral,0,109,0
+112,medical,non,42,172,NA,82,82,45,37,NA,non,non,oui,oui,non,oui,non,oui,non,non,entéral,0,109,0
+113,medical,oui,71,169,H,120,103,28,35,9,distributif,non,oui,oui,oui,oui,non,non,oui,non,entéral,0,1,1
+114,medical,non,72,170,NA,91,93,45,22,NA,non,oui,oui,oui,non,oui,non,non,non,non,entéral,0,109,0
+115,chirurgical urgent,oui,82,NA,NA,NA,NA,82,NA,91,cardiogénique,non,oui,oui,non,non,non,non,non,non,NA,0,51,0
+116,medical,non,70,NA,NA,91,86,29,NA,88,non,oui,oui,non,non,non,oui,non,non,non,entéral,0,0,0
+117,medical,non,70,165,NA,57,57,45,NA,37,non,oui,non,non,oui,non,non,non,non,non,per os,1,109,2
+118,medical,oui,75,180,H,76,70,42,14,NA,distributif,non,oui,oui,non,non,oui,non,oui,non,entéral,1,31,3
+119,medical,non,47,177,NA,87,86,45,NA,315,NA,non,non,non,non,non,non,oui,non,non,per os,0,109,0
+120,medical,non,61,171,NA,68,67,45,NA,NA,NA,non,non,non,non,non,non,non,non,non,per os,0,109,0
+121,medical,non,60,167,H,102,105,52,24,30,non,non,non,oui,non,non,non,non,oui,non,per os,1,111,2
+122,chirurgical reglé,non,50,NA,NA,NA,NA,NA,NA,NA,non,NA,oui,oui,oui,non,non,oui,non,non,parentéral,0,51,0
+123,NA,NA,18,NA,F,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0
+124,medical,non,49,163,H,75,75,60,NA,NA,cardiogénique,non,oui,oui,non,oui,non,oui,non,non,NA,6,0,0
+125,chirurgical reglé,oui,90,NA,NA,NA,NA,83,33,38,distributif,non,non,oui,non,non,non,non,non,non,parentéral,0,51,0
+126,chirurgical reglé,oui,55,155,F,73,70,67,NA,18,distributif,oui,oui,oui,oui,non,non,non,oui,non,entéral,0,123,0
+127,medical,oui,65,165,F,81,81,48,30,133,non,non,non,non,oui,non,non,non,oui,non,per os,0,77,0
+128,chirurgical reglé,non,84,NA,F,NA,NA,34,28,NA,non,non,oui,oui,non,non,non,non,non,non,per os,0,51,0
+129,medical,non,74,166,H,68,64,59,16,NA,distributif,oui,oui,oui,non,oui,oui,non,oui,non,entéral,1,31,3
+130,medical,non,49,170,H,60,63,54,NA,17,non,oui,oui,oui,oui,non,non,non,non,non,entéral,0,123,0
+131,chirurgical urgent,oui,76,NA,F,NA,NA,65,NA,160,distributif,non,oui,oui,non,non,non,non,non,non,NA,0,51,0
+132,medical,oui,78,160,F,63,63,54,29,571,non,non,non,non,non,non,non,oui,oui,non,per os,0,77,0
+133,chirurgical urgent,oui,43,185,H,67,67,31,15,NA,hypovolémique,non,oui,non,non,non,non,oui,non,non,per os,NA,0,0
+134,medical,oui,82,175,H,95,90,46,26,1428,distributif,oui,oui,oui,non,oui,non,non,oui,non,entéral,1,77,1
+135,medical,oui,67,NA,H,NA,NA,27,NA,NA,non,non,oui,oui,non,non,oui,non,non,non,per os,0,51,0
+136,medical,non,66,NA,H,103,86,61,NA,15,non,oui,oui,oui,non,non,non,non,non,non,entéral,0,0,0
+137,medical,non,64,160,F,40,40,81,26,85,non,oui,oui,oui,oui,non,non,non,non,non,per os,0,0,0
+138,NA,NA,18,NA,H,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0
+139,chirurgical urgent,oui,58,175,H,70,70,43,26,1438,distributif,non,oui,oui,non,non,oui,non,non,non,NA,0,77,0
+140,medical,non,63,164,H,55,64,64,NA,32,distributif,non,oui,oui,oui,non,non,non,non,non,entéral,0,123,0
+141,medical,non,71,180,H,63,63,78,26,723,distributif,non,oui,oui,non,non,non,non,oui,non,per os,0,77,0
+142,medical,non,56,162,F,84,88,38,NA,66,non,non,oui,oui,non,non,non,non,non,non,entéral,0,123,0
+143,medical,oui,85,170,H,70,70,78,27,1857,non,non,oui,oui,oui,non,non,non,oui,non,entéral,1,77,2
+144,medical,oui,82,160,F,60,60,72,14,123,distributif,non,oui,oui,non,non,non,non,oui,non,per os,0,77,0
+145,medical,oui,65,177,H,73,75,NA,NA,66,non,oui,oui,non,non,non,oui,non,non,non,entéral,1,123,1
+146,medical,oui,85,170,H,97,97,65,28,723,distributif,oui,oui,oui,non,non,non,non,oui,non,entéral,0,1,1
+147,medical,non,62,172,H,87,107,66,NA,318,distributif,non,oui,oui,oui,oui,non,non,oui,non,parentéral,0,1,4
+148,medical,non,36,178,H,72,NA,12,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,31,0
+149,medical,NA,70,179,H,90,NA,23,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,31,0
+150,medical,oui,62,163,F,129,129,23,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,1,31,2
+151,medical,non,75,164,F,75,79,28,NA,22,hypovolémique,non,oui,oui,oui,non,oui,non,non,non,entéral,0,123,0
+152,medical,NA,81,165,H,72,NA,62,19,476,non,non,oui,oui,non,non,non,non,non,non,per os,0,77,0
+153,medical,non,30,161,F,46,48,49,NA,293,non,non,oui,oui,non,non,non,non,non,non,entéral,0,123,0
+154,medical,non,71,170,H,63,NA,21,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,31,0
+155,medical,oui,49,175,H,86,NA,50,33,25,non,non,oui,oui,oui,oui,oui,oui,oui,non,per os,0,77,0
+156,medical,non,46,163,H,82,81,53,NA,38,cardiogénique,non,oui,oui,non,oui,non,oui,non,non,NA,0,123,0
+157,medical,oui,73,170,H,120,NA,55,28,228,distributif,oui,oui,oui,non,oui,oui,non,oui,non,per os,1,77,1
+158,medical,non,64,170,H,70,NA,65,28,676,non,non,non,non,non,non,non,non,oui,non,per os,0,77,0
+159,medical,oui,87,177,H,102,NA,46,30,380,non,non,non,NA,non,non,non,oui,non,non,per os,1,77,1
+160,medical,non,84,170,H,75,NA,34,19,2000,non,non,non,non,non,non,non,non,oui,non,per os,0,77,0
+161,chirurgical urgent,non,70,160,F,100,103,70,13,NA,distributif,non,oui,oui,non,non,non,NA,oui,non,parentéral,1,131,1
+162,chirurgical reglé,non,53,181,H,78,77,12,38,NA,distributif,non,oui,oui,non,non,non,oui,non,non,parentéral,0,131,0
+163,chirurgical urgent,non,78,178,H,80,85,33,31,94,non,non,oui,oui,non,non,non,oui,non,non,entéral,0,0,0
+164,medical,non,73,181,H,115,112,48,20,NA,distributif,oui,oui,oui,non,non,oui,non,oui,non,entéral,0,1,2
+165,chirurgical urgent,non,66,175,H,97,102,53,18,34,distributif,non,oui,oui,non,non,non,NA,non,non,parentéral,0,1,1
+166,medical,non,69,175,H,110,107,36,20,249,non,oui,non,non,non,non,non,non,non,non,parentéral,0,0,0
+167,medical,non,50,155,H,50,57,21,21,NA,distributif,non,oui,oui,non,non,non,non,non,non,per os,NA,0,0
+168,medical,oui,24,160,H,44,45,54,18,100,non,non,oui,oui,non,non,non,non,non,non,per os,0,1,3
+169,medical,non,63,182,H,75,74,33,38,NA,hypovolémique,non,non,non,oui,non,non,non,non,non,NA,0,104,0
+170,medical,non,69,158,F,53,58,45,NA,11,hypovolémique,oui,oui,oui,oui,oui,non,oui,non,non,entéral,0,104,0
+171,medical,non,76,167,H,61,61,77,NA,NA,hypovolémique,oui,oui,oui,non,oui,non,non,non,non,entéral,0,104,0
+172,medical,oui,54,170,H,46,49,72,NA,NA,distributif,oui,oui,oui,oui,oui,oui,oui,oui,non,entéral,1,104,5
+173,chirurgical urgent,non,52,175,NA,97,NA,NA,NA,NA,non,non,oui,oui,non,non,non,oui,non,non,per os,0,85,0
+174,chirurgical urgent,oui,33,168,H,76,76,NA,NA,NA,non,oui,oui,oui,non,non,oui,non,non,non,per os,0,85,0
+175,chirurgical urgent,non,66,186,H,101,101,NA,NA,5,non,non,oui,oui,non,non,non,non,non,non,entéral,0,34,0
+176,chirurgical reglé,non,53,175,H,86,90,NA,NA,NA,hypovolémique,non,oui,oui,non,non,oui,oui,non,non,parentéral,0,85,0
+177,chirurgical reglé,non,75,183,H,77,86,NA,28,63,cardiogénique,non,oui,oui,NA,non,NA,non,non,non,entéral,1,85,1
+178,chirurgical reglé,non,46,173,H,96,96,NA,44,NA,non,non,oui,oui,non,non,non,non,non,non,per os,0,85,0
+179,medical,non,73,187,H,109,99,68,NA,13,distributif,oui,oui,oui,oui,oui,oui,non,non,non,entéral,NA,0,1
+180,chirurgical urgent,non,47,187,H,110,107,NA,NA,15,hypovolémique,non,oui,oui,non,oui,oui,non,non,non,entéral,0,85,0
+181,medical,non,72,178,F,109,106,NA,NA,2,cardiogénique,oui,non,non,non,non,non,non,non,non,per os,1,34,1
+182,chirurgical urgent,non,70,165,H,77,74,NA,NA,NA,distributif,oui,oui,oui,non,oui,oui,non,non,non,entéral,0,85,0
+183,chirurgical urgent,non,38,173,F,57,57,NA,NA,NA,non,non,oui,oui,oui,non,oui,non,non,non,per os,0,85,0
+184,medical,non,44,166,F,53,52,50,NA,2,hypovolémique,non,oui,oui,non,non,non,non,non,non,per os,0,34,0
+185,medical,non,70,161,H,52,52,NA,NA,NA,non,non,non,non,oui,non,oui,non,non,non,entéral,1,85,1
+186,chirurgical reglé,non,76,165,H,79,76,35,28,NA,non,non,non,non,non,non,non,non,non,non,per os,0,116,0
+187,chirurgical urgent,oui,81,172,H,78,67,NA,NA,NA,non,non,oui,oui,non,non,non,non,non,non,entéral,0,85,0
+188,chirurgical urgent,non,50,173,H,61,60,NA,NA,NA,non,non,oui,oui,non,non,oui,NA,NA,non,entéral,0,85,0
+189,chirurgical urgent,non,54,182,H,113,95,NA,NA,NA,distributif,non,oui,oui,oui,oui,oui,non,non,non,entéral,0,85,0
+190,chirurgical urgent,non,25,170,H,70,63,NA,NA,NA,distributif,non,oui,oui,oui,oui,oui,non,non,non,entéral,0,0,0
+191,chirurgical urgent,non,60,180,H,99,99,NA,NA,NA,non,non,oui,oui,oui,oui,oui,oui,non,non,entéral,0,85,0
+192,medical,non,25,178,H,78,74,25,36,NA,non,non,non,non,non,non,non,non,non,non,per os,0,116,0
+193,chirurgical urgent,non,21,175,F,65,57,NA,NA,19,non,non,NA,oui,non,oui,oui,non,non,non,entéral,1,85,1
+194,medical,NA,20,158,F,74,74,NA,NA,NA,non,non,oui,oui,non,non,non,oui,non,non,parentéral,0,85,0
+195,chirurgical reglé,non,35,171,H,71,71,NA,35,NA,non,non,oui,oui,non,non,non,non,NA,non,parentéral,0,85,0
+196,medical,oui,66,165,F,69,78,59,20,NA,hypovolémique,non,non,non,non,non,non,non,non,non,per os,0,116,0
+197,chirurgical reglé,non,34,170,F,76,77,0,NA,2,non,non,oui,non,non,non,non,oui,non,non,per os,0,20,0
+198,chirurgical reglé,non,72,163,F,65,64,30,26,NA,non,oui,oui,oui,non,non,non,non,non,non,entéral,0,116,0
+199,medical,non,49,174,H,84,72,53,29,16,non,oui,oui,non,non,non,oui,oui,non,non,per os,0,20,0
+200,medical,non,84,165,F,52,0,0,26,95,distributif,oui,non,non,non,non,non,non,non,non,per os,0,20,0
+201,medical,non,85,163,F,64,0,70,0,166,non,non,oui,oui,non,oui,non,non,non,non,entéral,0,20,0
+202,chirurgical reglé,non,59,164,F,62,62,35,20,NA,non,non,non,non,non,non,non,non,non,non,NA,0,116,0
+203,medical,non,40,168,H,80,89,47,NA,NA,non,oui,non,non,non,non,non,non,non,non,per os,0,104,0
+204,medical,non,74,172,H,66,69,0,NA,240,distributif,oui,oui,oui,non,non,non,oui,oui,non,per os,0,20,0
+205,medical,oui,68,185,H,96,95,45,34,NA,non,non,oui,oui,non,non,oui,non,non,non,entéral,1,104,1
+206,medical,non,80,161,F,51,0,0,NA,240,cardiogénique,non,oui,non,non,non,non,non,oui,non,per os,0,20,0
+207,medical,non,62,165,H,70,51,60,NA,86,non,oui,oui,oui,non,oui,oui,non,non,non,entéral,0,20,0
+208,medical,oui,87,180,H,93,93,55,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,104,0
+209,medical,NA,72,170,H,59,65,54,26,NA,distributif,oui,non,non,non,non,non,non,non,non,per os,0,116,0
+210,medical,non,59,171,H,55,54,53,NA,NA,distributif,non,non,non,non,non,non,non,non,non,parentéral,0,104,0
+211,medical,non,73,170,H,70,74,38,NA,NA,distributif,non,oui,oui,non,oui,non,non,non,non,entéral,0,104,0
+212,medical,oui,77,165,F,97,98,0,NA,390,distributif,non,oui,oui,oui,non,non,non,oui,non,entéral,0,20,0
+213,medical,NA,47,169,H,53,57,46,28,NA,distributif,oui,oui,oui,non,non,oui,non,oui,non,per os,1,104,1
+214,medical,non,71,160,H,76,78,56,NA,NA,distributif,non,oui,oui,oui,oui,non,non,oui,non,entéral,0,104,0
+215,medical,non,69,160,F,66,64,32,34,NA,hypovolémique,non,oui,non,non,non,oui,non,non,non,entéral,0,104,0
+216,medical,non,66,170,F,65,65,41,NA,NA,non,non,oui,oui,non,non,oui,non,non,non,entéral,0,104,0
+217,chirurgical reglé,oui,75,178,H,93,97,NA,25,NA,non,non,oui,oui,non,non,non,non,non,non,parentéral,1,38,1
+218,chirurgical urgent,non,32,170,H,65,65,12,NA,NA,NA,non,non,non,non,non,non,non,non,non,NA,0,127,0
+219,chirurgical urgent,non,74,169,H,80,80,37,NA,NA,non,non,non,non,non,NA,non,NA,non,non,NA,0,127,0
+220,chirurgical urgent,non,54,166,F,79,79,23,NA,NA,non,non,oui,oui,non,non,non,non,non,non,NA,0,127,0
+221,chirurgical reglé,NA,50,153,F,71,78,44,23,NA,distributif,oui,oui,oui,NA,oui,oui,non,oui,non,entéral,1,74,1
+222,medical,non,45,165,F,69,70,61,NA,NA,distributif,non,oui,oui,oui,oui,non,oui,non,non,entéral,0,74,0
+223,chirurgical reglé,oui,65,178,H,70,90,34,NA,NA,distributif,oui,oui,oui,oui,oui,non,non,non,non,entéral,1,74,1
+224,medical,non,74,160,F,80,77,37,NA,NA,distributif,oui,oui,oui,oui,oui,oui,non,oui,non,parentéral,0,74,0
+225,medical,oui,36,192,H,150,90,26,24,NA,distributif,non,oui,oui,non,non,oui,non,oui,non,parentéral,1,104,1
+226,medical,non,76,145,F,76,76,90,NA,NA,distributif,non,oui,oui,non,oui,non,oui,non,non,entéral,2,0,0
+227,medical,non,59,160,F,99,99,17,39,NA,non,non,oui,oui,non,oui,oui,oui,non,non,entéral,0,74,0
+228,chirurgical reglé,non,79,173,H,77,77,42,NA,NA,non,non,non,non,non,non,oui,non,non,non,entéral,0,104,0
+229,medical,non,19,167,H,55,50,15,NA,NA,non,non,oui,oui,non,non,non,non,non,non,per os,0,104,0
+230,medical,non,59,175,H,57,59,31,NA,NA,hypovolémique,non,oui,oui,non,non,oui,non,non,non,entéral,1,104,3
+231,medical,oui,57,171,H,86,87,34,NA,NA,hypovolémique,oui,oui,oui,oui,oui,oui,non,oui,oui,entéral,0,74,0
+232,chirurgical reglé,non,62,172,H,70,82,24,NA,NA,hypovolémique,non,oui,oui,oui,oui,non,non,non,oui,per os,0,74,0
+233,medical,non,21,178,H,135,135,25,NA,NA,cardiogénique,non,oui,oui,non,non,non,oui,non,non,entéral,0,74,0
+234,chirurgical reglé,non,42,160,F,58,60,41,NA,NA,hypovolémique,non,oui,oui,oui,oui,non,non,non,non,per os,0,74,0
+235,chirurgical reglé,non,51,162,F,54,59,44,NA,NA,hypovolémique,non,oui,oui,oui,oui,non,non,non,non,per os,0,74,0
+236,medical,non,54,172,H,95,95,68,NA,NA,cardiogénique,non,oui,non,non,non,oui,non,non,non,parentéral,0,74,0
+237,chirurgical reglé,non,60,161,F,63,73,80,NA,NA,hypovolémique,non,oui,oui,oui,oui,non,non,non,non,parentéral,0,74,0
+238,medical,non,68,165,H,70,87,41,19,NA,distributif,non,oui,oui,oui,oui,non,oui,oui,oui,entéral,1,74,4
+239,chirurgical reglé,oui,72,170,H,73,73,21,NA,NA,non,non,non,non,non,non,non,non,non,non,entéral,0,74,0
+240,medical,oui,59,172,H,54,54,17,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,74,0
+241,medical,non,83,174,H,81,79,37,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,94,0
+242,medical,non,60,157,F,52,60,59,16,NA,distributif,non,non,non,non,non,non,non,non,non,per os,1,116,3
+243,medical,non,55,167,F,61,61,41,NA,NA,non,non,non,non,NA,non,non,oui,non,non,per os,0,94,0
+244,medical,NA,77,170,H,61,65,77,20,NA,distributif,non,non,non,non,non,non,non,non,non,per os,0,116,0
+245,medical,non,36,175,H,72,72,24,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,94,0
+246,medical,oui,74,174,H,62,64,40,20,216,distributif,non,non,non,oui,non,non,non,non,non,NA,1,72,2
+247,medical,oui,61,175,H,105,96,85,NA,NA,cardiogénique,non,oui,oui,non,oui,oui,non,non,non,entéral,1,69,1
+248,medical,NA,67,163,H,84,84,21,39,NA,non,non,non,non,non,non,NA,non,non,non,per os,0,67,0
+249,medical,non,70,150,F,87,79,78,24,NA,distributif,non,non,non,non,non,non,non,oui,non,per os,0,1,2
+250,medical,non,73,167,H,110,114,60,NA,NA,non,oui,non,non,non,non,non,non,oui,NA,per os,0,94,0
+251,medical,non,72,176,H,90,95,83,21,102,non,oui,oui,oui,oui,oui,non,oui,non,non,entéral,0,72,0
+252,medical,oui,70,180,H,86,84,103,NA,NA,distributif,oui,oui,oui,non,non,non,non,non,NA,entéral,1,67,3
+253,medical,non,65,158,F,83,85,73,NA,NA,non,non,oui,oui,non,oui,non,non,oui,NA,entéral,0,0,0
+254,medical,non,44,173,H,71,67,58,NA,134,distributif,oui,oui,oui,oui,oui,non,oui,non,non,entéral,1,0,0
+255,medical,non,66,158,F,70,75,76,NA,NA,distributif,non,oui,oui,non,oui,non,non,non,non,per os,0,67,0
+256,medical,non,69,160,F,77,84,82,NA,NA,cardiogénique,non,oui,oui,non,oui,non,non,oui,non,entéral,0,1,2
+257,medical,non,49,170,H,72,58,42,20,NA,hypovolémique,non,oui,oui,NA,oui,oui,oui,oui,non,entéral,1,69,1
+258,medical,oui,34,181,F,90,92,26,NA,47,non,oui,oui,oui,oui,oui,non,non,non,non,entéral,1,1,2
+259,medical,NA,65,177,H,74,74,56,NA,NA,non,non,oui,oui,non,oui,non,non,non,NA,parentéral,0,0,0
+260,medical,non,80,170,H,79,83,82,23,217,non,oui,oui,oui,oui,oui,non,non,non,non,NA,0,72,0
+261,medical,non,65,165,H,90,84,30,NA,NA,non,non,oui,oui,non,non,non,non,non,non,per os,0,56,0
+262,medical,non,49,163,F,76,74,34,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,94,0
+263,medical,non,75,169,H,102,101,30,26,179,non,oui,non,non,non,non,non,non,non,non,per os,0,72,0
+264,chirurgical reglé,non,73,167,F,84,84,33,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,94,0
+265,medical,oui,60,160,F,45,47,52,15,NA,cardiogénique,non,oui,oui,non,oui,non,non,non,non,per os,0,1,8
+266,medical,non,75,139,H,55,56,45,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,69,0
+267,medical,non,50,173,F,69,69,39,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,67,0
+268,medical,NA,51,167,H,52,53,32,20,133,distributif,oui,non,non,non,non,non,oui,non,non,per os,0,67,0
+269,medical,non,58,172,H,126,119,39,NA,61,cardiogénique,non,oui,oui,non,oui,non,non,oui,non,entéral,1,67,1
+270,medical,non,68,172,H,90,87,61,31,174,non,non,oui,non,non,non,oui,non,non,non,entéral,NA,1,0
+271,medical,NA,67,180,H,75,73,42,NA,1,non,non,non,non,non,non,non,non,non,non,per os,0,34,0
+272,medical,non,80,162,F,65,73,57,NA,NA,non,non,oui,oui,non,non,non,non,oui,non,parentéral,0,56,0
+273,medical,oui,56,177,H,70,72,28,36,10,non,non,non,non,non,non,non,oui,non,non,per os,0,49,0
+274,medical,non,51,165,H,94,94,27,NA,NA,hypovolémique,non,oui,oui,non,oui,non,oui,non,non,entéral,0,56,0
+275,medical,non,62,172,H,87,89,42,NA,395,non,oui,non,non,non,non,non,oui,non,non,per os,0,56,0
+276,medical,non,48,172,H,84,84,41,NA,NA,non,non,oui,oui,non,non,non,oui,non,non,per os,0,38,0
+277,medical,non,66,165,F,68,72,44,23,224,distributif,oui,oui,oui,non,non,non,non,non,non,entéral,1,0,0
+278,chirurgical urgent,non,70,163,H,113,113,28,NA,NA,non,oui,non,non,non,non,non,oui,non,non,NA,0,56,0
+279,chirurgical urgent,non,64,190,H,106,105,34,NA,NA,NA,non,oui,oui,non,non,non,non,non,non,per os,0,34,0
+280,medical,non,67,160,F,167,153,51,NA,NA,non,non,oui,oui,oui,oui,non,non,non,non,parentéral,0,38,0
+281,medical,oui,56,178,H,84,81,39,NA,NA,non,non,non,non,non,non,oui,non,non,non,entéral,0,56,0
+282,medical,oui,87,170,H,NA,45,40,26,153,non,non,oui,oui,non,non,non,non,non,non,NA,1,0,0
+283,medical,non,76,165,H,58,64,48,NA,NA,non,oui,non,non,non,non,non,non,oui,non,parentéral,0,38,0
+284,medical,oui,65,151,F,43,53,73,NA,NA,distributif,oui,oui,oui,oui,non,non,non,oui,non,parentéral,1,38,1
+285,medical,oui,48,175,H,47,45,27,NA,NA,non,non,non,non,non,non,non,oui,non,non,parentéral,0,38,0
+286,chirurgical urgent,NA,48,179,H,107,107,34,NA,NA,non,non,non,non,non,non,non,oui,non,non,entéral,0,38,0
+287,medical,non,61,160,F,63,70,73,NA,NA,non,non,oui,oui,non,non,non,non,non,non,parentéral,0,38,0
+288,medical,non,78,168,H,82,82,NA,NA,NA,non,non,non,non,oui,non,non,non,non,non,per os,0,38,0
+289,medical,NA,76,183,H,70,70,NA,NA,NA,non,non,non,NA,non,non,non,non,oui,non,entéral,0,38,0
+290,medical,oui,61,173,H,72,72,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,38,0
+291,medical,oui,54,167,H,76,80,63,NA,NA,distributif,oui,oui,oui,oui,non,non,non,non,non,parentéral,1,38,1
+292,medical,oui,75,166,F,56,68,61,NA,NA,non,non,oui,oui,non,non,non,non,non,non,parentéral,0,38,0
+293,medical,non,57,165,H,56,56,NA,NA,NA,non,non,non,non,oui,non,non,oui,non,non,per os,0,38,0
+294,medical,oui,55,172,H,115,90,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,38,0
+295,medical,NA,68,162,F,74,76,35,NA,NA,NA,non,oui,oui,non,non,non,non,non,NA,per os,0,38,0
+296,medical,non,81,153,F,107,107,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,38,0
+297,medical,non,57,170,H,97,97,44,NA,NA,non,oui,non,non,non,non,non,non,non,non,per os,0,38,0
+298,medical,NA,38,165,F,60,60,NA,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,38,0
+299,chirurgical urgent,non,88,164,H,71,72,32,0,127,distributif,non,oui,non,non,non,non,non,non,non,NA,0,108,0
+300,chirurgical reglé,non,83,164,F,82,86,14,NA,NA,non,non,non,non,non,non,non,non,non,non,NA,0,108,0
+301,medical,non,45,170,F,67,68,54,NA,1,non,non,oui,oui,non,non,non,non,non,non,per os,0,108,0
+302,chirurgical urgent,oui,60,157,F,100,74,32,28,193,cardiogénique,non,oui,non,non,non,non,non,non,non,entéral,4,1,0
+303,medical,non,60,177,H,73,75,36,40,65,non,non,non,non,oui,non,non,non,non,non,parentéral,0,49,0
+304,chirurgical reglé,non,87,160,H,58,68,48,24,87,distributif,non,non,non,non,non,non,non,oui,non,parentéral,0,0,0
+305,medical,non,38,155,F,53,56,33,28,160,distributif,non,non,non,non,non,non,non,non,non,entéral,0,0,0
+306,medical,oui,68,173,H,114,97,59,32,40,non,non,non,non,non,non,non,non,oui,non,NA,0,0,0
+307,medical,non,73,180,H,52,64,43,20,73,hypovolémique,non,non,non,non,non,non,non,oui,non,parentéral,1,0,0
+308,chirurgical urgent,non,51,150,F,69,68,15,27,116,non,non,non,non,non,non,non,non,non,non,per os,0,49,0
+309,medical,non,71,160,H,57,57,27,39,78,non,non,non,non,non,non,non,non,non,non,per os,0,49,0
+310,chirurgical reglé,non,59,165,F,65,65,7,44,NA,non,non,non,non,non,non,NA,non,non,non,per os,0,49,0
+311,chirurgical reglé,oui,89,170,H,67,70,38,25,151,cardiogénique,non,oui,non,non,non,non,non,non,non,entéral,0,49,0
+312,medical,non,82,163,H,67,67,26,NA,2,non,non,non,non,non,non,non,non,non,non,per os,0,108,0
+313,medical,non,86,177,H,89,85,55,NA,97,distributif,non,non,non,non,non,non,non,non,non,per os,1,108,1
+314,chirurgical urgent,non,65,178,H,74,77,51,NA,115,distributif,non,oui,oui,non,non,non,non,non,non,per os,1,108,2
+315,medical,non,83,182,H,84,83,74,50,NA,cardiogénique,non,oui,oui,oui,non,non,non,non,non,parentéral,0,21,0
+316,medical,non,58,150,F,101,93,64,14,237,non,non,oui,oui,non,non,non,non,non,non,entéral,1,72,2
+317,medical,non,41,175,H,82,82,22,NA,6,non,non,non,non,non,non,NA,oui,non,non,NA,0,108,0
+318,chirurgical reglé,non,83,164,H,84,84,20,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,108,0
+319,medical,non,57,162,F,53,52,30,NA,1,non,non,non,non,non,non,non,non,non,non,per os,0,108,0
+320,medical,non,74,169,H,91,88,NA,NA,NA,hypovolémique,oui,oui,oui,oui,oui,non,non,oui,non,entéral,0,0,0
+321,medical,non,57,168,F,64,66,32,33,49,non,non,non,non,non,non,non,non,non,non,per os,0,108,0
+322,medical,oui,67,NA,H,NA,NA,NA,NA,NA,cardiogénique,non,non,non,non,non,non,non,non,non,entéral,0,0,0
+323,medical,oui,64,170,H,79,81,31,NA,NA,non,non,non,non,non,non,oui,non,non,non,entéral,0,0,0
+324,medical,non,47,163,F,86,83,36,30,153,non,oui,oui,oui,non,non,non,oui,non,non,entéral,0,72,0
+325,medical,non,76,170,H,116,108,31,NA,12,non,non,non,non,non,non,non,non,non,non,per os,0,108,0
+326,medical,oui,31,169,F,55,55,79,22,NA,distributif,oui,oui,oui,oui,non,oui,non,oui,non,entéral,0,1,1
+327,medical,non,63,165,F,158,137,32,NA,9,non,oui,oui,oui,oui,oui,oui,non,non,non,per os,1,108,1
+328,chirurgical urgent,non,77,170,H,66,85,45,NA,280,distributif,non,oui,oui,non,non,non,oui,non,non,entéral,0,108,0
+329,medical,oui,73,178,H,107,107,62,NA,126,cardiogénique,non,oui,oui,non,non,non,non,non,non,NA,0,108,0
+330,medical,oui,47,172,H,NA,63,41,50,NA,distributif,oui,oui,oui,oui,oui,oui,oui,non,non,parentéral,NA,1,1
+331,medical,oui,90,180,H,82,77,44,NA,NA,distributif,oui,oui,oui,oui,non,non,non,non,non,entéral,0,21,0
+332,chirurgical urgent,oui,65,162,F,48,45,52,NA,NA,NA,oui,oui,oui,non,non,non,non,oui,non,parentéral,0,0,0
+333,medical,non,84,173,H,79,75,81,20,117,non,oui,oui,oui,oui,oui,non,non,non,non,parentéral,1,72,3
+334,medical,non,20,200,H,110,110,27,NA,NA,non,non,oui,oui,non,oui,non,non,non,non,NA,0,72,0
+335,medical,non,67,179,H,75,80,64,NA,NA,non,non,oui,oui,oui,oui,non,non,non,non,entéral,1,1,0
+336,medical,non,72,150,F,78,78,50,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,0,0
+337,medical,non,74,165,H,94,102,80,NA,NA,non,non,oui,oui,oui,oui,oui,oui,non,non,entéral,1,6,0
+338,chirurgical urgent,NA,65,166,F,55,66,53,NA,NA,non,non,oui,oui,oui,non,oui,non,oui,non,entéral,0,117,0
+339,chirurgical reglé,NA,51,165,H,85,74,40,NA,NA,cardiogénique,non,oui,oui,oui,oui,oui,non,oui,non,entéral,0,117,0
+340,medical,oui,78,166,H,67,68,20,NA,NA,cardiogénique,non,non,non,non,non,non,non,non,NA,NA,1,117,1
+341,NA,non,18,165,H,65,65,20,NA,NA,distributif,non,oui,oui,non,non,non,non,non,non,per os,0,0,0
+342,medical,oui,56,174,F,80,80,44,19,NA,distributif,oui,non,non,non,non,non,non,non,non,per os,0,117,0
+343,chirurgical reglé,non,56,158,F,58,60,29,NA,14,hypovolémique,non,non,non,non,non,non,non,non,non,NA,0,117,0
+344,chirurgical reglé,non,71,175,H,76,77,64,NA,NA,non,non,non,non,oui,non,non,non,non,non,parentéral,0,117,0
+345,chirurgical urgent,non,43,165,H,80,82,24,13,NA,non,non,oui,oui,non,non,non,oui,non,non,parentéral,0,117,0
+346,medical,non,66,164,F,70,70,91,NA,NA,cardiogénique,non,oui,oui,non,oui,non,non,non,oui,NA,0,117,0
+347,chirurgical urgent,non,75,170,H,70,82,84,NA,NA,distributif,non,oui,oui,non,oui,non,non,oui,non,parentéral,0,117,0
+348,medical,non,64,165,F,66,66,12,NA,NA,non,non,non,oui,non,non,non,non,non,non,per os,0,117,0
+349,medical,oui,76,165,F,77,82,97,NA,NA,hypovolémique,non,oui,oui,oui,non,non,non,non,non,per os,1,117,2
+350,chirurgical urgent,non,76,165,F,55,67,95,13,NA,distributif,non,oui,oui,oui,oui,non,non,oui,non,entéral,0,1,3
+351,chirurgical urgent,oui,71,180,H,121,103,90,NA,NA,cardiogénique,oui,oui,oui,non,non,oui,non,non,non,per os,0,0,0
+352,medical,non,57,160,F,52,49,31,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,117,0
+353,chirurgical urgent,non,56,175,H,188,176,75,NA,NA,distributif,non,oui,oui,non,oui,oui,oui,oui,non,parentéral,0,117,0
+354,chirurgical urgent,non,83,170,H,73,81,94,NA,NA,non,oui,oui,oui,NA,non,oui,oui,non,non,entéral,0,117,0
+355,medical,non,41,183,H,95,90,57,NA,NA,cardiogénique,non,oui,oui,non,oui,non,oui,non,non,entéral,0,117,0
+356,medical,oui,70,180,H,80,83,33,NA,NA,distributif,non,non,non,non,non,non,non,non,non,per os,0,117,0
+357,medical,non,47,140,F,43,43,49,NA,NA,non,non,oui,non,non,non,non,non,non,non,NA,0,65,0
+358,medical,non,81,160,F,62,58,84,NA,NA,non,non,oui,oui,non,oui,non,non,non,non,entéral,0,117,0
+359,chirurgical reglé,non,67,182,H,100,100,12,NA,NA,non,non,non,non,non,non,non,non,non,non,NA,0,65,0
+360,medical,non,49,150,F,97,108,46,NA,NA,non,non,oui,oui,non,non,oui,non,non,NA,per os,0,65,0
+361,medical,non,38,181,H,64,64,8,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,65,0
+362,medical,non,48,162,H,57,56,10,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,117,0
+363,chirurgical urgent,non,69,172,H,102,106,44,21,168,distributif,non,oui,oui,oui,non,non,non,non,non,parentéral,0,65,0
+364,medical,oui,54,186,H,76,80,22,NA,NA,non,oui,non,non,non,non,non,oui,non,non,per os,0,117,0
+365,chirurgical reglé,oui,67,172,F,93,91,12,NA,239,non,non,non,non,non,non,non,non,non,non,parentéral,0,65,0
+366,medical,non,81,165,F,90,90,40,NA,NA,distributif,non,non,non,non,non,non,non,non,non,per os,0,117,0
+367,medical,non,79,170,H,79,79,47,NA,187,distributif,non,non,non,non,non,non,non,non,non,per os,0,65,0
+368,chirurgical reglé,non,49,181,H,107,107,10,NA,NA,non,non,non,non,non,non,non,non,non,non,NA,0,117,0
+369,chirurgical reglé,non,78,176,H,78,79,29,NA,NA,non,non,non,non,non,non,non,non,non,non,NA,0,65,0
+370,medical,non,59,163,F,72,78,51,29,NA,non,non,oui,oui,non,non,non,oui,non,non,per os,0,65,0
+371,medical,non,65,160,F,49,65,36,21,230,hypovolémique,non,oui,oui,non,non,non,oui,non,non,parentéral,0,65,0
+372,chirurgical urgent,non,69,161,F,62,56,49,37,28,distributif,oui,oui,oui,non,oui,oui,non,oui,non,parentéral,0,1,2
+373,medical,NA,53,180,H,73,101,64,NA,201,cardiogénique,oui,oui,oui,non,oui,oui,oui,oui,non,entéral,0,1,2
+374,chirurgical urgent,oui,41,175,F,49,51,33,19,75,distributif,oui,oui,oui,non,non,oui,non,oui,non,parentéral,1,65,5
+375,medical,non,51,NA,H,66,62,89,15,NA,distributif,non,oui,oui,non,oui,non,oui,oui,non,parentéral,NA,1,2
+376,chirurgical urgent,non,72,170,H,92,NA,45,NA,NA,distributif,NA,non,non,non,non,non,non,non,non,per os,1,131,1
+377,chirurgical urgent,NA,77,162,H,58,NA,47,NA,NA,cardiogénique,non,non,non,non,non,non,non,non,non,per os,0,131,0
+378,chirurgical urgent,non,57,NA,H,64,NA,34,NA,NA,non,oui,oui,oui,non,non,oui,oui,non,non,per os,0,131,0
+379,chirurgical urgent,non,69,160,F,65,65,NA,NA,NA,non,non,non,non,non,non,non,oui,non,non,parentéral,0,131,0
+380,medical,oui,43,170,H,49,62,23,NA,78,non,non,non,non,oui,non,non,oui,non,non,per os,0,72,0
+381,medical,non,88,168,H,112,112,36,NA,85,non,non,non,non,non,non,non,non,non,non,per os,0,72,0
+382,chirurgical urgent,non,69,NA,H,NA,NA,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,131,0
+383,medical,NA,73,170,H,110,NA,NA,NA,NA,distributif,non,non,non,non,non,non,non,non,non,per os,0,131,0
+384,medical,non,79,175,H,100,100,86,31,NA,non,oui,oui,oui,non,oui,non,non,non,non,NA,0,72,0
+385,chirurgical urgent,non,74,166,H,78,NA,NA,NA,NA,non,non,non,non,non,non,oui,non,non,non,per os,0,131,0
+386,chirurgical urgent,non,84,NA,H,66,NA,NA,NA,NA,non,non,non,non,non,non,oui,non,non,non,per os,0,1,1
+387,chirurgical reglé,NA,66,167,H,92,92,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,NA,0,131,0
+388,chirurgical reglé,oui,81,168,H,78,78,NA,NA,3,non,oui,non,non,non,non,non,non,non,non,per os,0,0,0
+389,medical,oui,60,171,H,43,46,67,NA,NA,distributif,non,oui,oui,non,non,non,non,non,non,entéral,1,69,1
+390,medical,non,36,170,H,85,83,60,NA,NA,cardiogénique,non,oui,oui,non,oui,non,oui,non,oui,entéral,0,69,0
+391,medical,non,77,173,H,75,77,45,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,69,0
+392,medical,non,79,155,F,62,62,58,NA,NA,distributif,non,oui,oui,non,non,non,non,non,non,per os,0,69,0
+393,medical,non,78,183,H,97,88,57,NA,NA,distributif,non,oui,oui,non,oui,non,non,non,non,entéral,0,69,0
+394,medical,non,86,180,H,102,98,85,NA,NA,distributif,non,oui,oui,non,oui,oui,non,non,non,entéral,0,69,0
+395,medical,non,53,168,H,73,77,38,21,NA,distributif,non,non,non,non,non,non,non,non,non,per os,0,69,0
+396,chirurgical reglé,non,78,156,F,65,60,26,27,20,non,non,oui,oui,non,non,non,non,non,non,parentéral,0,128,0
+397,chirurgical urgent,non,45,182,H,98,100,41,24,64,non,oui,non,non,non,non,non,non,non,non,parentéral,0,128,0
+398,medical,oui,59,155,F,56,70,50,27,38,distributif,oui,oui,oui,non,non,non,non,oui,non,entéral,0,128,0
+399,chirurgical reglé,non,73,178,H,76,75,26,28,92,non,non,oui,oui,non,non,non,oui,non,non,per os,1,128,1
+400,chirurgical reglé,non,70,158,H,71,75,40,29,7,non,non,oui,oui,non,non,non,non,non,non,per os,0,128,0
+401,medical,oui,60,187,H,122,99,51,46,25,distributif,oui,oui,oui,non,oui,non,oui,oui,non,per os,0,128,0
+402,medical,oui,66,174,H,69,68,26,NA,11,non,non,non,non,non,non,non,non,non,non,NA,0,128,0
+403,chirurgical reglé,non,73,164,H,91,86,48,22,NA,non,non,oui,oui,non,non,non,oui,non,non,per os,0,128,0
+404,chirurgical urgent,non,44,161,F,80,71,48,32,NA,non,non,oui,oui,non,non,non,non,NA,non,per os,0,128,0
+405,chirurgical reglé,non,55,180,H,57,55,24,30,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,128,0
+406,medical,non,74,165,F,107,106,39,NA,NA,NA,non,oui,oui,oui,non,non,NA,non,non,NA,0,128,0
+407,chirurgical urgent,non,31,180,H,89,79,67,28,NA,distributif,oui,oui,oui,oui,oui,oui,oui,oui,non,per os,1,128,2
+408,medical,oui,63,155,F,75,69,23,31,45,distributif,oui,oui,oui,non,non,non,non,oui,non,per os,0,128,0
+409,medical,non,62,152,F,57,NA,NA,NA,NA,non,non,non,non,oui,non,non,non,non,non,per os,0,0,0
+410,medical,non,65,NA,F,74,NA,NA,NA,NA,non,oui,non,non,oui,non,non,non,non,non,entéral,0,103,0
+411,medical,oui,79,NA,H,NA,NA,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,entéral,0,103,0
+412,medical,non,79,NA,NA,NA,NA,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,0,0
+413,medical,non,86,154,H,61,NA,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,0,0
+414,medical,non,59,167,H,97,97,NA,44,NA,non,non,non,non,non,non,non,non,non,non,per os,0,103,0
+415,medical,non,30,165,F,69,63,6,NA,NA,non,non,non,non,oui,non,non,non,non,non,per os,0,103,0
+416,medical,non,69,175,H,76,86,59,27,NA,distributif,non,oui,oui,non,non,oui,non,oui,non,entéral,0,103,0
+417,medical,non,64,180,H,83,86,36,NA,NA,non,non,oui,oui,non,non,non,non,non,non,entéral,0,0,0
+418,medical,non,65,167,F,86,88,48,NA,NA,non,non,oui,oui,non,non,non,non,non,non,entéral,0,1,1
+419,chirurgical urgent,non,71,165,F,62,70,40,17,NA,distributif,oui,non,non,non,non,non,non,non,non,entéral,1,131,1
+420,chirurgical urgent,non,54,176,H,104,92,47,22,NA,hypovolémique,non,oui,oui,non,oui,non,oui,non,non,parentéral,0,1,1
+421,medical,non,84,171,H,68,68,91,25,NA,distributif,non,oui,oui,non,oui,non,non,non,non,entéral,0,69,0
+422,medical,non,84,171,H,68,68,91,25,NA,distributif,non,oui,oui,non,oui,non,non,non,non,entéral,0,69,0
+423,medical,non,74,174,H,89,85,35,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,69,0
+424,medical,non,48,174,H,66,67,45,16,NA,distributif,non,oui,oui,non,non,non,oui,non,non,entéral,0,69,0
+425,medical,non,84,162,F,76,73,91,NA,NA,cardiogénique,non,oui,oui,oui,oui,oui,non,oui,non,entéral,0,69,0
+426,medical,non,78,185,H,141,140,31,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,69,0
+427,medical,non,66,162,H,52,58,35,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,69,0
+428,medical,oui,66,171,F,59,72,61,NA,NA,non,non,non,oui,non,non,oui,non,non,non,per os,0,69,0
+429,medical,non,65,158,F,47,42,31,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,69,0
+430,medical,oui,70,163,H,66,66,47,18,56,non,non,non,non,non,non,non,non,non,non,per os,NA,0,0
+431,medical,oui,68,155,F,49,50,59,15,NA,distributif,non,non,non,non,non,oui,non,non,non,per os,NA,0,0
+432,medical,oui,64,176,H,55,55,26,24,NA,hypovolémique,oui,oui,oui,non,oui,non,non,oui,non,per os,NA,0,0
+433,medical,non,23,174,H,57,59,68,30,34,cardiogénique,non,oui,oui,non,oui,non,non,oui,non,per os,NA,0,0
+434,medical,oui,77,170,H,89,89,60,32,120,non,non,non,non,non,non,non,non,non,non,per os,NA,0,0
+435,chirurgical urgent,non,61,164,H,55,53,71,32,15,cardiogénique,non,non,non,non,non,oui,non,non,non,per os,NA,0,0
+436,chirurgical urgent,non,64,NA,H,105,105,24,35,4,non,non,non,non,non,non,NA,oui,non,non,per os,NA,0,0
+437,medical,non,78,168,H,58,59,104,35,NA,cardiogénique,non,oui,oui,non,non,non,non,non,non,entéral,NA,0,0
+438,medical,non,56,167,H,78,79,85,27,NA,cardiogénique,non,oui,oui,non,oui,oui,non,non,non,entéral,NA,NA,0
+439,medical,non,38,169,F,80,79,61,34,85,non,non,oui,oui,non,non,non,non,non,non,per os,NA,0,0
+440,medical,non,44,165,F,61,61,56,32,5,non,NA,oui,oui,non,oui,oui,non,non,non,NA,NA,0,0
+441,medical,oui,81,170,H,79,80,25,33,NA,non,oui,non,non,non,non,non,non,non,non,per os,NA,1,1
+442,medical,oui,71,162,F,94,95,42,26,120,non,non,non,non,non,non,non,non,non,non,entéral,NA,0,0
+443,medical,non,46,179,H,50,58,67,19,NA,distributif,oui,oui,oui,non,oui,non,oui,non,oui,entéral,NA,1,5
+444,medical,oui,75,179,H,78,82,NA,27,19,NA,non,oui,non,non,non,oui,non,non,non,entéral,0,1,3
+445,medical,NA,69,167,H,49,59,NA,28,148,distributif,non,non,non,non,non,oui,non,non,non,parentéral,1,84,1
+446,medical,non,53,178,H,73,71,NA,35,9,non,non,oui,non,non,non,oui,oui,non,non,entéral,0,84,0
+447,medical,non,81,153,F,80,74,NA,26,32,distributif,non,oui,non,oui,oui,oui,non,oui,non,entéral,1,84,3
+448,medical,non,56,178,H,82,85,NA,38,31,hypovolémique,non,oui,oui,non,non,non,oui,oui,non,parentéral,0,84,0
+449,medical,non,59,180,H,78,69,NA,49,15,non,non,non,non,non,non,non,non,non,non,parentéral,0,84,0
+450,medical,NA,75,178,H,79,81,NA,25,NA,non,oui,oui,oui,oui,non,non,non,non,non,NA,0,84,0
+451,medical,non,64,175,H,95,93,NA,37,31,non,non,oui,non,non,non,non,non,non,non,per os,0,84,0
+452,medical,non,77,176,H,87,88,NA,NA,NA,distributif,oui,oui,oui,non,oui,non,oui,oui,non,entéral,0,84,0
+453,medical,non,77,156,F,73,76,48,35,47,distributif,oui,oui,oui,non,oui,oui,non,non,non,parentéral,1,1,1
+454,medical,non,78,165,H,65,79,73,29,104,hypovolémique,non,oui,oui,non,non,non,non,non,non,NA,1,75,1
+455,medical,oui,81,155,F,98,94,38,29,8,non,non,non,non,oui,non,non,non,non,non,per os,0,75,0
+456,chirurgical urgent,non,58,165,F,95,93,47,30,NA,distributif,oui,oui,oui,non,non,non,non,non,non,entéral,0,0,0
+457,medical,oui,64,170,H,79,62,38,NA,NA,distributif,non,oui,non,non,non,oui,non,oui,oui,entéral,1,105,1
+458,chirurgical urgent,oui,75,163,F,83,85,45,22,201,non,non,non,non,non,non,non,non,non,non,parentéral,0,75,0
+459,medical,non,68,175,H,70,66,50,27,58,cardiogénique,non,oui,oui,non,oui,non,oui,non,non,per os,0,75,0
+460,medical,non,66,175,H,68,77,57,36,NA,distributif,non,oui,oui,non,oui,oui,non,non,non,parentéral,0,45,0
+461,medical,non,63,170,H,80,89,65,31,91,non,oui,oui,oui,non,non,oui,non,non,non,entéral,0,61,0
+462,medical,oui,66,167,F,95,95,64,24,374,distributif,oui,non,non,non,non,non,non,non,non,NA,0,75,0
+463,medical,non,70,163,F,93,96,82,29,14,cardiogénique,oui,oui,oui,non,non,non,non,oui,non,entéral,0,0,0
+464,medical,non,36,162,F,50,49,45,29,21,distributif,non,oui,oui,non,non,non,oui,non,non,per os,0,61,0
+465,chirurgical reglé,non,84,168,H,77,74,NA,22,254,non,non,non,non,non,non,non,non,non,non,parentéral,0,45,0
+466,medical,non,54,NA,F,93,101,57,21,49,distributif,oui,oui,oui,oui,non,non,oui,oui,non,entéral,0,61,0
+467,medical,non,81,162,F,72,71,48,28,172,distributif,non,non,non,non,non,non,oui,non,non,per os,0,75,0
+468,medical,non,16,NA,F,57,57,55,37,NA,non,non,oui,oui,non,non,non,non,non,non,entéral,0,61,0
+469,medical,oui,73,157,F,57,60,35,33,171,non,NA,oui,non,non,non,oui,non,non,non,entéral,0,45,0
+470,chirurgical urgent,non,58,162,H,61,75,80,23,184,distributif,oui,oui,oui,non,non,non,non,non,non,entéral,0,61,0
+471,medical,non,63,178,H,110,112,58,32,160,distributif,non,oui,oui,oui,non,non,oui,non,non,entéral,0,61,0
+472,chirurgical urgent,non,61,NA,H,80,85,42,31,191,distributif,non,oui,oui,non,non,non,non,non,non,entéral,0,61,0
+473,medical,non,47,170,H,55,57,56,38,NA,non,non,oui,non,non,non,non,non,non,non,NA,0,61,0
+474,medical,non,62,180,H,60,98,29,29,65,distributif,oui,oui,oui,oui,non,oui,non,non,non,entéral,6,0,0
+475,medical,oui,52,160,F,79,79,34,36,76,non,non,non,non,oui,non,non,oui,non,non,parentéral,0,61,0
+476,chirurgical urgent,non,50,180,H,100,111,23,41,3,non,non,non,non,non,non,non,oui,non,non,per os,0,61,0
+477,medical,non,86,165,H,67,82,47,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,105,0
+478,medical,non,18,153,F,65,65,20,21,58,non,non,oui,oui,non,non,non,non,non,non,per os,0,61,0
+479,chirurgical urgent,non,69,175,H,80,80,67,22,171,non,non,oui,oui,non,non,non,non,non,non,entéral,0,0,0
+480,medical,oui,48,183,H,104,92,7,28,NA,non,oui,non,non,non,non,oui,non,non,non,per os,1,105,1
+481,chirurgical urgent,non,57,175,H,100,113,39,37,14,non,non,oui,oui,non,non,oui,oui,non,non,entéral,0,0,0
+482,medical,non,39,182,H,80,78,20,30,75,non,oui,oui,oui,non,non,non,non,oui,non,entéral,0,61,0
+483,medical,oui,32,180,H,72,62,32,37,16,non,oui,oui,oui,non,non,non,oui,non,non,entéral,0,0,0
+484,medical,oui,82,175,H,68,100,68,21,64,distributif,non,oui,oui,non,non,non,non,non,non,entéral,0,0,0
+485,medical,oui,54,176,H,95,95,42,25,166,non,non,non,non,non,non,non,non,non,non,per os,0,61,0
+486,medical,oui,81,179,H,64,68,24,NA,NA,hypovolémique,non,non,non,non,non,non,non,non,non,per os,1,105,1
+487,medical,non,73,170,H,95,95,40,NA,NA,non,non,non,non,non,non,non,oui,non,non,NA,0,45,0
+488,medical,non,77,154,F,51,51,42,32,4,non,oui,non,non,oui,non,non,non,non,non,per os,0,122,0
+489,medical,oui,63,179,H,71,69,69,22,211,distributif,oui,non,non,oui,oui,non,non,oui,non,parentéral,0,0,0
+490,medical,non,63,160,F,60,62,39,NA,NA,distributif,oui,oui,oui,non,non,oui,non,non,non,entéral,0,105,0
+491,medical,NA,76,162,H,42,42,36,NA,NA,cardiogénique,non,non,non,non,non,non,non,non,non,NA,0,45,0
+492,medical,non,26,175,H,61,57,19,38,54,non,oui,non,oui,non,non,non,non,non,non,parentéral,0,61,0
+493,medical,non,54,170,H,80,78,29,17,NA,non,non,non,non,non,non,non,non,non,non,per os,0,105,0
+494,medical,oui,78,NA,H,72,74,46,27,263,distributif,non,oui,oui,non,non,non,oui,non,non,entéral,3,0,0
+495,medical,non,49,180,H,80,92,27,32,65,distributif,oui,oui,oui,non,non,non,oui,non,non,parentéral,0,0,0
+496,medical,non,19,160,F,72,74,20,27,NA,cardiogénique,oui,non,non,non,non,non,non,non,oui,per os,0,105,0
+497,medical,non,71,170,H,83,87,45,26,170,distributif,non,oui,oui,non,non,oui,oui,non,non,parentéral,0,122,0
+498,chirurgical urgent,non,82,178,H,80,82,37,31,NA,distributif,non,oui,oui,oui,non,non,non,non,non,entéral,3,0,0
+499,medical,non,33,155,F,38,43,52,34,20,non,oui,oui,oui,non,oui,oui,non,oui,non,per os,0,0,0
+500,medical,oui,56,170,H,66,64,36,28,NA,cardiogénique,non,non,non,non,non,non,non,non,oui,per os,0,105,0
+501,medical,non,41,155,F,62,54,31,33,34,cardiogénique,non,oui,oui,oui,oui,oui,non,oui,oui,entéral,1,61,1
+502,medical,non,58,160,H,64,60,54,43,12,distributif,oui,non,non,non,non,non,non,non,non,per os,3,0,0
+503,medical,non,83,165,H,83,98,74,27,181,non,oui,oui,oui,non,oui,oui,non,non,non,entéral,0,61,0
+504,medical,oui,59,162,H,56,67,70,15,126,cardiogénique,oui,oui,oui,non,non,oui,non,non,non,entéral,1,122,2
+505,chirurgical urgent,non,54,150,F,140,154,19,29,121,non,non,oui,oui,non,non,non,non,oui,non,per os,0,0,0
+506,medical,non,58,178,H,102,105,24,22,56,distributif,non,oui,oui,oui,oui,non,oui,non,non,NA,0,61,0
+507,medical,non,53,NA,H,59,60,45,40,4,cardiogénique,non,oui,oui,non,non,oui,non,non,non,entéral,0,61,0
+508,medical,oui,64,160,F,114,120,80,25,NA,non,oui,oui,oui,oui,non,non,non,oui,oui,entéral,1,105,2
+509,medical,non,65,163,H,91,83,40,27,55,hypovolémique,oui,oui,oui,non,oui,oui,non,non,non,entéral,0,1,1
+510,medical,non,88,167,H,58,65,74,NA,NA,non,non,oui,oui,non,non,non,non,non,oui,entéral,0,105,0
+511,medical,non,57,170,H,79,69,36,28,301,distributif,non,oui,oui,oui,oui,non,oui,non,non,parentéral,0,0,0
+512,medical,oui,48,160,F,81,60,54,27,16,non,non,non,oui,non,non,non,non,non,non,parentéral,0,86,0
+513,medical,oui,73,168,H,85,120,52,26,4,distributif,oui,oui,oui,non,non,non,oui,non,non,entéral,0,61,0
+514,medical,oui,64,185,H,96,95,22,27,NA,cardiogénique,oui,non,non,non,non,non,non,non,non,per os,1,105,1
+515,medical,non,72,158,H,80,80,32,28,83,non,oui,non,non,non,non,non,non,oui,non,per os,0,122,0
+516,medical,oui,77,167,H,73,74,42,26,215,non,non,oui,oui,non,non,non,oui,non,non,entéral,1,61,1
+517,medical,non,54,175,H,74,80,26,29,101,non,non,oui,oui,non,non,non,non,non,non,entéral,0,0,0
+518,medical,non,80,165,H,80,74,45,28,66,hypovolémique,oui,oui,oui,non,non,non,non,non,non,entéral,1,61,1
+519,medical,oui,18,170,F,65,59,60,31,NA,non,oui,non,non,oui,non,non,non,oui,non,per os,0,105,0
+520,medical,oui,54,158,F,80,81,48,30,52,distributif,oui,oui,oui,non,non,non,oui,non,non,per os,0,61,0
+521,medical,non,64,183,H,49,77,44,21,206,distributif,non,oui,oui,non,oui,NA,oui,non,non,entéral,0,0,0
+522,medical,oui,79,170,F,65,68,36,22,38,distributif,oui,non,oui,non,non,oui,non,oui,non,entéral,1,61,1
+523,chirurgical reglé,non,47,180,H,91,94,51,NA,NA,cardiogénique,oui,non,non,oui,non,non,non,non,oui,per os,1,105,2
+524,medical,non,19,178,H,54,54,14,48,26,non,non,non,non,non,non,non,oui,non,non,per os,0,75,0
+525,chirurgical urgent,non,61,171,H,108,91,20,31,92,distributif,oui,oui,oui,oui,non,non,non,non,non,parentéral,1,86,1
+526,medical,non,19,155,F,80,80,14,45,23,non,non,non,non,non,non,non,non,non,non,per os,0,75,0
+527,medical,non,49,189,H,93,77,74,30,55,distributif,oui,oui,oui,non,oui,oui,non,oui,non,entéral,1,122,2
+528,medical,oui,72,165,F,74,63,57,28,47,non,non,oui,non,non,non,oui,non,non,non,entéral,0,0,0
+529,medical,oui,36,170,F,82,69,17,NA,NA,cardiogénique,oui,non,non,oui,non,non,non,oui,non,per os,0,105,0
+530,medical,oui,35,169,H,69,100,41,26,156,distributif,oui,oui,oui,non,non,non,non,oui,non,parentéral,0,61,0
+531,medical,non,28,160,F,70,68,6,27,42,non,non,non,non,non,non,non,non,non,non,per os,0,122,0
+532,medical,oui,68,153,F,61,76,49,23,169,distributif,oui,non,non,oui,non,non,non,non,non,per os,0,75,0
+533,medical,non,56,175,F,60,61,58,NA,NA,cardiogénique,non,non,non,non,non,non,non,non,oui,per os,0,105,0
+534,NA,non,55,154,F,37,40,24,28,36,cardiogénique,non,oui,oui,non,non,oui,non,non,non,per os,0,61,0
+535,medical,non,84,170,H,56,56,24,40,141,non,non,non,non,non,non,non,non,non,non,per os,0,75,0
+536,medical,non,68,170,H,73,75,31,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,105,0
+537,medical,non,27,155,H,38,37,16,35,18,non,non,non,non,oui,non,oui,non,non,non,per os,0,61,0
+538,chirurgical reglé,non,88,174,H,95,90,43,NA,162,non,non,non,non,non,non,non,non,non,non,per os,0,75,0
+539,medical,non,61,168,H,64,62,32,21,58,hypovolémique,oui,oui,non,non,non,non,non,non,non,parentéral,0,61,0
+540,medical,non,76,174,H,73,85,44,32,17,cardiogénique,non,oui,oui,non,oui,non,non,oui,oui,parentéral,0,61,0
+541,medical,oui,30,160,F,55,50,15,31,180,non,non,non,non,oui,non,non,non,non,non,per os,0,75,0
+542,medical,oui,84,163,F,70,77,33,19,13,distributif,non,non,non,non,non,non,non,non,non,per os,0,61,0
+543,medical,oui,75,161,H,85,87,91,23,316,distributif,oui,oui,non,oui,non,non,non,non,non,parentéral,1,122,1
+544,medical,oui,68,185,H,77,77,22,30,NA,non,non,non,non,non,non,oui,non,non,non,per os,1,105,1
+545,chirurgical reglé,non,20,170,F,90,90,18,28,26,non,non,non,non,non,non,non,non,non,non,per os,0,75,0
+546,chirurgical reglé,non,28,158,H,60,68,30,29,NA,hypovolémique,oui,non,non,oui,non,non,non,non,non,per os,0,105,0
+547,medical,non,70,166,H,81,82,21,36,81,hypovolémique,non,non,non,non,non,non,non,non,non,parentéral,0,122,0
+548,medical,non,70,155,F,61,61,23,NA,2,non,non,non,non,non,non,non,non,non,non,per os,0,75,0
+549,chirurgical reglé,non,42,171,F,95,101,26,23,NA,non,non,non,non,oui,non,non,non,non,non,per os,0,105,0
+550,medical,oui,62,151,F,60,72,42,23,147,non,oui,oui,oui,oui,non,non,non,oui,non,NA,1,86,1
+551,chirurgical urgent,oui,69,162,F,78,72,31,26,136,non,non,non,non,non,non,non,non,non,non,per os,1,75,1
+552,medical,non,62,190,H,62,62,43,29,26,non,non,non,non,non,non,non,oui,non,non,per os,0,75,0
+553,chirurgical reglé,NA,52,173,H,110,116,25,34,134,distributif,non,oui,oui,oui,oui,non,non,non,non,per os,1,86,3
+554,chirurgical urgent,non,80,167,H,50,57,46,24,25,non,non,non,non,non,non,non,non,non,non,per os,0,75,0
+555,medical,oui,75,178,H,99,100,52,34,46,non,non,non,non,non,non,non,non,non,non,per os,0,75,0
+556,medical,oui,77,160,F,70,84,68,23,287,distributif,oui,non,non,oui,non,non,non,non,non,per os,1,75,1
+557,medical,non,40,175,F,87,87,23,36,375,non,non,non,non,non,non,non,non,non,non,per os,0,75,0
+558,chirurgical urgent,non,79,161,H,62,69,49,31,96,hypovolémique,non,non,non,non,non,non,non,non,non,parentéral,1,86,2
+559,medical,non,73,160,F,50,50,21,34,17,non,non,non,non,non,non,oui,non,non,non,NA,1,50,2
+560,chirurgical urgent,non,78,175,H,47,52,55,20,119,distributif,non,oui,oui,non,non,non,non,non,non,entéral,1,88,2
+561,medical,non,63,180,H,95,96,64,NA,NA,cardiogénique,non,oui,non,non,non,non,NA,oui,non,entéral,0,64,0
+562,medical,non,58,170,F,85,85,29,NA,115,non,non,oui,oui,non,non,non,oui,non,non,parentéral,0,50,0
+563,medical,oui,74,165,F,110,120,37,NA,NA,distributif,non,oui,non,non,non,NA,non,non,non,entéral,0,64,0
+564,medical,non,85,172,H,84,77,36,17,25,non,non,non,non,non,non,non,non,non,non,per os,0,88,0
+565,chirurgical urgent,non,84,160,H,70,68,50,NA,NA,distributif,oui,non,non,non,non,oui,non,non,non,entéral,0,64,0
+566,medical,non,65,176,H,73,73,51,24,NA,distributif,oui,non,non,oui,non,non,non,non,non,per os,0,105,0
+567,medical,non,74,169,H,61,61,22,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,64,0
+568,medical,non,85,158,F,52,58,49,30,111,non,non,non,non,oui,non,non,non,non,non,per os,1,122,1
+569,medical,non,64,175,H,124,141,70,26,69,distributif,non,oui,oui,oui,oui,non,non,oui,non,entéral,1,122,1
+570,medical,non,53,169,H,102,89,28,29,10,non,oui,oui,oui,non,non,oui,non,non,non,entéral,0,0,0
+571,medical,non,69,162,F,85,80,28,36,279,hypovolémique,non,oui,oui,non,non,non,non,non,non,entéral,0,122,0
+572,chirurgical reglé,non,66,183,H,117,126,77,19,133,distributif,oui,oui,oui,non,non,non,oui,oui,non,per os,0,122,0
+573,chirurgical urgent,non,68,165,F,60,60,20,NA,61,non,non,non,non,non,non,non,non,non,non,per os,0,50,0
+574,medical,non,61,169,F,78,76,44,33,7,non,oui,oui,oui,non,non,oui,non,non,non,entéral,0,0,0
+575,medical,non,71,163,F,103,105,34,34,12,non,non,non,non,non,non,non,non,non,non,per os,0,122,0
+576,medical,non,70,157,F,61,60,26,NA,13,non,non,non,non,non,non,non,non,non,non,per os,0,50,0
+577,chirurgical reglé,oui,74,175,H,79,73,41,21,NA,NA,non,oui,oui,non,non,non,non,non,non,NA,1,40,2
+578,medical,non,66,175,H,76,76,61,NA,124,cardiogénique,non,oui,oui,non,oui,non,oui,oui,non,parentéral,0,97,0
+579,medical,non,82,NA,F,NA,55,73,NA,NA,cardiogénique,non,oui,oui,oui,oui,non,non,non,non,NA,0,40,0
+580,medical,non,46,159,F,76,76,28,NA,13,non,non,non,non,non,non,non,non,non,non,per os,0,97,0
+581,medical,oui,53,160,F,NA,NA,72,NA,NA,NA,non,oui,oui,non,non,non,non,non,non,NA,0,40,0
+582,medical,oui,74,166,H,57,56,27,32,12,non,non,non,non,non,non,non,non,non,non,per os,0,88,0
+583,chirurgical reglé,non,57,172,H,81,80,24,NA,9,non,non,non,non,non,non,non,oui,non,non,parentéral,1,2,0
+584,medical,NA,87,NA,NA,NA,NA,NA,35,181,non,non,oui,non,non,non,non,NA,non,non,per os,0,79,0
+585,medical,NA,62,172,H,72,70,52,18,NA,distributif,NA,non,non,non,non,non,non,non,non,per os,0,130,0
+586,medical,non,65,NA,H,NA,119,45,33,NA,non,non,oui,non,non,non,non,non,non,non,NA,0,40,0
+587,medical,oui,74,143,F,72,64,48,24,42,non,non,non,non,non,non,non,non,non,non,per os,0,88,0
+588,medical,non,86,170,H,90,86,31,28,NA,cardiogénique,non,oui,oui,non,oui,non,non,oui,non,entéral,0,0,0
+589,medical,non,36,160,F,78,75,20,NA,235,distributif,non,oui,oui,non,non,non,non,non,non,per os,0,47,0
+590,chirurgical urgent,non,81,172,H,75,73,64,32,62,distributif,oui,oui,oui,non,non,non,non,non,non,entéral,0,132,0
+591,medical,NA,79,179,H,71,NA,NA,21,NA,non,non,non,non,non,non,non,NA,non,non,per os,0,79,0
+592,medical,oui,75,155,F,55,59,42,29,15,non,oui,non,non,non,non,non,non,oui,non,entéral,0,130,0
+593,chirurgical urgent,non,65,175,H,83,79,32,14,75,distributif,oui,oui,oui,oui,oui,oui,non,oui,non,parentéral,0,0,0
+594,chirurgical reglé,non,70,158,F,57,57,33,29,NA,cardiogénique,non,oui,oui,oui,non,non,oui,non,non,NA,0,47,0
+595,medical,non,58,172,H,82,75,56,NA,150,distributif,oui,oui,oui,oui,oui,oui,non,oui,oui,per os,1,132,3
+596,medical,non,51,180,H,97,73,64,NA,255,cardiogénique,oui,oui,oui,oui,oui,oui,oui,oui,non,parentéral,1,97,1
+597,chirurgical reglé,non,76,165,H,85,81,39,NA,NA,non,non,non,non,non,non,non,non,oui,non,NA,0,40,0
+598,medical,oui,67,176,H,83,83,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,79,0
+599,chirurgical urgent,non,24,165,F,60,64,9,23,7,non,non,oui,oui,non,non,non,oui,non,non,entéral,0,47,0
+600,medical,NA,60,175,H,66,66,53,NA,110,non,non,oui,oui,oui,non,oui,non,non,NA,entéral,0,0,0
+601,medical,non,25,181,H,61,60,13,37,29,non,non,non,non,non,non,non,oui,non,non,per os,0,47,0
+602,medical,oui,89,NA,F,NA,112,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,NA,0,40,0
+603,medical,non,77,160,H,55,51,62,25,60,non,non,oui,oui,non,non,oui,non,non,non,entéral,1,132,1
+604,medical,non,84,165,H,78,87,32,23,68,distributif,non,oui,oui,non,non,non,non,oui,non,parentéral,0,0,0
+605,medical,oui,69,165,H,99,98,24,20,83,distributif,oui,oui,oui,non,oui,oui,non,non,non,entéral,0,0,0
+606,medical,oui,84,157,F,83,82,57,50,31,distributif,non,oui,oui,non,non,oui,non,non,non,entéral,0,132,0
+607,medical,non,48,180,H,65,58,22,28,99,hypovolémique,non,oui,oui,non,non,oui,oui,non,non,entéral,0,0,0
+608,medical,non,51,166,NA,75,80,49,47,231,hypovolémique,non,oui,oui,non,oui,oui,oui,oui,oui,parentéral,1,97,3
+609,chirurgical urgent,non,75,166,F,67,74,80,NA,152,non,non,oui,oui,non,non,oui,non,non,non,entéral,0,132,0
+610,chirurgical urgent,NA,75,170,H,98,83,65,22,NA,hypovolémique,non,oui,oui,non,non,non,non,oui,non,NA,0,40,0
+611,medical,NA,70,175,H,75,76,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,1,79,5
+612,chirurgical urgent,oui,72,160,F,54,54,28,28,97,non,non,non,non,oui,non,non,oui,non,non,per os,0,47,0
+613,medical,NA,43,175,H,62,61,30,18,34,NA,oui,oui,oui,non,oui,oui,NA,non,NA,entéral,0,130,0
+614,medical,non,59,165,H,56,56,12,20,23,distributif,non,oui,non,oui,non,non,oui,non,non,per os,0,47,0
+615,chirurgical urgent,non,70,160,F,73,75,34,NA,76,non,oui,oui,oui,non,non,oui,oui,non,non,entéral,0,132,0
+616,chirurgical reglé,non,68,169,H,72,80,NA,21,NA,non,non,oui,oui,non,non,non,non,non,non,NA,0,40,0
+617,medical,non,43,171,H,56,71,59,40,124,hypovolémique,oui,oui,oui,non,oui,non,oui,oui,non,parentéral,0,97,0
+618,medical,non,50,160,F,71,82,20,27,300,distributif,non,oui,oui,oui,non,non,non,oui,non,per os,0,132,0
+619,medical,non,65,165,H,91,90,42,39,37,non,non,non,non,non,non,NA,non,oui,non,per os,0,130,0
+620,chirurgical urgent,non,77,165,H,100,100,50,NA,NA,hypovolémique,non,oui,oui,non,non,non,non,non,non,per os,0,40,0
+621,chirurgical urgent,non,56,175,H,90,90,20,NA,2,non,non,non,non,non,non,oui,non,non,non,NA,0,26,0
+622,medical,non,52,160,F,64,72,43,29,97,non,non,oui,oui,non,non,oui,non,non,non,entéral,0,1,1
+623,medical,non,26,175,F,65,65,36,28,104,non,non,non,non,non,non,non,non,non,non,NA,0,88,0
+624,chirurgical reglé,oui,75,170,F,90,94,NA,16,29,cardiogénique,oui,oui,non,non,non,non,non,oui,non,per os,0,79,0
+625,medical,non,43,NA,F,NA,70,16,NA,NA,distributif,non,non,non,oui,non,non,non,non,non,per os,0,40,0
+626,chirurgical urgent,non,61,175,H,85,84,45,27,152,distributif,non,oui,oui,non,non,non,oui,non,non,per os,0,132,0
+627,medical,non,62,183,H,104,104,32,NA,132,non,non,non,non,non,non,non,non,non,non,per os,0,97,0
+628,chirurgical urgent,oui,60,176,H,98,87,60,22,113,distributif,non,oui,oui,non,oui,oui,oui,oui,non,parentéral,12,0,0
+629,medical,non,78,NA,NA,NA,68,89,34,NA,NA,non,oui,oui,non,non,non,oui,non,non,per os,0,40,0
+630,medical,non,73,162,H,74,72,44,26,64,distributif,non,oui,oui,non,non,non,oui,non,non,entéral,0,132,0
+631,medical,non,76,NA,H,104,NA,NA,NA,18,non,non,non,non,oui,non,non,non,non,non,per os,0,79,0
+632,medical,non,60,165,F,67,68,29,23,125,distributif,oui,non,non,non,non,oui,oui,non,non,per os,0,132,0
+633,medical,oui,78,165,F,95,95,37,NA,92,non,non,non,non,non,non,oui,non,oui,oui,parentéral,1,26,1
+634,chirurgical reglé,non,73,178,H,72,62,NA,25,55,non,non,non,non,non,non,non,non,non,non,per os,0,79,0
+635,medical,non,73,162,F,124,124,31,NA,124,distributif,non,non,non,non,non,non,non,non,non,per os,1,97,2
+636,medical,non,69,175,H,91,97,39,28,103,distributif,non,oui,oui,non,non,oui,oui,non,non,entéral,1,132,2
+637,medical,NA,74,160,H,51,58,NA,17,76,hypovolémique,non,non,non,non,non,non,non,oui,non,entéral,0,79,0
+638,chirurgical urgent,non,69,160,F,70,70,71,NA,6,non,non,non,oui,non,non,oui,non,non,non,NA,0,26,0
+639,medical,NA,54,156,F,85,85,33,24,NA,non,oui,non,non,non,non,non,non,non,non,parentéral,0,132,0
+640,chirurgical urgent,NA,80,170,H,65,64,38,NA,11,non,non,oui,oui,oui,non,non,non,non,non,per os,0,97,0
+641,chirurgical reglé,non,55,175,H,72,63,NA,29,1,distributif,non,oui,oui,oui,oui,oui,oui,non,non,per os,0,0,0
+642,medical,non,81,165,F,65,NA,NA,NA,NA,non,non,non,oui,non,non,oui,non,non,non,NA,0,26,0
+643,medical,NA,74,156,F,72,66,NA,29,10,non,non,oui,oui,non,non,non,non,non,non,per os,0,79,0
+644,chirurgical urgent,NA,77,182,H,105,107,67,25,63,distributif,non,oui,oui,non,non,non,oui,non,non,parentéral,0,132,0
+645,medical,NA,74,160,F,72,75,33,14,347,distributif,oui,non,non,non,non,non,non,non,non,parentéral,0,130,1
+646,medical,non,38,NA,H,65,73,NA,NA,246,non,non,oui,oui,non,oui,non,oui,non,non,entéral,0,79,0
+647,medical,non,79,171,H,85,82,35,34,70,hypovolémique,non,non,non,non,non,NA,oui,non,non,per os,0,97,0
+648,chirurgical reglé,non,62,163,F,47,50,65,27,133,distributif,oui,oui,oui,non,non,non,oui,non,non,parentéral,0,132,0
+649,chirurgical reglé,non,64,NA,H,75,81,NA,NA,117,distributif,oui,oui,oui,non,oui,non,oui,oui,non,entéral,0,79,0
+650,medical,non,71,180,H,100,105,43,25,NA,distributif,non,non,non,non,non,non,non,oui,NA,per os,0,130,0
+651,medical,non,67,175,H,102,98,64,23,32,non,non,non,oui,non,oui,oui,non,non,non,entéral,1,26,1
+652,chirurgical urgent,non,32,165,F,65,63,13,NA,4,non,non,non,oui,non,non,oui,oui,NA,NA,per os,0,26,0
+653,medical,non,41,160,F,50,42,24,39,1,distributif,oui,oui,oui,oui,oui,oui,non,non,non,entéral,1,0,0
+654,medical,non,19,173,H,70,76,16,40,34,hypovolémique,oui,oui,oui,oui,oui,oui,non,oui,oui,per os,1,97,2
+655,chirurgical urgent,non,85,NA,F,79,87,NA,17,96,distributif,oui,oui,oui,oui,non,oui,non,oui,non,parentéral,1,79,1
+656,medical,non,31,168,F,61,66,NA,39,NA,non,non,oui,oui,non,oui,oui,non,oui,non,entéral,0,79,0
+657,chirurgical urgent,non,51,160,F,65,63,45,NA,NA,non,non,oui,oui,NA,NA,oui,oui,non,non,entéral,0,26,0
+658,medical,oui,24,180,H,117,105,45,NA,27,distributif,oui,oui,oui,non,non,non,non,non,non,per os,0,0,0
+659,medical,non,65,170,F,74,74,52,NA,57,non,non,non,non,non,non,oui,non,NA,NA,NA,0,26,0
+660,medical,non,77,155,F,82,84,83,21,138,distributif,non,oui,oui,non,non,non,non,non,non,entéral,1,0,0
+661,chirurgical urgent,non,22,180,H,72,62,22,28,256,non,non,NA,oui,NA,oui,non,non,non,non,NA,1,26,1
+662,chirurgical urgent,non,62,180,H,95,95,40,28,24,non,non,oui,oui,non,oui,non,oui,non,non,parentéral,0,36,0
+663,chirurgical urgent,non,18,170,H,70,70,15,NA,325,non,non,non,non,oui,non,non,non,non,non,NA,0,26,0
+664,chirurgical reglé,non,46,177,H,103,101,31,29,243,distributif,NA,oui,oui,non,oui,oui,oui,non,non,entéral,1,36,2
+665,medical,non,64,NA,H,NA,52,NA,NA,NA,non,non,oui,oui,non,oui,non,oui,non,non,entéral,NA,1,0
+666,medical,non,78,178,H,98,91,34,NA,177,non,non,oui,non,non,non,non,non,non,non,entéral,0,36,0
+667,medical,non,66,NA,H,NA,62,NA,16,NA,non,non,oui,oui,non,oui,non,non,non,non,parentéral,1,0,0
+668,medical,non,68,180,H,105,99,74,NA,218,distributif,non,oui,oui,non,oui,non,oui,oui,non,entéral,0,36,0
+669,medical,non,62,176,H,120,119,37,NA,299,distributif,non,oui,oui,non,oui,non,oui,non,non,entéral,0,36,0
+670,medical,oui,51,NA,H,NA,90,NA,NA,NA,non,non,non,non,non,non,oui,oui,non,non,per os,0,25,0
+671,medical,non,51,NA,F,NA,100,NA,NA,NA,hypovolémique,non,non,non,non,non,oui,oui,non,non,per os,0,25,0
+672,medical,non,55,175,H,95,95,52,NA,NA,non,non,oui,oui,non,non,non,non,non,non,parentéral,0,36,0
+673,medical,non,56,NA,H,NA,68,NA,NA,NA,non,non,non,non,non,non,oui,non,non,non,per os,0,25,0
+674,medical,non,73,175,H,64,73,46,18,69,distributif,oui,oui,oui,oui,oui,non,oui,non,non,parentéral,0,36,0
+675,medical,NA,54,NA,F,NA,67,NA,19,NA,hypovolémique,oui,oui,oui,oui,oui,oui,non,non,non,entéral,NA,1,1
+676,medical,NA,68,158,H,90,88,32,NA,44,non,non,oui,oui,non,non,non,non,non,non,per os,0,36,0
+677,medical,non,56,NA,F,NA,NA,NA,NA,NA,NA,non,non,non,non,non,non,oui,non,non,per os,0,25,0
+678,chirurgical urgent,non,74,168,H,50,50,NA,NA,74,non,non,oui,oui,non,non,non,oui,non,non,parentéral,0,36,0
+679,medical,NA,58,160,F,50,50,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,36,0
+680,chirurgical urgent,non,81,160,H,93,93,NA,28,NA,non,non,oui,oui,non,non,non,non,non,non,parentéral,0,36,0
+681,medical,non,71,163,F,81,81,NA,38,7,cardiogénique,non,oui,oui,non,non,non,oui,non,non,parentéral,0,36,0
+682,chirurgical urgent,non,21,165,F,59,59,64,23,45,hypovolémique,non,oui,oui,oui,non,non,non,oui,non,parentéral,0,86,0
+683,medical,non,80,163,F,65,71,71,21,600,cardiogénique,non,oui,oui,non,non,non,non,oui,non,parentéral,0,0,0
+684,medical,NA,60,175,H,69,77,36,27,285,distributif,non,oui,oui,non,oui,non,oui,non,non,parentéral,0,86,0
+685,medical,non,69,163,H,88,74,57,36,10,distributif,non,oui,non,oui,non,non,non,non,non,per os,0,86,0
+686,chirurgical urgent,non,18,154,F,52,49,58,29,5,distributif,oui,oui,oui,oui,oui,non,non,oui,non,per os,1,86,1
+687,chirurgical urgent,NA,54,163,H,80,80,40,35,77,non,non,oui,oui,oui,non,non,oui,non,non,parentéral,0,86,0
+688,chirurgical urgent,oui,76,175,H,82,72,71,34,45,distributif,non,oui,oui,oui,oui,non,non,oui,non,entéral,0,86,0
+689,chirurgical urgent,non,63,173,H,90,85,43,33,105,non,non,oui,oui,non,non,non,oui,non,non,parentéral,0,86,0
+690,medical,non,53,172,H,90,74,23,17,55,non,non,non,non,non,non,non,non,non,non,per os,0,115,0
+691,medical,oui,30,176,H,101,59,62,33,44,distributif,oui,oui,oui,oui,non,non,non,oui,non,per os,1,86,1
+692,medical,non,29,175,F,51,NA,15,NA,145,non,non,non,non,non,non,non,non,non,non,per os,0,115,0
+693,medical,non,65,148,F,55,NA,34,NA,23,non,non,non,non,oui,non,non,non,non,non,per os,0,115,0
+694,medical,non,40,165,F,64,62,24,26,11,non,non,oui,non,non,non,non,non,non,non,entéral,0,115,0
+695,medical,non,83,160,F,47,50,57,25,NA,non,non,oui,oui,non,non,non,non,non,non,entéral,0,115,0
+696,medical,NA,72,NA,NA,NA,70,NA,NA,NA,distributif,NA,NA,NA,NA,NA,NA,NA,NA,NA,parentéral,0,52,0
+697,medical,non,66,178,H,90,96,51,33,11,cardiogénique,non,oui,oui,non,oui,non,oui,non,non,entéral,0,115,0
+698,medical,NA,80,NA,F,NA,60,NA,NA,NA,distributif,oui,oui,oui,oui,oui,non,non,oui,non,entéral,0,52,0
+699,medical,non,75,160,F,90,86,53,33,57,non,oui,non,non,non,non,non,oui,non,non,NA,0,115,0
+700,medical,NA,42,160,H,NA,76,NA,NA,NA,distributif,oui,oui,oui,non,non,non,non,non,non,per os,0,52,0
+701,medical,non,63,183,H,105,82,27,31,54,non,non,non,non,non,non,non,oui,non,non,per os,0,115,0
+702,medical,NA,27,201,H,100,90,NA,NA,NA,distributif,oui,oui,oui,non,oui,oui,non,non,non,per os,0,0,0
+703,medical,NA,63,NA,NA,NA,44,NA,NA,NA,non,oui,oui,oui,non,non,non,oui,non,non,per os,0,52,0
+704,medical,non,77,180,H,68,77,76,19,96,cardiogénique,oui,oui,oui,non,non,non,oui,non,non,entéral,1,115,2
+705,medical,NA,60,NA,NA,NA,45,NA,NA,NA,cardiogénique,non,oui,oui,non,non,non,oui,oui,non,per os,0,52,0
+706,medical,non,65,160,H,65,65,NA,27,179,cardiogénique,non,oui,oui,non,non,non,oui,non,non,entéral,0,115,0
+707,medical,non,80,166,F,68,68,72,24,283,distributif,oui,oui,oui,oui,non,non,non,non,non,NA,1,115,1
+708,medical,non,63,160,F,55,48,NA,26,25,cardiogénique,oui,non,oui,non,non,non,non,non,oui,parentéral,0,84,0
+709,medical,non,46,173,H,70,71,NA,29,150,non,non,oui,oui,oui,non,non,oui,non,non,parentéral,0,84,0
+710,medical,oui,71,176,H,94,94,NA,39,1,non,non,oui,oui,non,non,oui,non,non,non,parentéral,0,84,0
+711,medical,non,80,165,H,58,56,33,25,9,non,non,non,non,non,non,non,non,non,non,per os,0,115,0
+712,medical,non,83,156,F,47,51,61,24,21,non,oui,oui,non,non,non,non,oui,non,non,per os,0,115,0
+713,medical,oui,93,146,F,50,50,43,18,156,non,oui,non,non,non,non,non,non,non,non,per os,1,1,2
+714,medical,non,61,162,H,60,60,43,18,220,distributif,non,oui,oui,oui,oui,non,non,non,non,entéral,0,115,0
+715,medical,non,67,185,H,67,72,45,24,11,distributif,non,oui,oui,oui,oui,non,non,non,non,parentéral,0,115,0
+716,medical,non,78,160,F,98,96,41,22,323,distributif,non,non,non,non,non,non,non,non,non,per os,1,115,1
+717,medical,NA,80,165,F,55,57,40,23,51,non,non,oui,oui,oui,non,non,non,non,non,entéral,0,115,0
+718,medical,oui,82,165,H,57,57,59,28,291,non,non,non,non,non,non,non,oui,oui,non,per os,0,115,0
+719,medical,oui,66,NA,NA,NA,NA,24,NA,68,non,non,non,non,non,non,non,non,non,non,per os,0,115,0
+720,chirurgical urgent,non,19,171,H,73,73,26,NA,101,hypovolémique,non,non,non,non,non,non,non,non,non,per os,0,115,0
+721,medical,oui,64,185,H,80,83,24,NA,NA,non,non,oui,oui,non,non,oui,non,non,non,per os,1,115,4
+722,chirurgical reglé,oui,89,150,F,45,48,NA,50,146,non,oui,non,non,non,non,non,non,non,non,per os,1,115,2
+723,medical,non,67,156,F,94,90,78,26,205,cardiogénique,oui,oui,oui,oui,non,non,non,oui,non,entéral,0,115,0
+724,medical,non,73,NA,H,NA,NA,36,NA,1,non,non,non,non,non,non,non,non,non,non,per os,0,115,0
+725,chirurgical urgent,non,64,168,H,68,73,NA,NA,7,cardiogénique,non,oui,oui,non,oui,non,non,non,non,parentéral,0,29,0
+726,chirurgical reglé,non,77,168,H,79,84,32,NA,4,non,non,oui,non,non,non,non,non,non,non,per os,0,29,0
+727,chirurgical urgent,non,65,165,H,73,74,51,NA,128,non,non,oui,non,non,non,non,oui,non,non,per os,1,29,2
+728,chirurgical reglé,non,68,180,H,114,124,54,18,290,distributif,oui,oui,oui,non,oui,oui,non,oui,non,parentéral,0,29,0
+729,chirurgical reglé,non,82,172,H,96,97,29,NA,4,non,non,oui,non,non,non,non,non,non,non,per os,0,29,0
+730,chirurgical urgent,NA,52,175,F,53,53,45,NA,280,NA,oui,oui,oui,oui,oui,non,oui,non,non,entéral,1,2,0
+731,chirurgical urgent,non,55,NA,H,69,69,24,NA,NA,hypovolémique,non,non,non,non,non,NA,non,non,non,NA,0,24,0
+732,medical,oui,70,175,H,88,71,55,NA,NA,NA,oui,oui,oui,NA,oui,non,non,NA,non,entéral,1,0,0
+733,medical,non,68,176,H,68,63,52,NA,NA,distributif,non,oui,oui,NA,oui,non,non,non,non,entéral,1,24,1
+734,chirurgical urgent,non,73,154,F,56,62,46,42,4,non,non,oui,non,non,non,non,non,non,non,per os,0,29,0
+735,chirurgical reglé,non,89,174,H,68,65,22,36,4,non,non,non,non,non,non,non,non,non,non,per os,0,29,0
+736,chirurgical reglé,NA,51,168,F,78,78,NA,NA,NA,non,non,oui,oui,non,non,non,non,non,non,NA,0,24,0
+737,chirurgical reglé,non,71,155,F,70,72,NA,37,4,non,non,oui,non,non,non,non,non,non,non,parentéral,0,29,0
+738,medical,non,55,171,H,78,78,29,15,13,non,non,oui,oui,non,oui,non,oui,non,non,per os,0,97,0
+739,medical,oui,68,170,H,71,63,64,NA,NA,distributif,NA,non,non,oui,non,NA,non,non,non,entéral,1,24,3
+740,medical,non,34,172,F,58,58,27,40,248,non,non,non,non,non,non,non,non,non,non,per os,0,97,0
+741,medical,oui,76,180,H,116,90,63,NA,147,cardiogénique,non,oui,oui,oui,oui,oui,non,non,non,entéral,6,1,2
+742,chirurgical reglé,non,62,150,F,98,86,48,NA,71,distributif,oui,non,non,NA,non,non,non,non,non,parentéral,1,23,1
+743,medical,non,62,159,F,82,82,32,40,4,non,oui,non,non,non,non,non,non,non,non,per os,0,97,0
+744,medical,non,70,175,H,87,77,61,NA,23,distributif,oui,oui,oui,oui,oui,oui,non,non,NA,entéral,10,1,1
+745,chirurgical reglé,non,57,NA,F,NA,NA,35,26,126,non,NA,non,non,non,non,non,oui,non,non,NA,0,29,0
+746,medical,non,48,170,H,71,71,30,40,70,non,non,non,non,non,non,non,non,non,non,per os,0,97,0
+747,chirurgical reglé,non,66,172,H,61,62,NA,27,24,non,non,oui,oui,non,non,non,non,non,non,per os,0,0,0
+748,chirurgical urgent,non,52,185,H,93,91,54,31,25,distributif,non,oui,oui,non,oui,oui,oui,non,oui,entéral,0,29,0
+749,chirurgical urgent,non,79,163,F,88,88,NA,29,NA,non,non,oui,oui,non,non,non,non,non,non,per os,0,29,0
+750,chirurgical reglé,non,63,168,H,68,71,NA,43,4,non,non,oui,non,non,non,non,oui,non,non,per os,0,29,0
+751,chirurgical reglé,non,60,182,H,117,108,45,18,NA,cardiogénique,oui,oui,oui,non,oui,oui,non,oui,oui,entéral,0,0,0
+752,chirurgical reglé,non,60,171,H,81,82,30,NA,4,non,non,non,non,non,non,non,non,non,non,per os,0,29,0
+753,chirurgical urgent,non,28,172,H,94,100,30,NA,NA,hypovolémique,non,oui,oui,non,oui,non,non,oui,non,parentéral,0,24,0
+754,medical,non,67,182,H,100,99,24,NA,86,non,non,oui,non,non,non,non,non,non,non,per os,0,82,0
+755,chirurgical reglé,oui,68,156,F,59,62,47,NA,NA,non,non,oui,oui,non,non,oui,non,non,non,per os,0,24,0
+756,medical,oui,74,169,F,98,98,36,NA,NA,distributif,non,non,non,non,non,non,non,non,non,NA,0,24,0
+757,medical,non,74,167,H,108,110,38,NA,NA,non,oui,non,oui,non,non,non,non,non,non,per os,0,82,0
+758,chirurgical urgent,NA,75,NA,H,98,78,74,NA,NA,distributif,non,oui,oui,oui,oui,non,non,oui,non,entéral,0,1,2
+759,medical,non,59,178,H,77,75,19,NA,10,non,oui,oui,oui,non,non,non,non,non,non,per os,0,82,0
+760,chirurgical urgent,non,67,152,F,72,72,24,NA,NA,non,non,non,non,non,non,non,non,non,non,NA,0,24,0
+761,medical,non,78,160,H,57,52,19,NA,8,non,oui,non,non,non,non,non,non,non,non,per os,0,82,0
+762,chirurgical urgent,non,83,173,H,66,74,NA,NA,NA,distributif,oui,oui,oui,oui,non,non,non,oui,non,parentéral,0,0,0
+763,medical,oui,26,NA,F,NA,NA,22,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,24,0
+764,chirurgical urgent,non,67,168,H,63,70,43,NA,NA,distributif,non,oui,non,non,non,non,non,non,non,parentéral,0,82,0
+765,chirurgical urgent,non,58,165,H,70,70,35,NA,NA,distributif,non,oui,oui,non,non,non,non,non,non,parentéral,0,0,0
+766,medical,non,70,178,H,107,104,36,NA,NA,distributif,non,oui,oui,non,non,non,non,non,non,parentéral,0,82,0
+767,medical,oui,70,NA,H,71,61,52,NA,NA,distributif,oui,oui,oui,oui,oui,non,non,non,non,entéral,6,1,3
+768,medical,non,88,165,H,68,62,34,NA,NA,distributif,NA,non,oui,non,non,non,non,non,non,per os,0,82,0
+769,chirurgical urgent,non,23,183,H,83,84,23,NA,NA,non,non,oui,oui,non,non,non,oui,non,non,per os,0,73,0
+770,medical,non,70,180,H,108,90,35,NA,6,distributif,oui,oui,oui,oui,NA,non,non,oui,oui,per os,NA,1,1
+771,medical,non,80,178,H,77,84,41,19,NA,hypovolémique,non,oui,oui,non,oui,non,non,non,non,entéral,0,73,0
+772,medical,non,60,183,H,113,115,44,NA,NA,distributif,NA,oui,oui,non,non,non,non,oui,non,parentéral,0,82,0
+773,medical,non,53,185,H,79,83,36,32,NA,hypovolémique,non,oui,oui,non,non,oui,non,non,non,entéral,0,73,0
+774,medical,oui,55,170,H,87,81,38,30,NA,non,non,oui,non,non,non,non,oui,non,non,per os,0,73,0
+775,medical,non,25,142,F,76,76,12,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,82,0
+776,medical,non,40,185,H,90,90,63,41,NA,cardiogénique,non,oui,oui,non,oui,non,oui,non,non,parentéral,0,73,0
+777,medical,non,60,172,H,69,84,37,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,82,0
+778,medical,NA,71,175,H,86,86,NA,NA,NA,non,non,oui,oui,non,non,non,non,non,non,parentéral,0,36,0
+779,medical,NA,67,178,H,77,76,43,34,NA,non,non,oui,oui,non,non,non,non,non,non,entéral,1,73,1
+780,medical,NA,74,184,H,87,75,43,27,NA,non,non,oui,oui,non,oui,non,non,non,non,per os,0,73,0
+781,chirurgical reglé,non,58,162,F,68,67,22,44,3,non,non,oui,oui,non,NA,non,NA,non,non,per os,0,27,0
+782,chirurgical urgent,non,31,175,H,90,96,12,27,NA,non,non,non,non,non,non,non,non,non,non,per os,0,73,0
+783,medical,NA,19,178,H,55,55,28,31,NA,non,non,oui,non,non,non,non,non,non,non,per os,0,73,0
+784,chirurgical urgent,non,71,159,F,41,57,48,20,NA,non,non,oui,oui,non,non,non,non,oui,non,entéral,0,73,0
+785,medical,non,68,168,H,135,135,57,NA,225,distributif,non,oui,oui,non,non,non,non,non,non,parentéral,0,126,0
+786,medical,non,79,165,F,61,71,28,NA,100,distributif,non,non,non,non,non,non,non,non,non,per os,0,126,0
+787,medical,non,79,170,H,69,69,27,16,103,non,oui,non,non,non,non,non,non,non,non,per os,0,126,0
+788,chirurgical reglé,non,78,160,F,87,86,44,16,236,cardiogénique,oui,oui,oui,non,oui,oui,non,oui,non,per os,1,27,1
+789,medical,non,69,178,H,103,104,43,NA,218,distributif,non,oui,oui,non,non,oui,non,non,non,parentéral,0,1,2
+790,medical,non,38,162,H,83,83,14,NA,20,non,non,non,non,non,non,non,non,non,non,per os,0,126,0
+791,chirurgical reglé,non,80,176,H,80,83,49,20,77,distributif,NA,oui,oui,non,oui,oui,non,oui,non,per os,0,27,0
+792,medical,non,53,167,H,91,91,32,NA,NA,distributif,oui,oui,oui,non,non,non,non,non,non,parentéral,1,0,0
+793,chirurgical reglé,NA,52,168,H,62,62,21,13,30,distributif,oui,oui,oui,non,oui,oui,non,non,non,entéral,0,27,0
+794,chirurgical reglé,non,73,177,H,87,87,43,26,NA,non,non,oui,oui,non,non,non,non,non,non,per os,0,27,0
+795,chirurgical reglé,non,79,190,H,85,85,58,24,NA,non,non,oui,oui,non,non,non,non,non,non,per os,0,27,0
+796,chirurgical reglé,non,80,178,H,71,71,27,27,NA,non,non,oui,oui,non,non,non,non,non,non,per os,0,27,0
+797,chirurgical reglé,non,79,168,H,64,NA,46,21,185,cardiogénique,non,oui,oui,non,oui,non,non,non,non,entéral,0,27,0
+798,chirurgical urgent,non,59,177,H,93,103,24,NA,18,non,non,oui,oui,non,non,non,non,non,non,per os,0,27,0
+799,chirurgical reglé,non,55,157,F,65,NA,11,NA,NA,non,non,oui,non,non,non,oui,non,non,non,per os,0,27,0
+800,chirurgical urgent,non,63,162,F,90,101,18,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,106,0
+801,medical,oui,44,169,F,47,47,26,NA,NA,non,non,non,non,oui,non,non,non,non,non,NA,0,100,0
+802,medical,non,31,154,F,55,52,16,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,106,0
+803,medical,non,61,163,F,61,61,22,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,100,0
+804,chirurgical reglé,non,76,161,H,70,70,20,31,NA,non,non,oui,oui,non,non,non,non,non,non,per os,0,27,0
+805,medical,non,71,176,H,77,79,71,NA,NA,distributif,oui,oui,oui,non,oui,oui,non,non,non,entéral,7,0,2
+806,medical,oui,38,171,H,67,63,42,NA,NA,non,oui,non,non,oui,non,oui,oui,non,non,entéral,1,106,1
+807,chirurgical urgent,non,60,NA,H,NA,NA,40,NA,NA,non,non,oui,oui,non,non,non,non,non,non,entéral,0,27,0
+808,medical,non,74,175,F,86,86,38,23,NA,non,oui,non,non,non,non,non,non,non,non,per os,0,100,0
+809,medical,non,75,152,F,67,65,72,NA,NA,distributif,oui,oui,oui,oui,non,non,non,non,non,entéral,0,106,0
+810,chirurgical reglé,non,81,180,H,94,94,61,24,192,cardiogénique,non,oui,oui,non,oui,non,non,oui,non,NA,1,27,1
+811,medical,non,57,167,F,82,80,9,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,100,0
+812,medical,non,85,151,F,71,73,32,NA,NA,non,non,non,non,non,non,non,non,non,non,parentéral,0,106,0
+813,medical,non,65,NA,H,NA,NA,38,NA,235,non,non,non,non,non,non,non,oui,non,non,per os,0,27,0
+814,medical,non,70,182,H,85,85,42,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,100,0
+815,medical,non,55,155,F,108,110,31,23,288,distributif,non,non,non,non,non,non,oui,non,non,NA,0,88,0
+816,medical,oui,69,180,H,83,85,71,NA,NA,cardiogénique,non,oui,oui,non,non,oui,oui,non,non,entéral,0,106,0
+817,chirurgical urgent,non,24,167,H,57,NA,49,30,36,cardiogénique,non,oui,non,non,non,oui,non,non,non,entéral,0,0,0
+818,medical,non,63,160,F,64,69,53,24,50,distributif,non,oui,oui,non,non,oui,non,non,non,entéral,0,0,0
+819,NA,non,45,172,H,74,74,46,NA,NA,cardiogénique,non,oui,oui,non,oui,oui,non,non,non,entéral,0,106,0
+820,medical,non,62,165,H,85,72,37,NA,NA,distributif,oui,oui,oui,oui,non,oui,non,oui,non,entéral,1,106,5
+821,medical,non,35,189,H,66,64,6,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,106,0
+822,medical,non,57,145,F,37,35,22,34,1933,non,non,non,non,oui,non,non,oui,non,non,per os,0,106,0
+823,medical,non,29,172,F,67,77,6,25,NA,non,non,non,non,non,non,non,non,non,non,per os,0,106,0
+824,medical,non,72,160,F,67,66,57,27,277,non,non,non,non,non,non,non,non,non,non,per os,0,100,0
+825,medical,oui,61,175,F,59,58,24,NA,NA,distributif,oui,oui,oui,oui,non,non,non,non,non,per os,1,106,2
+826,chirurgical reglé,oui,65,160,F,43,43,26,NA,NA,non,non,non,non,non,non,oui,non,non,non,parentéral,0,100,0
+827,chirurgical urgent,non,26,168,F,70,70,6,NA,NA,non,non,oui,oui,non,non,non,oui,non,non,per os,0,106,0
+828,chirurgical reglé,non,70,180,H,51,51,25,NA,NA,non,non,non,non,non,non,non,non,non,non,NA,0,100,0
+829,medical,non,18,165,F,51,55,17,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,100,0
+830,medical,oui,79,170,H,90,95,44,28,53,cardiogénique,non,oui,non,non,non,non,non,non,non,per os,0,60,0
+831,medical,oui,68,151,F,50,55,46,22,310,distributif,oui,non,non,non,non,non,non,non,non,per os,0,100,0
+832,medical,NA,50,188,H,80,88,46,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,100,0
+833,medical,oui,64,163,F,78,100,81,19,127,distributif,non,oui,oui,oui,oui,non,non,non,non,parentéral,1,1,1
+834,medical,oui,57,NA,F,63,59,20,NA,14,non,non,oui,non,NA,NA,oui,NA,non,non,entéral,0,99,0
+835,chirurgical urgent,non,42,157,F,56,56,14,27,3,non,non,non,non,non,non,non,non,non,non,per os,0,60,0
+836,medical,oui,38,175,H,NA,76,NA,NA,NA,NA,non,oui,non,non,non,non,non,non,non,entéral,0,99,0
+837,medical,non,23,190,H,96,95,45,15,335,distributif,oui,oui,oui,oui,non,oui,non,non,non,parentéral,1,60,1
+838,medical,non,70,160,F,57,57,33,NA,NA,distributif,non,oui,oui,oui,oui,oui,non,non,non,entéral,3,1,1
+839,medical,non,84,168,H,75,84,30,NA,NA,non,non,non,non,non,non,non,non,non,NA,per os,0,106,0
+840,medical,oui,69,180,H,113,105,18,26,21,distributif,oui,oui,oui,non,non,non,oui,non,non,per os,1,60,3
+841,chirurgical reglé,non,66,183,H,89,83,51,NA,1616,cardiogénique,non,oui,oui,non,non,non,non,non,non,per os,0,106,0
+842,medical,NA,56,NA,H,55,67,NA,25,32,non,oui,oui,non,non,non,oui,oui,non,non,per os,1,99,1
+843,medical,non,81,168,H,57,57,39,NA,NA,non,oui,non,non,non,non,non,non,non,non,per os,0,100,0
+844,medical,oui,56,165,H,76,75,17,NA,NA,non,non,non,oui,non,non,oui,non,non,non,per os,0,0,0
+845,medical,non,83,NA,F,57,58,NA,NA,NA,non,oui,non,non,oui,non,oui,non,non,non,per os,0,99,0
+846,medical,non,69,178,H,70,NA,19,NA,NA,non,non,oui,oui,non,oui,non,non,non,non,per os,0,100,0
+847,medical,non,56,167,H,70,70,32,NA,NA,non,non,non,non,non,non,non,non,non,non,NA,0,100,0
+848,medical,NA,77,167,H,58,66,39,NA,NA,non,non,non,non,non,non,oui,non,non,non,entéral,1,100,1
+849,medical,non,55,NA,H,74,NA,9,NA,NA,non,oui,non,non,non,non,oui,non,non,non,per os,0,99,0
+850,medical,non,80,165,H,85,80,26,NA,6,distributif,non,oui,oui,NA,non,oui,non,non,non,per os,0,99,0
+851,medical,oui,28,178,H,57,49,7,NA,6,non,non,oui,oui,oui,non,oui,NA,non,non,entéral,0,99,0
+852,medical,non,20,NA,F,45,NA,10,NA,15,non,non,non,non,non,non,oui,non,non,non,per os,0,99,0
+853,chirurgical urgent,oui,80,168,H,86,85,49,21,341,non,non,non,non,non,non,non,non,non,non,per os,0,88,0
+854,medical,NA,31,170,F,74,74,NA,NA,NA,NA,non,oui,non,non,non,non,non,non,non,entéral,0,0,0
+855,chirurgical urgent,non,84,180,H,109,95,43,32,24,distributif,oui,oui,non,non,non,oui,non,oui,non,entéral,1,88,1
+856,chirurgical reglé,non,73,178,H,81,79,27,27,40,distributif,oui,oui,oui,oui,oui,oui,oui,non,non,per os,1,60,1
+857,medical,non,42,NA,H,88,79,7,41,NA,non,non,non,non,non,non,oui,non,non,non,per os,0,99,0
+858,medical,non,72,170,H,78,NA,37,NA,6,non,non,oui,oui,non,oui,non,non,oui,non,parentéral,0,22,0
+859,medical,non,75,NA,H,75,70,18,26,49,non,non,non,non,non,non,oui,non,non,non,entéral,0,99,0
+860,medical,non,38,175,F,138,136,15,28,NA,distributif,non,non,non,non,non,non,non,non,non,entéral,0,60,0
+861,medical,non,46,175,H,88,80,45,26,52,distributif,oui,oui,oui,oui,non,oui,non,oui,non,entéral,1,60,1
+862,medical,non,23,187,H,97,92,7,NA,NA,distributif,non,non,non,oui,non,oui,non,non,non,per os,0,0,0
+863,chirurgical urgent,oui,52,169,F,40,54,35,26,255,distributif,oui,oui,oui,non,oui,non,oui,non,non,parentéral,1,60,4
+864,medical,oui,39,177,H,70,74,17,36,145,distributif,non,oui,non,non,non,oui,oui,non,non,entéral,0,0,0
+865,medical,non,64,170,H,93,89,16,NA,141,distributif,oui,oui,oui,non,non,non,non,non,non,entéral,0,99,0
+866,medical,oui,75,NA,F,68,70,NA,NA,NA,non,non,oui,oui,non,non,non,non,non,non,entéral,0,99,0
+867,chirurgical reglé,oui,70,180,H,120,97,72,24,107,distributif,oui,oui,oui,oui,oui,oui,non,oui,non,entéral,1,60,2
+868,chirurgical urgent,non,70,158,F,94,95,54,24,NA,distributif,non,oui,oui,non,non,non,non,oui,non,entéral,0,1,1
+869,medical,oui,53,171,H,60,60,39,NA,NA,cardiogénique,oui,non,non,non,non,non,oui,oui,non,entéral,1,126,1
+870,medical,oui,75,165,H,76,75,56,17,NA,distributif,non,oui,oui,oui,non,non,non,non,non,entéral,0,0,0
+871,medical,oui,73,172,H,103,86,NA,20,111,distributif,oui,oui,oui,non,non,oui,non,non,non,parentéral,0,60,0
+872,chirurgical urgent,non,41,170,H,108,107,NA,NA,NA,non,non,non,non,non,non,non,oui,non,non,parentéral,0,60,0
+873,medical,non,62,180,H,85,NA,45,NA,2,non,non,oui,oui,oui,non,non,non,non,non,entéral,0,22,0
+874,medical,oui,40,171,H,66,82,NA,NA,NA,distributif,oui,oui,oui,non,oui,non,non,non,non,parentéral,6,0,0
+875,chirurgical urgent,non,82,178,H,99,95,39,25,NA,distributif,oui,oui,oui,non,non,non,non,oui,non,parentéral,1,118,2
+876,medical,non,74,177,H,78,NA,47,NA,3,distributif,non,oui,oui,oui,oui,oui,non,non,non,entéral,1,22,2
+877,medical,non,53,175,H,57,59,30,34,211,non,non,oui,oui,non,non,non,oui,non,non,entéral,0,60,0
+878,medical,non,66,NA,H,75,76,NA,NA,326,non,non,oui,oui,non,oui,non,non,non,non,entéral,0,0,0
+879,medical,non,64,163,H,50,NA,39,NA,8,non,non,oui,oui,oui,oui,non,oui,non,non,per os,0,0,0
+880,medical,non,73,160,H,118,116,NA,NA,NA,cardiogénique,non,oui,oui,non,oui,non,non,non,non,entéral,0,0,0
+881,chirurgical urgent,oui,64,177,H,63,63,51,27,NA,distributif,non,non,non,non,non,non,non,non,non,per os,0,1,5
+882,medical,non,48,168,H,65,72,58,18,100,non,non,oui,oui,non,non,non,oui,non,non,entéral,1,60,1
+883,medical,non,87,165,H,59,NA,68,21,10,distributif,non,oui,oui,non,non,non,non,non,non,parentéral,0,22,0
+884,medical,oui,37,156,F,88,77,10,21,NA,non,oui,oui,non,non,non,oui,non,non,non,entéral,NA,0,2
+885,chirurgical urgent,non,86,165,H,64,54,56,15,167,distributif,non,oui,oui,non,non,non,non,non,non,entéral,0,1,2
+886,medical,non,76,160,H,82,88,50,NA,204,distributif,non,non,non,non,non,non,non,non,non,per os,0,102,0
+887,medical,non,44,163,F,77,78,27,32,4,non,non,oui,oui,non,non,non,non,non,non,NA,0,0,0
+888,medical,oui,50,168,H,88,82,NA,17,NA,distributif,oui,oui,oui,non,oui,oui,non,non,non,per os,0,1,1
+889,medical,oui,58,180,H,73,51,34,20,NA,non,non,oui,oui,non,non,non,oui,non,non,parentéral,0,126,0
+890,medical,non,77,180,H,67,NA,65,NA,2,non,oui,non,non,non,non,non,non,non,non,per os,0,1,2
+891,chirurgical reglé,oui,78,180,H,80,83,41,23,NA,distributif,oui,oui,oui,non,non,non,non,non,non,entéral,NA,0,2
+892,medical,oui,72,181,H,104,102,NA,NA,194,distributif,non,non,non,non,non,non,non,non,non,per os,0,0,0
+893,medical,non,57,NA,F,90,90,20,NA,17,non,non,non,non,non,non,non,oui,non,non,per os,0,126,0
+894,medical,non,33,153,F,56,NA,17,NA,1,distributif,non,oui,oui,oui,oui,non,non,non,non,per os,0,0,0
+895,medical,non,56,164,F,87,87,NA,NA,NA,non,non,oui,oui,non,oui,non,non,non,non,per os,0,0,0
+896,medical,non,78,165,F,45,59,NA,NA,NA,NA,non,oui,oui,oui,non,oui,non,non,non,parentéral,0,33,0
+897,chirurgical reglé,non,74,178,H,90,NA,34,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,0,0
+898,medical,oui,39,148,H,56,55,NA,NA,NA,non,oui,oui,non,non,non,non,non,non,non,entéral,6,0,0
+899,medical,oui,52,159,F,91,95,83,NA,145,cardiogénique,oui,oui,oui,non,non,oui,non,non,non,entéral,0,102,0
+900,chirurgical reglé,non,69,190,H,98,NA,38,NA,2,non,non,non,non,non,non,non,non,non,non,per os,0,0,0
+901,medical,oui,53,NA,H,40,45,NA,12,NA,non,non,oui,non,non,oui,oui,non,non,non,parentéral,0,0,0
+902,medical,non,70,170,H,80,NA,29,NA,4,distributif,non,oui,oui,non,oui,oui,non,non,non,per os,0,0,0
+903,medical,non,83,164,H,91,93,NA,NA,NA,distributif,non,oui,oui,NA,non,oui,non,non,non,parentéral,0,33,0
+904,medical,NA,78,177,H,73,87,88,25,NA,distributif,non,oui,oui,oui,non,non,non,oui,non,entéral,0,102,0
+905,medical,non,84,179,H,94,100,NA,NA,NA,NA,non,oui,oui,non,oui,oui,non,non,non,entéral,6,0,0
+906,chirurgical reglé,non,85,173,H,91,NA,54,NA,8,non,non,non,non,non,non,non,non,non,non,parentéral,0,0,0
+907,chirurgical urgent,non,73,178,H,103,NA,38,NA,2,non,non,non,non,non,non,non,non,non,non,per os,0,0,0
+908,medical,oui,40,180,H,77,81,33,28,NA,non,non,oui,oui,non,oui,oui,non,non,non,entéral,0,1,3
+909,medical,non,54,174,H,80,NA,57,NA,1,distributif,non,oui,oui,non,oui,non,non,non,non,per os,0,0,0
+910,medical,oui,81,150,F,74,78,NA,NA,NA,non,oui,oui,oui,oui,oui,non,non,non,non,entéral,0,1,2
+911,medical,non,44,169,F,82,82,34,36,4,non,non,non,non,non,non,non,oui,non,non,per os,0,102,0
+912,medical,non,49,188,H,96,98,NA,NA,NA,non,non,non,non,non,non,oui,oui,non,non,per os,0,0,0
+913,NA,non,69,185,H,72,NA,38,NA,7,non,non,non,non,non,non,non,non,non,non,per os,0,22,0
+914,medical,non,47,178,H,72,71,NA,NA,NA,non,non,non,non,non,non,oui,non,oui,non,per os,0,33,0
+915,medical,non,80,165,H,68,NA,62,NA,1,distributif,non,oui,oui,oui,oui,non,non,oui,non,per os,0,0,0
+916,medical,oui,90,165,H,55,55,42,NA,350,distributif,non,non,non,non,non,non,non,non,non,per os,0,102,0
+917,medical,oui,45,176,H,86,89,NA,NA,302,non,non,oui,oui,non,oui,non,oui,non,non,entéral,0,1,1
+918,medical,oui,66,165,F,96,NA,31,NA,1,non,non,non,non,oui,non,non,non,non,non,per os,0,0,0
+919,medical,oui,68,182,H,136,136,64,NA,NA,distributif,non,non,non,non,non,non,non,oui,oui,parentéral,12,1,1
+920,medical,non,36,176,H,78,77,11,NA,44,non,non,non,non,non,non,non,oui,non,non,per os,0,102,0
+921,medical,non,60,163,H,104,110,NA,NA,NA,cardiogénique,non,oui,oui,non,oui,non,non,oui,non,entéral,6,0,0
+922,medical,oui,42,180,H,66,65,35,NA,NA,distributif,non,oui,non,oui,non,non,oui,non,non,NA,0,126,0
+923,medical,non,46,181,H,78,77,45,NA,102,non,non,non,non,non,non,non,non,non,non,per os,0,102,0
+924,medical,oui,79,160,H,56,56,57,NA,NA,non,non,non,non,oui,non,non,non,non,non,per os,0,126,0
+925,medical,oui,70,156,H,67,67,NA,NA,NA,NA,non,non,non,oui,non,non,non,non,non,per os,0,33,0
+926,medical,oui,56,161,F,82,85,NA,NA,NA,non,oui,oui,oui,non,oui,oui,non,non,oui,entéral,0,0,0
+927,chirurgical urgent,oui,71,154,F,69,71,58,24,64,cardiogénique,oui,oui,oui,non,non,non,non,non,non,entéral,NA,0,0
+928,medical,non,68,160,H,47,48,39,37,21,non,non,non,non,non,non,non,oui,non,non,per os,0,102,0
+929,medical,non,52,165,F,43,44,32,NA,97,non,non,non,non,non,non,non,oui,non,non,per os,0,126,0
+930,medical,non,66,176,H,127,127,NA,NA,NA,non,non,non,non,non,non,oui,non,non,non,per os,0,0,0
+931,medical,non,79,170,H,99,88,NA,NA,NA,cardiogénique,non,oui,oui,non,oui,oui,non,oui,non,parentéral,0,33,0
+932,medical,non,82,165,F,92,93,72,37,124,non,oui,oui,non,non,non,oui,non,non,non,NA,0,102,0
+933,medical,non,86,170,F,81,62,54,27,3,distributif,non,oui,oui,oui,non,oui,non,oui,non,entéral,NA,0,0
+934,chirurgical urgent,non,68,173,H,73,70,NA,NA,NA,non,oui,oui,oui,non,oui,oui,non,non,non,entéral,0,0,0
+935,chirurgical urgent,non,33,150,F,56,58,NA,NA,NA,hypovolémique,non,oui,oui,non,non,non,non,non,non,parentéral,0,33,0
+936,chirurgical urgent,non,89,155,F,41,50,NA,NA,NA,hypovolémique,non,oui,oui,non,oui,non,non,non,non,entéral,0,0,0
+937,medical,non,58,177,H,86,85,35,NA,155,non,non,oui,oui,non,non,non,non,non,non,entéral,0,126,0
+938,medical,non,65,178,H,72,72,43,26,65,non,non,non,non,non,non,non,oui,non,non,NA,0,102,0
+939,medical,non,57,197,H,101,107,NA,NA,371,distributif,non,oui,oui,non,oui,oui,NA,non,non,entéral,6,0,3
+940,medical,oui,82,176,H,117,125,NA,NA,NA,cardiogénique,non,oui,oui,non,oui,non,non,non,non,entéral,6,0,0
+941,medical,oui,70,173,H,74,83,NA,NA,NA,hypovolémique,oui,oui,oui,non,oui,non,non,non,non,entéral,0,0,0
+942,medical,non,48,185,H,85,85,42,25,14,hypovolémique,non,oui,oui,non,oui,non,oui,oui,non,entéral,NA,0,0
+943,medical,oui,62,155,F,54,55,NA,NA,206,cardiogénique,non,oui,oui,non,oui,non,non,non,non,per os,6,0,0
+944,medical,non,65,170,H,64,64,NA,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,0,0
+945,medical,non,49,158,F,58,58,NA,22,NA,distributif,non,oui,oui,non,non,non,non,non,non,parentéral,0,0,0
+946,medical,non,52,180,H,102,108,81,27,NA,distributif,oui,oui,oui,non,oui,oui,oui,oui,non,per os,NA,0,0
+947,medical,NA,74,157,F,112,114,51,NA,NA,distributif,non,oui,oui,non,oui,non,non,oui,non,entéral,0,0,0
+948,medical,non,64,170,H,55,53,51,NA,NA,distributif,non,oui,oui,non,oui,non,oui,non,non,entéral,0,89,0
+949,chirurgical urgent,non,83,152,F,51,53,30,28,NA,non,oui,oui,oui,non,non,non,non,non,non,entéral,0,118,0
+950,medical,non,84,155,F,55,57,63,NA,NA,non,non,oui,oui,non,oui,oui,non,non,non,entéral,0,89,0
+951,medical,non,76,150,F,78,82,43,NA,NA,non,non,oui,oui,non,non,oui,non,non,non,entéral,0,89,0
+952,medical,non,58,175,H,86,88,60,NA,NA,distributif,non,oui,oui,non,oui,oui,non,non,non,entéral,0,89,0
+953,medical,non,79,162,F,52,54,31,30,NA,non,non,oui,oui,oui,non,non,non,non,non,entéral,NA,NA,0
+954,medical,non,59,175,H,79,83,43,NA,NA,distributif,non,oui,oui,non,oui,oui,oui,non,non,NA,1,89,1
+955,medical,oui,71,172,H,65,67,48,NA,288,distributif,non,oui,oui,non,non,oui,non,oui,non,per os,0,1,1
+956,medical,non,64,165,F,110,110,104,NA,14,distributif,non,non,non,non,non,non,oui,non,non,per os,0,0,0
+957,medical,non,58,178,H,97,93,22,NA,NA,distributif,non,non,oui,non,non,non,oui,non,non,per os,0,89,0
+958,medical,non,77,160,H,73,75,28,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,89,0
+959,medical,oui,66,184,H,84,74,24,40,NA,non,oui,oui,non,non,non,non,non,oui,non,per os,0,1,2
+960,medical,non,44,184,H,68,66,28,NA,NA,non,non,non,non,non,non,non,oui,non,NA,per os,0,89,0
+961,medical,non,78,170,H,80,80,28,NA,32,non,non,non,non,non,non,non,non,non,non,per os,NA,0,0
+962,medical,non,58,184,H,66,66,42,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,89,0
+963,medical,non,45,164,H,89,90,26,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,89,0
+964,medical,non,54,190,H,127,137,60,19,119,distributif,non,oui,oui,non,non,non,oui,non,non,entéral,NA,0,0
+965,medical,non,69,175,H,42,40,26,NA,NA,distributif,non,oui,oui,non,non,non,oui,non,non,per os,0,89,0
+966,medical,non,87,174,H,115,115,36,NA,NA,distributif,non,non,non,non,non,non,non,non,non,per os,1,89,2
+967,medical,non,79,158,F,75,75,40,36,456,non,non,non,non,non,non,non,non,non,non,per os,0,118,0
+968,chirurgical urgent,non,29,179,H,90,88,13,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,89,0
+969,medical,non,72,170,H,80,80,36,NA,96,non,oui,non,non,non,non,non,non,non,non,per os,0,118,0
+970,chirurgical urgent,non,52,168,F,45,52,70,17,NA,distributif,oui,oui,oui,oui,oui,oui,non,oui,oui,entéral,0,0,0
+971,chirurgical reglé,non,40,160,F,47,52,22,NA,NA,non,non,oui,oui,oui,non,non,oui,non,non,per os,0,66,0
+972,medical,non,68,NA,H,NA,NA,29,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,40,0
+973,chirurgical reglé,non,68,165,F,70,66,33,24,NA,cardiogénique,non,oui,oui,non,non,non,non,non,non,per os,0,66,0
+974,medical,non,61,NA,H,NA,NA,75,NA,NA,hypovolémique,non,non,non,non,non,non,non,non,non,NA,0,40,0
+975,medical,non,52,NA,H,NA,NA,38,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,40,0
+976,chirurgical urgent,non,72,178,H,82,85,47,32,78,cardiogénique,non,oui,oui,oui,non,non,non,non,non,per os,0,66,0
+977,chirurgical reglé,non,71,173,H,77,NA,26,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,40,0
+978,chirurgical reglé,non,48,170,F,78,NA,45,NA,NA,hypovolémique,non,oui,oui,non,non,non,non,non,non,per os,0,40,0
+979,chirurgical urgent,oui,67,165,F,113,116,71,NA,NA,cardiogénique,non,oui,oui,non,oui,oui,non,oui,oui,per os,0,66,0
+980,chirurgical reglé,non,19,176,H,96,96,6,46,238,non,non,oui,oui,non,non,non,oui,non,non,per os,0,66,0
+981,chirurgical urgent,non,52,165,F,78,57,42,NA,NA,cardiogénique,oui,oui,oui,non,non,non,non,non,oui,per os,0,66,0
+982,chirurgical reglé,non,38,77,H,77,77,19,46,139,non,non,non,non,non,non,non,non,non,non,per os,0,66,0
+983,chirurgical reglé,non,87,153,F,53,53,38,31,105,non,non,oui,oui,non,non,non,non,non,non,per os,0,66,0
+984,chirurgical reglé,non,51,161,F,55,50,25,NA,NA,non,non,NA,oui,non,non,NA,non,oui,non,per os,0,66,0
+985,chirurgical urgent,non,61,165,H,65,62,NA,20,NA,cardiogénique,non,oui,oui,oui,non,non,oui,non,oui,entéral,1,66,1
+986,chirurgical urgent,oui,71,176,H,62,71,NA,22,4,non,non,oui,oui,oui,non,non,non,non,oui,per os,1,66,1
+987,chirurgical urgent,non,58,175,H,64,70,NA,22,NA,cardiogénique,oui,oui,oui,non,non,oui,non,non,non,entéral,0,66,0
+988,chirurgical urgent,non,50,176,H,NA,75,NA,25,15,distributif,non,oui,oui,non,non,non,non,non,non,entéral,1,4,0
+989,medical,oui,41,199,H,106,110,92,NA,NA,hypovolémique,non,oui,oui,non,non,non,oui,oui,non,NA,0,95,0
+990,medical,non,70,176,H,75,80,58,NA,NA,distributif,oui,oui,oui,non,oui,non,non,oui,non,entéral,0,95,0
+991,medical,non,83,146,F,64,64,NA,NA,85,non,non,non,non,oui,non,non,non,non,non,per os,0,0,0
+992,medical,non,87,160,H,100,100,54,NA,NA,non,non,oui,oui,non,oui,non,non,non,non,parentéral,0,0,0
+993,medical,non,80,170,H,78,67,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,1,95,1
+994,medical,oui,57,159,H,95,95,NA,NA,70,non,non,non,non,non,non,non,oui,non,non,per os,1,95,2
+995,medical,non,83,165,H,77,77,NA,NA,247,non,oui,non,non,non,non,non,non,non,non,per os,0,95,0
+996,medical,non,58,160,F,63,62,78,27,16,cardiogénique,non,oui,oui,non,non,non,non,non,non,per os,0,95,0
+997,medical,oui,89,147,F,59,70,44,NA,179,distributif,non,non,non,non,non,non,non,non,non,parentéral,1,95,5
+998,medical,non,49,160,F,55,50,53,NA,NA,non,non,oui,oui,non,non,oui,non,non,non,entéral,0,0,0
+999,medical,non,70,175,H,103,91,47,NA,NA,cardiogénique,oui,oui,oui,oui,non,oui,non,oui,non,entéral,1,0,1
+1000,medical,non,61,162,H,60,76,82,30,92,cardiogénique,oui,oui,oui,oui,oui,non,non,oui,oui,entéral,0,0,0
+1001,medical,non,66,187,H,69,74,36,19,49,distributif,non,oui,oui,non,oui,non,non,non,non,entéral,0,0,0
+1002,chirurgical urgent,non,56,195,H,100,108,40,28,NA,hypovolémique,non,oui,oui,non,non,oui,non,non,non,per os,0,73,0
+1003,medical,NA,72,174,H,68,65,60,26,NA,distributif,oui,oui,oui,non,oui,oui,oui,oui,non,entéral,1,73,1
+1004,medical,non,71,175,H,88,86,81,16,176,distributif,oui,non,oui,non,non,non,non,oui,non,parentéral,1,0,2
+1005,chirurgical urgent,non,48,170,H,65,65,55,40,NA,non,non,non,non,non,non,oui,non,non,non,entéral,0,73,0
+1006,chirurgical urgent,non,64,175,H,89,81,47,26,53,distributif,non,oui,oui,non,non,non,non,non,non,NA,0,0,0
+1007,medical,non,75,168,F,102,102,38,26,43,non,non,non,non,oui,non,non,non,oui,non,per os,0,0,0
+1008,medical,oui,18,176,H,80,79,36,44,NA,non,non,non,non,oui,non,non,non,non,non,per os,0,73,0
+1009,medical,non,71,189,H,104,93,47,NA,NA,distributif,non,oui,oui,non,non,non,non,non,non,entéral,1,0,1
+1010,chirurgical urgent,non,56,151,F,62,58,40,41,NA,non,oui,oui,oui,non,oui,oui,non,non,non,entéral,0,73,0
+1011,medical,non,78,160,F,99,99,73,20,169,non,oui,oui,oui,oui,non,non,non,non,non,entéral,1,0,1
+1012,chirurgical urgent,non,46,175,H,65,59,52,36,NA,distributif,oui,oui,oui,non,oui,oui,oui,non,non,entéral,0,73,0
+1013,medical,non,60,185,H,75,70,56,NA,NA,non,oui,oui,oui,non,oui,non,oui,non,non,parentéral,0,0,0
+1014,medical,NA,74,162,H,74,73,44,40,NA,non,non,non,non,non,non,non,non,non,non,per os,0,73,0
+1015,medical,non,79,162,F,70,65,53,30,NA,non,oui,oui,oui,oui,oui,non,non,non,non,entéral,1,73,1
+1016,NA,NA,87,165,F,52,50,82,NA,NA,distributif,non,oui,oui,non,non,non,non,non,non,parentéral,1,0,1
+1017,medical,NA,66,170,H,70,65,38,38,NA,NA,oui,oui,oui,non,oui,oui,non,non,non,entéral,0,73,0
+1018,medical,non,60,180,H,72,88,32,23,43,non,non,oui,oui,oui,non,non,non,non,non,parentéral,0,0,0
+1019,medical,NA,43,181,H,90,89,43,27,NA,non,non,non,non,non,non,oui,non,non,non,per os,0,73,0
+1020,medical,non,85,181,H,70,83,90,27,109,distributif,non,oui,oui,oui,non,non,non,oui,non,parentéral,0,0,0
+1021,chirurgical urgent,NA,23,180,H,80,77,33,43,NA,non,non,oui,oui,non,non,non,non,non,non,entéral,0,0,0
+1022,medical,non,61,181,H,72,74,46,NA,14,distributif,non,oui,oui,non,non,non,non,non,non,parentéral,0,0,0
+1023,medical,non,45,168,H,64,62,48,25,4,non,oui,non,non,non,non,non,oui,non,non,per os,1,0,2
+1024,medical,non,53,183,H,70,65,58,20,NA,distributif,non,oui,oui,oui,non,non,non,non,non,entéral,1,0,1
+1025,medical,non,60,165,F,78,85,43,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,98,0
+1026,chirurgical reglé,oui,66,172,H,85,84,NA,NA,NA,distributif,oui,oui,oui,oui,oui,non,non,non,non,entéral,0,98,0
+1027,medical,non,69,173,H,77,70,65,26,63,distributif,non,oui,oui,oui,non,non,non,non,non,entéral,0,0,0
+1028,chirurgical urgent,non,37,166,F,71,73,31,NA,NA,hypovolémique,non,oui,oui,non,non,non,non,non,non,per os,0,98,0
+1029,medical,non,64,168,H,46,48,50,NA,44,distributif,oui,non,non,non,non,non,oui,non,non,per os,0,102,0
+1030,medical,non,73,165,H,85,82,57,24,51,non,non,oui,oui,non,non,non,non,non,non,parentéral,0,0,0
+1031,medical,oui,50,166,H,60,59,89,NA,NA,distributif,oui,oui,oui,non,non,oui,non,oui,non,per os,1,102,1
+1032,medical,non,57,162,H,70,68,19,NA,NA,non,oui,non,non,non,non,non,oui,non,non,per os,0,102,0
+1033,medical,non,68,NA,H,90,92,47,NA,NA,non,non,oui,non,non,non,non,non,non,non,entéral,1,0,2
+1034,medical,NA,58,160,H,50,53,NA,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,98,0
+1035,medical,oui,65,178,H,93,91,54,31,NA,distributif,non,oui,oui,non,oui,non,non,non,non,entéral,0,102,0
+1036,medical,oui,54,181,H,96,112,NA,NA,NA,distributif,non,oui,oui,oui,oui,non,oui,oui,non,entéral,1,98,1
+1037,medical,non,54,176,H,82,82,22,NA,4,non,non,non,non,non,non,non,non,non,non,per os,0,102,0
+1038,chirurgical urgent,non,66,170,H,87,111,NA,NA,NA,distributif,non,oui,oui,oui,oui,non,non,oui,non,entéral,0,98,0
+1039,medical,oui,73,170,H,108,115,41,NA,126,non,non,non,non,non,non,non,non,oui,non,per os,0,102,0
+1040,medical,non,51,152,H,94,83,30,20,18,cardiogénique,oui,oui,oui,non,oui,non,non,oui,non,per os,0,97,0
+1041,medical,non,77,NA,F,59,60,50,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,0,0
+1042,medical,non,89,NA,F,68,67,49,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,0,0
+1043,medical,non,79,175,H,59,59,78,27,17,non,non,oui,oui,non,non,non,non,non,non,parentéral,0,0,0
+1044,medical,non,86,180,H,78,79,40,19,NA,non,non,oui,non,non,non,non,non,non,non,entéral,0,0,0
+1045,medical,non,57,NA,H,68,77,73,26,157,distributif,non,oui,oui,oui,non,non,oui,non,non,NA,0,0,0
+1046,medical,non,41,NA,H,75,75,50,28,118,non,non,oui,oui,non,non,non,non,non,non,NA,0,0,0
+1047,medical,non,88,175,H,80,80,85,NA,NA,cardiogénique,non,oui,oui,non,non,non,non,non,non,NA,0,0,0
+1048,medical,non,78,140,F,74,71,58,NA,NA,distributif,oui,oui,oui,oui,oui,oui,oui,oui,non,entéral,0,0,0
+1049,medical,non,87,170,F,59,58,NA,NA,NA,non,non,oui,oui,non,non,non,non,non,non,per os,0,83,0
+1050,medical,non,68,NA,F,NA,NA,NA,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,40,0
+1051,medical,NA,82,175,H,70,70,NA,NA,NA,cardiogénique,non,oui,oui,non,oui,non,non,non,non,per os,0,83,0
+1052,medical,non,86,NA,H,NA,NA,NA,NA,NA,non,non,non,non,non,non,non,oui,non,non,NA,0,40,0
+1053,medical,non,74,NA,H,NA,NA,NA,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,40,0
+1054,medical,non,40,NA,H,NA,NA,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,40,0
+1055,medical,non,70,152,F,79,79,NA,NA,275,non,oui,non,non,non,non,non,non,non,non,per os,0,83,0
+1056,medical,non,66,NA,H,NA,NA,NA,NA,NA,distributif,oui,non,non,non,non,non,non,non,non,per os,0,40,0
+1057,medical,NA,53,NA,H,NA,NA,NA,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,40,0
+1058,medical,non,54,178,H,71,70,NA,NA,NA,non,non,non,non,non,non,oui,non,non,non,per os,0,83,0
+1059,medical,non,57,172,H,80,80,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,83,0
+1060,medical,NA,61,181,H,101,107,NA,NA,NA,non,oui,oui,oui,non,non,oui,oui,oui,non,per os,0,98,0
+1061,medical,non,76,165,F,104,104,NA,NA,NA,distributif,non,oui,oui,non,non,non,non,oui,non,entéral,0,98,0
+1062,medical,non,75,160,F,60,NA,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,98,0
+1063,medical,non,24,176,H,64,65,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,98,0
+1064,medical,non,44,169,F,59,56,NA,NA,NA,distributif,oui,oui,oui,non,oui,non,non,non,non,entéral,0,98,0
+1065,medical,non,54,NA,H,NA,NA,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,98,0
+1066,medical,non,59,173,H,75,75,68,NA,NA,distributif,oui,oui,oui,oui,oui,non,non,oui,non,entéral,1,98,2
+1067,medical,non,76,175,H,76,83,55,NA,NA,distributif,non,oui,oui,non,oui,non,non,non,non,entéral,0,98,0
+1068,medical,non,61,163,F,60,63,40,NA,NA,distributif,oui,oui,oui,non,oui,non,non,non,non,entéral,0,98,0
+1069,medical,non,35,172,H,69,70,26,30,9,non,non,non,non,oui,non,non,non,non,non,per os,0,92,0
+1070,medical,non,20,180,H,84,85,17,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,92,0
+1071,medical,non,63,175,H,69,76,89,22,NA,distributif,non,oui,oui,oui,oui,non,oui,non,non,entéral,0,92,0
+1072,medical,non,19,185,H,88,87,71,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,92,0
+1073,medical,NA,54,178,H,77,67,73,NA,NA,distributif,oui,oui,oui,non,non,non,oui,oui,non,per os,0,92,0
+1074,medical,non,56,181,H,100,99,44,19,NA,non,non,oui,oui,non,oui,oui,non,non,non,per os,1,1,1
+1075,medical,non,69,160,H,52,52,36,32,NA,non,non,non,non,non,non,non,non,non,non,per os,0,92,0
+1076,medical,NA,51,180,H,80,90,27,NA,NA,non,oui,oui,non,non,non,oui,oui,non,NA,NA,0,0,0
+1077,medical,non,70,170,H,83,95,21,NA,NA,cardiogénique,oui,oui,oui,non,oui,non,non,non,non,per os,0,92,0
+1078,chirurgical urgent,non,39,170,H,45,53,20,NA,NA,non,non,non,non,non,non,non,oui,non,non,NA,0,92,0
+1079,medical,non,37,168,F,48,47,56,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,92,0
+1080,medical,non,38,184,H,92,74,17,27,NA,non,oui,oui,oui,non,non,oui,non,non,non,per os,0,0,0
+1081,chirurgical urgent,non,79,165,F,85,92,56,NA,NA,non,non,oui,oui,non,non,non,non,non,non,entéral,0,92,0
+1082,medical,non,55,163,F,79,87,66,15,NA,distributif,non,oui,oui,non,oui,non,oui,oui,non,entéral,1,92,5
+1083,medical,non,82,178,H,77,79,68,NA,NA,cardiogénique,non,oui,oui,non,non,non,non,non,non,entéral,0,92,0
+1084,medical,non,57,157,F,70,72,37,NA,NA,non,non,non,non,non,non,oui,non,non,non,per os,0,92,0
+1085,medical,non,57,157,F,70,72,NA,NA,NA,non,non,non,non,non,non,oui,non,non,non,per os,0,92,0
+1086,medical,non,64,162,F,75,84,55,NA,NA,distributif,oui,oui,oui,non,oui,oui,non,oui,non,parentéral,1,92,3
+1087,medical,non,66,164,H,57,34,33,NA,NA,distributif,non,oui,oui,oui,oui,oui,oui,non,non,per os,0,92,0
+1088,medical,non,66,177,H,143,144,48,NA,NA,non,non,non,oui,non,non,oui,oui,non,non,entéral,0,92,0
+1089,medical,non,65,163,F,71,61,42,24,105,distributif,oui,non,non,non,non,non,non,non,non,parentéral,0,92,0
+1090,medical,oui,65,156,F,57,67,72,34,NA,cardiogénique,non,non,non,non,non,non,non,oui,non,parentéral,0,92,0
+1091,chirurgical reglé,non,58,155,H,52,52,NA,NA,NA,non,non,non,oui,non,oui,non,non,non,non,NA,0,32,0
+1092,chirurgical reglé,non,62,173,H,85,79,NA,NA,NA,cardiogénique,non,oui,oui,non,oui,oui,non,oui,oui,per os,1,32,1
+1093,chirurgical urgent,non,46,169,F,68,69,NA,NA,NA,non,non,oui,oui,oui,non,non,non,non,non,per os,0,32,0
+1094,chirurgical urgent,oui,27,190,H,98,96,NA,NA,NA,non,non,oui,oui,non,non,non,non,non,non,per os,5,0,0
+1095,medical,non,80,173,F,112,112,NA,NA,NA,distributif,oui,non,non,non,non,non,non,non,non,per os,0,32,0
+1096,medical,non,70,177,H,85,83,NA,NA,NA,distributif,non,oui,oui,oui,oui,non,non,non,non,per os,0,32,0
+1097,medical,non,72,NA,H,70,73,NA,NA,NA,non,non,oui,oui,non,oui,non,NA,oui,non,entéral,0,32,0
+1098,medical,non,34,185,H,90,90,NA,NA,NA,non,non,non,non,oui,non,non,non,non,non,per os,0,32,0
+1099,chirurgical reglé,oui,73,187,H,NA,89,NA,NA,NA,distributif,oui,oui,oui,non,oui,non,non,non,non,per os,0,32,0
+1100,chirurgical reglé,non,51,166,H,59,59,NA,NA,NA,non,non,non,non,non,non,non,oui,non,non,entéral,0,32,0
+1101,chirurgical urgent,non,25,178,H,70,68,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,32,0
+1102,medical,oui,54,168,H,89,89,NA,NA,NA,non,non,oui,non,non,non,oui,non,non,non,per os,0,0,0
+1103,medical,non,88,172,H,NA,NA,43,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,125,0
+1104,chirurgical urgent,non,42,167,F,48,41,68,NA,NA,distributif,oui,oui,oui,non,oui,oui,non,non,non,per os,1,125,2
+1105,medical,non,31,170,H,93,84,51,NA,NA,hypovolémique,oui,oui,oui,non,oui,non,oui,non,non,per os,0,125,0
+1106,medical,non,86,168,H,103,103,50,23,NA,hypovolémique,oui,non,non,non,non,non,non,non,non,per os,1,125,2
+1107,medical,non,82,NA,H,NA,NA,48,29,NA,distributif,non,non,oui,non,non,non,non,non,non,per os,0,125,0
+1108,medical,oui,86,171,H,86,95,62,NA,NA,hypovolémique,non,non,non,non,non,non,non,non,non,per os,0,125,0
+1109,medical,oui,85,168,H,82,82,45,NA,NA,hypovolémique,non,non,non,oui,non,non,non,non,non,NA,0,125,0
+1110,medical,non,67,164,F,78,81,46,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,125,0
+1111,medical,non,65,174,H,145,130,72,NA,NA,cardiogénique,oui,oui,oui,non,oui,oui,non,non,non,per os,0,0,0
+1112,medical,non,66,172,H,76,76,31,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,125,0
+1113,medical,non,45,174,F,66,NA,33,NA,NA,non,oui,non,non,non,non,oui,non,non,non,per os,0,125,0
+1114,medical,non,72,172,H,61,60,32,NA,8,non,non,oui,oui,non,non,non,non,non,non,entéral,0,0,0
+1115,medical,oui,54,166,H,82,82,52,NA,NA,non,non,non,non,non,non,non,oui,non,non,NA,0,125,0
+1116,medical,oui,32,161,F,99,NA,54,NA,NA,distributif,non,oui,oui,non,oui,non,non,non,non,NA,0,0,0
+1117,medical,non,35,180,H,75,75,11,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,125,0
+1118,medical,non,32,180,H,95,95,30,NA,26,non,non,non,non,non,non,non,non,non,non,per os,0,125,0
+1119,medical,oui,72,182,H,68,64,77,NA,NA,non,oui,oui,oui,oui,oui,oui,non,non,non,entéral,0,125,0
+1120,medical,non,68,154,F,71,60,90,26,NA,distributif,non,oui,oui,non,oui,oui,non,non,non,entéral,1,1,2
+1121,medical,non,49,170,F,117,111,74,NA,NA,distributif,oui,oui,oui,non,oui,non,non,non,non,entéral,0,125,0
+1122,medical,oui,73,171,H,70,70,77,NA,NA,distributif,non,oui,oui,non,non,non,non,non,non,NA,0,125,0
+1123,medical,oui,75,174,H,54,61,22,NA,NA,distributif,oui,oui,oui,non,oui,oui,oui,non,non,entéral,1,1,3
+1124,medical,non,29,185,H,73,73,28,NA,NA,non,non,oui,oui,non,non,non,non,non,non,per os,0,125,0
+1125,medical,non,66,162,H,59,59,71,NA,NA,distributif,non,oui,oui,non,non,oui,non,non,non,entéral,0,0,0
+1126,medical,non,65,166,H,69,77,38,NA,NA,distributif,oui,oui,oui,non,non,oui,non,non,non,entéral,0,0,0
+1127,medical,non,67,177,H,82,82,47,NA,NA,non,non,oui,oui,non,non,non,oui,non,non,entéral,0,0,0
+1128,medical,non,44,162,F,65,68,57,NA,NA,non,non,oui,oui,non,non,non,non,non,non,entéral,0,0,0
+1129,medical,non,73,172,H,114,97,38,NA,NA,hypovolémique,oui,oui,oui,non,non,non,oui,non,non,entéral,0,1,1
+1130,medical,oui,72,170,H,83,90,69,NA,NA,cardiogénique,oui,oui,oui,non,oui,oui,non,non,non,entéral,0,0,0
+1131,medical,non,63,162,F,72,75,68,NA,NA,distributif,non,oui,oui,non,oui,oui,non,oui,non,parentéral,0,125,0
+1132,medical,non,61,173,H,56,53,60,NA,NA,distributif,oui,oui,oui,non,oui,non,oui,oui,non,entéral,1,125,2
+1133,medical,non,61,166,H,58,63,38,NA,NA,non,non,oui,oui,non,oui,oui,oui,non,non,entéral,0,0,0
+1134,medical,oui,60,150,F,56,56,51,NA,NA,distributif,oui,oui,oui,oui,oui,oui,non,oui,non,entéral,0,125,0
+1135,medical,non,22,175,H,82,82,8,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,2,0,0
+1136,medical,non,65,169,H,69,69,22,NA,NA,NA,non,non,non,non,non,non,non,non,non,per os,0,0,0
+1137,medical,non,67,169,H,71,69,31,NA,NA,non,non,non,non,non,non,oui,non,oui,non,per os,0,125,0
+1138,chirurgical reglé,oui,61,159,F,105,103,12,35,NA,distributif,non,non,non,non,non,non,non,oui,non,per os,0,91,0
+1139,medical,NA,67,183,H,79,76,85,NA,NA,cardiogénique,non,oui,oui,oui,non,non,oui,oui,non,per os,0,91,0
+1140,chirurgical reglé,oui,28,164,F,59,59,7,NA,NA,non,non,oui,oui,non,non,non,non,non,non,per os,0,91,0
+1141,chirurgical urgent,non,56,163,F,56,56,15,NA,NA,non,non,non,non,non,non,oui,non,non,non,per os,0,91,0
+1142,chirurgical urgent,non,51,167,H,97,88,52,36,NA,distributif,oui,oui,oui,non,oui,oui,non,non,non,per os,0,91,0
+1143,chirurgical urgent,non,54,167,F,58,55,15,NA,NA,non,non,oui,oui,non,non,non,NA,non,non,per os,0,91,0
+1144,chirurgical urgent,non,54,187,H,121,107,61,24,55,distributif,oui,oui,oui,non,oui,oui,oui,oui,non,per os,1,91,2
+1145,chirurgical urgent,non,44,163,H,69,75,34,23,76,distributif,oui,oui,oui,non,oui,oui,oui,non,non,entéral,0,91,0
+1146,chirurgical reglé,non,75,173,H,104,104,26,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,91,0
+1147,chirurgical urgent,non,70,170,F,75,77,15,29,64,non,non,oui,oui,non,non,oui,non,non,non,parentéral,0,91,0
+1148,chirurgical urgent,non,37,170,F,92,81,27,NA,NA,distributif,oui,oui,oui,non,oui,oui,non,non,non,entéral,0,91,0
+1149,chirurgical reglé,non,55,170,H,112,112,7,NA,NA,non,non,non,non,oui,non,non,oui,non,non,per os,0,91,0
+1150,medical,non,54,174,H,54,54,36,NA,NA,distributif,non,oui,oui,non,oui,non,oui,non,non,entéral,0,91,0
+1151,chirurgical urgent,non,45,179,H,80,75,50,NA,42,distributif,oui,oui,oui,oui,oui,oui,non,oui,non,per os,2,0,0
+1152,chirurgical reglé,non,68,174,H,73,78,12,NA,NA,non,non,non,non,oui,non,non,non,non,non,per os,0,91,0
+1153,chirurgical reglé,non,72,153,F,49,49,28,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,91,0
+1154,chirurgical reglé,non,59,159,F,59,59,19,NA,NA,non,non,oui,oui,oui,non,non,non,non,NA,per os,0,91,0
+1155,chirurgical reglé,NA,47,175,H,63,63,18,NA,NA,non,non,oui,oui,oui,non,non,non,non,non,per os,0,91,0
+1156,chirurgical reglé,non,37,170,F,53,53,22,NA,NA,non,non,oui,oui,oui,oui,non,non,non,non,per os,0,91,0
+1157,chirurgical reglé,non,55,178,H,90,90,33,NA,NA,non,non,oui,oui,non,oui,non,non,non,non,per os,0,91,0
+1158,chirurgical urgent,non,71,178,H,95,95,91,NA,NA,distributif,oui,oui,oui,oui,oui,oui,oui,oui,non,NA,0,1,1
+1159,chirurgical urgent,non,71,178,H,95,95,91,NA,NA,distributif,oui,oui,oui,oui,oui,oui,oui,oui,non,NA,0,1,1
+1160,chirurgical reglé,oui,69,175,H,96,96,12,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,91,0
+1161,medical,non,74,NA,NA,NA,NA,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,32,0
+1162,medical,non,68,180,H,83,81,25,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,32,0
+1163,medical,non,63,155,F,54,55,24,NA,NA,non,non,oui,oui,non,oui,oui,oui,non,non,entéral,1,32,1
+1164,medical,non,68,167,H,85,83,30,NA,NA,cardiogénique,non,oui,oui,non,non,non,non,non,non,entéral,1,32,1
+1165,chirurgical urgent,NA,59,173,NA,83,83,28,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,32,0
+1166,medical,NA,52,175,H,80,78,NA,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,32,0
+1167,medical,NA,52,175,H,80,78,NA,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,32,0
+1168,chirurgical reglé,oui,63,168,H,48,49,17,NA,NA,distributif,non,oui,non,non,non,non,oui,non,non,entéral,0,32,0
+1169,medical,non,78,175,H,98,96,28,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,32,0
+1170,chirurgical urgent,non,52,185,H,85,82,NA,NA,NA,non,non,oui,oui,non,oui,oui,oui,non,non,per os,0,32,0
+1171,medical,non,68,172,H,105,106,25,NA,NA,non,oui,non,non,non,non,non,non,non,non,per os,1,133,1
+1172,medical,non,70,178,H,98,96,31,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,133,0
+1173,chirurgical urgent,non,72,173,H,86,92,57,NA,NA,hypovolémique,non,oui,oui,oui,oui,non,non,non,non,parentéral,0,133,0
+1174,chirurgical urgent,non,62,165,F,67,62,56,NA,NA,cardiogénique,non,oui,oui,non,non,non,non,non,non,entéral,0,133,0
+1175,chirurgical urgent,non,62,175,H,85,85,47,NA,NA,hypovolémique,non,oui,oui,non,non,non,oui,non,non,NA,0,133,0
+1176,chirurgical urgent,non,56,169,H,120,120,42,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,133,0
+1177,chirurgical urgent,non,66,172,H,117,120,54,NA,NA,distributif,non,oui,oui,oui,oui,non,non,non,non,parentéral,0,133,0
+1178,chirurgical urgent,non,57,174,H,67,85,63,NA,NA,distributif,non,oui,oui,oui,oui,oui,non,oui,non,entéral,0,133,0
+1179,medical,non,72,173,H,74,74,21,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,133,0
+1180,chirurgical urgent,NA,71,140,H,43,40,52,NA,NA,distributif,non,oui,oui,oui,non,non,non,non,non,NA,0,133,0
+1181,medical,non,64,167,H,98,98,41,NA,NA,hypovolémique,non,oui,oui,oui,non,non,oui,non,non,NA,0,133,0
+1182,chirurgical urgent,non,69,173,H,106,106,45,NA,NA,distributif,non,oui,oui,oui,non,non,non,non,non,NA,0,133,0
+1183,medical,non,73,174,H,80,96,82,NA,NA,cardiogénique,non,oui,oui,non,non,oui,non,non,non,parentéral,1,133,1
+1184,chirurgical urgent,non,71,175,H,67,67,62,NA,NA,distributif,non,non,non,non,non,non,oui,non,non,parentéral,0,133,0
+1185,medical,non,52,163,H,52,52,53,28,NA,cardiogénique,oui,oui,oui,non,non,non,oui,non,non,per os,0,107,0
+1186,medical,non,59,158,F,69,61,38,17,NA,distributif,oui,oui,oui,non,oui,non,oui,non,non,per os,0,0,0
+1187,medical,non,48,173,H,79,84,27,35,7,non,non,non,non,non,non,non,non,non,non,per os,0,107,0
+1188,medical,non,61,168,H,90,76,47,NA,NA,distributif,non,oui,oui,non,oui,oui,non,non,non,entéral,1,107,3
+1189,medical,non,59,150,F,90,94,74,NA,NA,cardiogénique,non,oui,oui,non,non,non,non,non,non,NA,0,107,0
+1190,medical,oui,27,167,H,79,80,47,NA,NA,non,oui,oui,oui,non,non,oui,non,non,non,per os,0,0,0
+1191,medical,non,66,176,H,120,121,37,NA,NA,distributif,oui,oui,oui,non,non,non,non,oui,non,entéral,0,107,0
+1192,medical,non,55,167,H,58,62,61,43,NA,non,non,oui,oui,non,oui,non,oui,non,non,entéral,0,107,0
+1193,medical,non,64,171,H,61,75,49,NA,NA,distributif,non,oui,oui,non,oui,non,non,non,non,entéral,0,107,0
+1194,medical,oui,65,200,F,138,141,44,NA,NA,cardiogénique,non,non,non,non,non,oui,non,non,non,per os,1,107,1
+1195,medical,non,36,152,F,54,54,32,NA,24,non,non,non,non,non,non,non,non,non,non,NA,0,107,0
+1196,chirurgical urgent,non,52,169,F,120,120,22,NA,NA,non,non,non,oui,non,oui,non,non,non,non,per os,0,107,0
+1197,medical,non,33,190,H,84,84,14,38,NA,non,non,non,non,oui,non,non,non,non,non,per os,0,107,0
+1198,chirurgical reglé,non,45,165,F,69,69,19,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,107,0
+1199,chirurgical reglé,non,71,170,H,70,70,2,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,107,0
+1200,chirurgical urgent,non,85,174,H,72,72,40,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,107,0
+1201,medical,non,57,173,F,82,83,17,32,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,107,0
+1202,chirurgical urgent,non,48,186,H,116,116,26,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,107,0
+1203,chirurgical urgent,non,57,163,F,60,60,13,NA,NA,non,non,non,non,non,non,non,oui,non,non,per os,0,107,0
+1204,chirurgical urgent,non,25,169,F,81,NA,10,30,NA,non,non,non,non,oui,non,non,non,non,non,per os,0,107,0
+1205,medical,non,75,163,H,61,61,24,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,107,0
+1206,medical,non,55,NA,H,87,NA,17,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,107,0
+1207,medical,non,65,159,H,182,182,37,20,68,non,non,non,non,non,non,non,non,non,non,per os,0,107,0
+1208,medical,non,54,173,H,77,77,37,38,NA,non,oui,non,non,non,non,non,non,non,non,parentéral,0,107,0
+1209,medical,non,81,182,H,NA,98,37,24,63,non,non,non,non,non,non,non,non,oui,non,per os,0,62,0
+1210,medical,NA,69,168,H,87,97,42,19,129,cardiogénique,oui,non,oui,non,non,oui,non,non,non,entéral,1,62,1
+1211,medical,oui,85,175,H,110,123,74,27,85,cardiogénique,oui,oui,oui,oui,oui,non,non,oui,non,entéral,1,62,1
+1212,chirurgical reglé,oui,32,180,H,100,110,55,30,109,hypovolémique,non,oui,oui,oui,oui,non,non,non,non,entéral,0,62,0
+1213,chirurgical urgent,non,91,170,H,84,88,71,21,27,hypovolémique,non,oui,oui,non,oui,non,non,non,non,entéral,0,62,0
+1214,chirurgical reglé,non,64,190,H,100,112,27,21,132,non,non,non,non,non,non,non,non,oui,non,per os,0,62,0
+1215,medical,NA,41,175,H,93,134,54,19,134,cardiogénique,oui,oui,oui,oui,oui,non,non,non,non,entéral,0,62,0
+1216,medical,NA,64,158,F,93,106,63,32,6,cardiogénique,non,oui,oui,oui,oui,non,non,non,non,entéral,0,62,0
+1217,medical,NA,81,160,F,54,53,36,32,6,NA,non,non,non,non,non,non,non,non,non,entéral,0,62,0
+1218,medical,oui,77,173,H,73,85,NA,24,119,hypovolémique,non,oui,oui,oui,non,non,non,non,non,parentéral,1,62,1
+1219,medical,NA,79,168,H,60,57,NA,33,127,non,non,non,non,non,non,non,non,non,non,per os,0,62,0
+1220,medical,NA,93,160,H,63,60,NA,NA,73,cardiogénique,non,non,non,non,non,oui,non,NA,non,per os,0,62,0
+1221,chirurgical reglé,oui,70,181,H,71,73,NA,18,16,non,non,non,non,non,non,non,non,non,non,NA,0,62,0
+1222,chirurgical reglé,non,56,155,H,45,45,33,31,13,non,non,non,non,non,non,non,non,non,non,NA,0,62,0
+1223,chirurgical reglé,non,70,160,F,87,82,NA,NA,NA,non,non,non,non,non,non,non,non,non,non,per os,0,62,0
+1224,medical,non,59,160,F,70,70,27,33,5,hypovolémique,non,non,non,oui,non,non,oui,non,non,per os,0,53,0
+1225,medical,non,53,154,F,78,80,42,27,12,non,non,non,non,oui,non,non,oui,non,non,per os,0,53,0
+1226,medical,non,69,163,F,55,59,38,34,287,non,non,non,non,non,non,non,non,non,non,per os,0,53,0
+1227,chirurgical reglé,non,42,162,F,121,120,7,41,36,non,non,non,non,non,non,non,oui,non,non,NA,0,53,0
+1228,medical,NA,60,164,F,60,58,46,24,96,non,non,non,non,non,non,non,oui,non,non,per os,0,53,0
+1229,chirurgical reglé,oui,69,175,H,76,79,42,30,26,non,non,non,non,oui,non,non,non,non,non,per os,1,53,1
+1230,medical,non,59,176,H,72,69,27,20,82,non,oui,oui,oui,oui,non,non,non,non,non,per os,0,53,0
+1231,medical,non,53,154,F,78,80,42,27,12,non,non,non,non,oui,non,non,oui,non,non,per os,0,53,0
+1232,medical,non,18,184,H,70,84,32,36,NA,hypovolémique,non,oui,oui,non,oui,non,oui,non,oui,entéral,0,0,0
+1233,medical,non,83,160,H,69,69,94,23,295,distributif,oui,oui,oui,non,oui,non,non,non,non,per os,0,53,0
+1234,medical,non,70,171,H,83,95,32,34,NA,distributif,non,oui,oui,non,oui,non,oui,non,non,entéral,4,0,0
+1235,medical,non,68,172,H,83,80,38,30,NA,non,non,non,non,non,non,non,non,non,non,per os,0,0,0
+1236,medical,NA,50,162,F,151,151,37,34,0,non,non,non,non,non,non,non,non,non,non,per os,0,58,0
+1237,medical,non,72,162,H,69,71,68,18,NA,cardiogénique,non,oui,oui,non,oui,oui,non,oui,non,entéral,0,1,2
+1238,medical,non,81,154,F,55,55,45,25,NA,non,non,non,non,non,non,non,non,non,non,per os,0,58,0
+1239,medical,non,55,166,F,83,88,85,32,13,cardiogénique,non,oui,oui,non,non,oui,non,oui,non,entéral,0,58,0
+1240,medical,non,72,175,H,108,108,29,38,0,non,non,non,non,non,non,non,non,non,non,per os,0,58,0
+1241,medical,non,29,175,H,60,69,33,22,NA,distributif,oui,oui,oui,non,oui,non,oui,oui,non,entéral,0,0,0
+1242,medical,non,35,169,H,69,78,42,15,NA,distributif,non,oui,oui,non,oui,non,oui,oui,non,parentéral,8,0,2
+1243,medical,non,67,168,H,84,86,40,21,NA,non,non,oui,oui,non,non,oui,non,non,non,entéral,0,1,2
+1244,chirurgical urgent,non,85,160,H,103,103,50,24,NA,non,non,non,oui,non,non,non,non,non,non,NA,0,58,0
+1245,medical,non,70,174,H,63,68,96,18,NA,cardiogénique,non,oui,oui,non,oui,non,oui,non,oui,entéral,0,58,0
+1246,medical,non,66,172,H,92,103,22,26,NA,non,non,non,non,non,non,non,non,non,non,per os,1,1,1
+1247,medical,non,67,187,H,65,65,41,16,NA,non,non,non,non,non,non,non,non,non,non,per os,1,1,1
+1248,medical,non,35,162,H,67,67,8,32,NA,non,non,non,oui,NA,non,non,oui,non,non,per os,0,58,0
+1249,chirurgical urgent,oui,71,171,H,108,92,78,16,NA,distributif,non,oui,oui,non,non,non,non,oui,non,per os,0,58,0
+1250,medical,non,40,174,H,84,84,20,23,NA,non,non,non,non,non,non,non,non,non,non,per os,0,58,0
+1251,medical,non,56,167,H,69,69,27,26,NA,non,non,non,non,non,non,non,non,non,non,per os,0,58,0
+1252,medical,non,51,180,H,101,96,48,22,NA,distributif,oui,oui,oui,non,non,non,oui,oui,non,parentéral,0,0,0
+1253,medical,non,68,167,H,83,84,31,21,NA,distributif,non,oui,oui,oui,oui,non,oui,oui,non,entéral,0,58,0
+1254,chirurgical urgent,non,74,169,H,90,90,54,22,NA,distributif,oui,oui,oui,non,non,non,non,non,non,per os,0,58,0
+1255,medical,non,59,180,H,94,92,29,14,195,non,non,non,non,non,non,non,oui,non,non,per os,1,53,1
+1256,chirurgical reglé,non,52,164,F,92,92,44,25,439,distributif,non,oui,oui,oui,oui,non,non,non,non,parentéral,1,53,1
+1257,medical,non,67,180,H,50,70,67,27,128,distributif,oui,oui,oui,non,non,non,oui,non,non,entéral,1,53,5
+1258,chirurgical urgent,non,54,184,H,90,92,21,NA,139,non,non,non,non,non,non,non,non,non,non,per os,0,53,0
+1259,medical,non,59,177,H,108,89,46,NA,29,cardiogénique,oui,oui,oui,oui,oui,non,non,oui,oui,per os,6,NA,1
+1260,medical,non,69,172,H,68,68,38,26,139,non,non,oui,oui,non,non,oui,oui,non,non,NA,0,0,0
+1261,medical,non,66,175,H,72,80,33,14,190,non,non,oui,oui,oui,oui,non,non,non,non,parentéral,0,0,0
+1262,medical,non,69,178,H,102,97,30,NA,74,non,non,non,non,non,non,non,non,non,non,NA,0,0,0
+1263,medical,oui,50,163,F,64,64,48,33,38,non,non,non,non,non,non,non,non,non,non,per os,0,37,0
+1264,medical,NA,79,167,H,79,87,65,26,46,non,non,non,non,non,non,non,non,oui,non,entéral,0,37,0
+1265,medical,non,23,175,H,63,65,51,23,132,distributif,non,non,non,non,non,non,non,non,non,NA,0,37,0
+1266,medical,non,59,158,F,82,96,46,NA,11,non,non,oui,oui,non,non,non,non,oui,non,entéral,0,37,0
+1267,medical,oui,52,150,F,55,58,32,18,27,non,oui,oui,oui,non,non,oui,oui,non,non,entéral,0,0,0
+1268,medical,NA,49,157,F,65,61,57,26,NA,non,non,oui,oui,non,oui,oui,oui,non,non,NA,0,0,0
+1269,medical,NA,70,163,F,49,48,40,NA,18,hypovolémique,oui,oui,oui,non,oui,oui,oui,non,non,entéral,0,0,0
+1270,medical,non,68,168,H,108,110,43,22,8,hypovolémique,non,oui,oui,non,oui,non,non,non,non,entéral,0,0,0
+1271,medical,NA,76,170,H,72,60,91,20,95,non,oui,oui,oui,non,oui,non,non,oui,non,entéral,0,37,0
+1272,medical,non,59,183,H,71,71,48,15,NA,non,oui,oui,oui,non,oui,non,oui,non,non,entéral,0,1,1
+1273,medical,NA,56,168,H,70,76,45,19,212,distributif,non,oui,non,non,non,non,non,non,non,NA,0,37,0
