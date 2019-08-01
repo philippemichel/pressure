@@ -1,45 +1,97 @@
-\documentclass[a4paper, french]{article}
-\usepackage{geometry} % permet de redéfinir les marges etc. 
-\usepackage{graphicx} % Pour incorporer des grapiques, des couleurs etc.
-\usepackage{rotating} % Pour  pivoter du texte
-\usepackage{array} % Plus facile pour des tableaux complexes
-\usepackage{fontspec}
-\usepackage[output-decimal-marker={,}]{siunitx} % indisoensable pour les chiffres avec unité
-\usepackage{tikz} % Dessis, graphiques etc.
-\usepackage{multirow} %Pour fusionner des cellules sur plusieurs lignes dans les tableaux
-\usepackage{longtable} % Pour faire des tableaux sur plusieurs pages
-\usepackage{textcomp} % Qelques carctèrs supplémentaires
-\usepackage{booktabs} % Fugnloe les lignes horizontales dans les tableaux
-\usepackage{xspace} % gère les espaces après des fonctions
-\usepackage{babel} % Pour écrire en français
-\usepackage{hyperref} % Liens hyper texte inernes & externes
-%
-\hypersetup{% Réglages des liens hypertextes : couleur etc.
-colorlinks=true,
-pdftitle={},
-pdfauthor={Philippe MICHEL},
-pdfkeywords={},
-unicode
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Score d'escarre en réanimation},
+            pdfauthor={Philippe MICHEL},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
 }
-\title{Score d'escarre en réanimation}
-\author{Philippe MICHEL}
-%
-\setmainfont[Mapping=tex-text]
-{MinionPro-Regular}
-\setsansfont[Mapping=tex-text]
-{MyriadPro-Regular}
-% Pour avoir une virgule en mode math
-\mathcode`\.="013B
-%
-\newcommand{\pc}[1]{\SI{#1}{\percent}} 
-\newcolumntype{C}{>{$}c<{$}} % Colonnes en mode math dans les tableaux
-%
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Score d'escarre en réanimation}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{Philippe MICHEL}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+    \date{}
+    \predate{}\postdate{}
+  
 
 \begin{document}
 \maketitle
 
+{
+\setcounter{tocdepth}{2}
 \tableofcontents
-
+}
 \hypertarget{protocole}{%
 \section{Protocole}\label{protocole}}
 
@@ -49,25 +101,55 @@ possibles. Ces variables seront toutes celles parraissant significatives
 avec un seuil assez élevé (p \textless{}0,2 par ex.).
 
 Ensuite, sur un premeir groupe de patients pris dns l'échantillon total
- (autour de 1/3) on recherche par régression logistique une formule
+(autour de 1/3) on recherche par régression logistique une formule
 simple. Ensite on teste cette frmule sur le reste de l'échantillon voire
-unun pseudo échantillon beaucoup plus grand obtenu par bootstrap ou
-autre.
+un pseudo échantillon beaucoup plus grand obtenu par bootstrap ou autre.
 
 \hypertarget{importation-mise-en-forme-des-variables}{%
 \section{Importation \& mise en forme des
 variables}\label{importation-mise-en-forme-des-variables}}
 
+On ne garde que les patients n'ayant pas d'escarre à l'admission.
+
 \hypertarget{facteurs-de-risque-connus}{%
 \section{Facteurs de risque connus}\label{facteurs-de-risque-connus}}
 
 Pour mémoire les facteurs de risque d'escarre mis en évidence dans
-Pressure sont (en plus de l'IGS II): - Sexe - Alité 7jours avant
-l'admission - Poids - Albumine - CRP - Ventilation - Corticoïdes -
-maladie neurologique - Type de nutrition
+Pressure sont (en plus de l'IGS II):
 
-Pour mémoire, en régression, les facteurs retrouvés sont : - Poids
-\textgreater{} 90 Kg - Corticoïdes - Maladie neurologique
+\begin{itemize}
+\tightlist
+\item
+  Sexe
+\item
+  Alité 7jours avant l'admission
+\item
+  Poids
+\item
+  Albumine
+\item
+  CRP
+\item
+  Ventilation
+\item
+  Corticoïdes
+\item
+  maladie neurologique
+\item
+  Type de nutrition
+\end{itemize}
+
+Pour mémoire, en régression, les facteurs retrouvés sont :
+
+\begin{itemize}
+\tightlist
+\item
+  Poids \textgreater{} 90 Kg
+\item
+  Corticoïdes
+\item
+  Maladie neurologique
+\end{itemize}
 
 \hypertarget{recherche-de-seuils}{%
 \section{Recherche de seuils}\label{recherche-de-seuils}}
@@ -77,7 +159,17 @@ seuil * significatif * par les courbes de ROC.
 
 Malheureusement ces trois variables ont des courbes ROC très plates sans
 seuil bien défini. Néanmoins des seuils un peu moins mauvais ont pu être
-trouvés : - Poids : 90 Kg - Albumine: 23 - CRP : 90
+trouvés :
+
+\begin{itemize}
+\tightlist
+\item
+  Poids : 90 Kg
+\item
+  Albumine: 23
+\item
+  CRP : 90
+\end{itemize}
 
 \includegraphics{book_escarre_files/figure-latex/roc-1.pdf}
 \includegraphics{book_escarre_files/figure-latex/roc-2.pdf}
@@ -89,13 +181,13 @@ trouvés : - Poids : 90 Kg - Albumine: 23 - CRP : 90
 ##             ttc$poids
 ## ttc$escarrej  bas haut Total
 ##        non    729  224   953
-##        oui    157   77   234
-##        Total  886  301  1187
+##        oui     94   53   147
+##        Total  823  277  1100
 ## 
-## OR =  1.6 
-## Exact 95% CI =  1.15, 2.2  
-## Chi-squared = 8.77, 1 d.f., P value = 0.003
-## Fisher's exact test (2-sided) P value = 0.004
+## OR =  1.83 
+## Exact 95% CI =  1.24, 2.69  
+## Chi-squared = 10.65, 1 d.f., P value = 0.001
+## Fisher's exact test (2-sided) P value = 0.002
 \end{verbatim}
 
 \includegraphics{book_escarre_files/figure-latex/roc-5.pdf}
@@ -104,28 +196,30 @@ trouvés : - Poids : 90 Kg - Albumine: 23 - CRP : 90
 ## 
 ##             ttc$albumine
 ## ttc$escarrej bas haut Total
-##        non   106  330   436
-##        oui    51   90   141
-##        Total 157  420   577
+##        non   103  329   432
+##        oui    37   55    92
+##        Total 140  384   524
 ## 
-## OR =  0.57 
-## Exact 95% CI =  0.37, 0.87  
-## Chi-squared = 7.56, 1 d.f., P value = 0.006
-## Fisher's exact test (2-sided) P value = 0.009
+## OR =  0.47 
+## Exact 95% CI =  0.28, 0.77  
+## Chi-squared = 10.39, 1 d.f., P value = 0.001
+## Fisher's exact test (2-sided) P value = 0.002
 \end{verbatim}
+
+\includegraphics{book_escarre_files/figure-latex/roc-6.pdf}
 
 \begin{verbatim}
 ## 
 ##             ttc$crp
 ## ttc$escarrej bas haut Total
-##        non   430    2   432
-##        oui   117    0   117
-##        Total 547    2   549
+##        non   266  162   428
+##        oui    30   46    76
+##        Total 296  208   504
 ## 
-## OR =  0 
-## Exact 95% CI =  0, 19.71  
-## Chi-squared = 0.54, 1 d.f., P value = 0.461
-## Fisher's exact test (2-sided) P value = 1
+## OR =  2.52 
+## Exact 95% CI =  1.49, 4.3  
+## Chi-squared = 13.69, 1 d.f., P value = 0
+## Fisher's exact test (2-sided) P value = 0
 \end{verbatim}
 
 On dispose ainsi de variables factorielles simples, binaires pour tous
@@ -139,40 +233,21 @@ Pour ces travaux préparatoires j'utilise tout l'échantillon. Le
 protocole complet ne sear utilisé que lorsqu'un score semblera être
 meilleur. On lance la régression sur les variables retenues.
 
+\hypertarget{sans-ponderation}{%
+\subsection{Sans pondération}\label{sans-ponderation}}
+
 \begin{verbatim}
-## 
-## Call:
-## glm(formula = escarrej ~ alite.avant + sexe + poids + albumine + 
-##     crp + vent + cort + mal_ad + nut, family = "binomial", data = ttc)
-## 
-## Deviance Residuals: 
-##     Min       1Q   Median       3Q      Max  
-## -1.6602  -0.6990  -0.4860  -0.3398   2.3390  
-## 
-## Coefficients:
-##                Estimate Std. Error z value Pr(>|z|)   
-## (Intercept)      1.0860     0.5856   1.854  0.06368 . 
-## alite.avantnon  -0.8490     0.3223  -2.634  0.00844 **
-## sexeH            0.1544     0.3294   0.469  0.63937   
-## poidshaut        0.8057     0.3290   2.449  0.01433 * 
-## albuminehaut    -0.5346     0.3422  -1.563  0.11816   
-## crphaut        -12.7034   882.7435  -0.014  0.98852   
-## ventnon         -0.2745     0.4030  -0.681  0.49584   
-## cortnon         -0.9583     0.3294  -2.909  0.00362 **
-## mal_adnon       -0.9750     0.3502  -2.784  0.00537 **
-## nutparentéral   -0.2246     0.4210  -0.534  0.59363   
-## nutper os       -0.3173     0.3948  -0.804  0.42154   
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
-## (Dispersion parameter for binomial family taken to be 1)
-## 
-##     Null deviance: 316.62  on 295  degrees of freedom
-## Residual deviance: 276.41  on 285  degrees of freedom
-##   (963 observations deleted due to missingness)
-## AIC: 298.41
-## 
-## Number of Fisher Scoring iterations: 13
+##  
+##                         OR lower95ci upper95ci     Pr(>|Z|)
+## alité.avantoui   1.6339184 0.7191463  3.712304 0.2409632302
+## sexeH            0.9938392 0.4525917  2.182356 0.9877142044
+## poidshaut        1.9957780 0.9013998  4.418827 0.0883825700
+## albuminehaut     0.5861868 0.2605712  1.318699 0.1966372230
+## crphaut          2.9949207 1.3831575  6.484836 0.0053876879
+## ventilationoui   1.6331787 0.5556340  4.800414 0.3725487138
+## corticoïdesoui   2.8577732 1.3239041  6.168776 0.0074802707
+## déficit.neurooui 4.3943241 1.9180049 10.067797 0.0004657575
+## nutritionper.os  0.4216763 0.1468089  1.211172 0.1086988832
 \end{verbatim}
 
 Si on ne retint que les variables significatives on garde : alité avant,
@@ -180,20 +255,75 @@ poids, corticoïdes, déficit neurologique. En donnant le même poids à
 toute les variables on obtient un score simple à quatre items noté de 0
 à 4.
 
-\begin{longtable}[]{@{}rrrr@{}}
+\begin{longtable}[]{@{}rrrrr@{}}
 \toprule
-score & percent & binf & bsup\tabularnewline
+score & n & risque & binf & bsup\tabularnewline
 \midrule
 \endhead
-0 & 7.7 & 5.3 & 10.7\tabularnewline
-1 & 19.4 & 15.6 & 23.6\tabularnewline
-2 & 35.4 & 28.9 & 42.3\tabularnewline
-3 & 55.1 & 40.2 & 69.3\tabularnewline
-4 & 100.0 & 15.8 & 100.0\tabularnewline
+0 & 390 & 4.6 & 2.8 & 7.2\tabularnewline
+1 & 373 & 12.9 & 9.6 & 16.7\tabularnewline
+2 & 181 & 26.0 & 19.7 & 33.0\tabularnewline
+3 & 43 & 48.8 & 33.3 & 64.5\tabularnewline
+4 & 2 & 100.0 & 15.8 & 100.0\tabularnewline
 \bottomrule
 \end{longtable}
 
 \includegraphics{book_escarre_files/figure-latex/unnamed-chunk-2-1.pdf}
+
+\hypertarget{avec-ponderation}{%
+\subsection{Avec pondération}\label{avec-ponderation}}
+
+On applique une pondération basée sur les OD en gardant les mêmes items.
+On obtient donc alite avant x 2 + poids x 2 + corticïdes x 2 + deficit
+neuro x 3
+
+Le plus grand nombre de niveaux rend la lecture moins nette, il faudra
+prévoir des regroupements de niveau.
+
+\begin{longtable}[]{@{}lrrrr@{}}
+\toprule
+score & n & risque & binf & bsup\tabularnewline
+\midrule
+\endhead
+0 & 390 & 4.6 & 2.8 & 7.2\tabularnewline
+2 & 277 & 10.1 & 6.8 & 14.3\tabularnewline
+3 & 96 & 20.8 & 13.2 & 30.3\tabularnewline
+4 & 89 & 23.6 & 15.2 & 33.8\tabularnewline
+5 & 92 & 28.3 & 19.4 & 38.6\tabularnewline
+6 & 8 & 50.0 & 15.7 & 84.3\tabularnewline
+7 & 35 & 48.6 & 31.4 & 66.0\tabularnewline
+9 & 2 & 100.0 & 15.8 & 100.0\tabularnewline
+\bottomrule
+\end{longtable}
+
+\includegraphics{book_escarre_files/figure-latex/sc2-1.pdf}
+
+\hypertarget{scores-habituels}{%
+\subsection{Scores ``habituels''}\label{scores-habituels}}
+
+Pour avoir un point de comparaison, voici la prédiction obtenue dans
+PRESSURE par l'échelle habituelle du service.
+
+\begin{longtable}[]{@{}lrrrr@{}}
+\toprule
+score & n & risque & binf & bsup\tabularnewline
+\midrule
+\endhead
+Pas de risque & 99 & 0.0 & 0.0 & 3.7\tabularnewline
+Risque faible & 298 & 3.7 & 1.9 & 6.5\tabularnewline
+Risque moyen & 378 & 9.3 & 6.5 & 12.6\tabularnewline
+Risque élevé & 387 & 26.9 & 22.5 & 31.6\tabularnewline
+\bottomrule
+\end{longtable}
+
+\includegraphics{book_escarre_files/figure-latex/schab-1.pdf}
+
+\hypertarget{conclusion}{%
+\subsection{Conclusion}\label{conclusion}}
+
+Les scores proposés isolent plus de patients avec un risque faible que
+les échelles habituelles. Donc un intérêt économique (moins de patients
+chez qui utiliser des méthodes de préventrions complexes \& chères).
 
 
 \end{document}
