@@ -2,17 +2,17 @@
 title: "Score d'escarre en réanimation"
 author: "Philippe MICHEL"
 output:
-  pdf_document:
-    includes:
-      in_header: tete.tex
-    keep_tex: yes
-    latex_engine: lualatex
+  html_document:
+    df_print: paged
     toc: yes
   html_notebook:
     fig_caption: yes
     theme: spacelab
-  html_document:
-    df_print: paged
+  pdf_document:
+    #includes:
+    #  in_header: tete.tex
+    keep_tex: yes
+    latex_engine: lualatex
     toc: yes
 editor_options:
   chunk_output_type: console
@@ -22,7 +22,7 @@ editor_options:
 
 Pour établir un score de gravté il faut disposer de variables toutes factorielles, idéalement binaires, sinon ordonnées avec peu de valeurs possibles. Ces variables seront toutes celles parraissant significatives avec un seuil assez élevé (p <0,2 par ex.).
 
-Ensuite, sur un premeir groupe de patients pris dns l'échantillon total (autour de 1/3) on recherche par régression logistique une formule simple. Ensite on teste cette frmule sur le reste de l'échantillon voire unun pseudo échantillon beaucoup plus grand obtenu par bootstrap ou autre.
+Ensuite, sur un premeir groupe de patients pris dns l'échantillon total (autour de 1/3) on recherche par régression logistique une formule simple. Ensite on teste cette frmule sur le reste de l'échantillon voire un pseudo échantillon beaucoup plus grand obtenu par bootstrap ou autre.
 
 ```{r setup, include= FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
@@ -44,29 +44,36 @@ library("ROCR")
 ```
 
 # Importation & mise en forme des variables
+
+On ne garde que les patients n'ayant pas d'escarre à l'admission.
+
 ```{r debut}
-tt <- debutph("data/base.csv")
-tt$service_id <- as.factor(tt$service_id)
-tt$escarrej <- as.factor(ifelse(tt$nb_esc_j>0,"oui","non"))
-tt$esc.adm<- as.factor(ifelse(tt$esc.adm>0,"oui","non"))
+tt <- read.csv("data/base2.csv", header = TRUE)
+tt <- subset(tt,tt$adm.escarre == "0")
+tt <- tt[,-27]
+tt$nutrition <- as.factor(ifelse(tt$nutrition == "01","per.os","artificielle"))
+tt$classification.risque <- fct_relevel(tt$classification.risque,"Pas de risque","Risque faible", "Risque moyen" )
 ttc <- tt
+#ttc$escarrej <- relevel(tt$escarrej,"non")
 ```
 
 # Facteurs de risque connus
 
 Pour mémoire les facteurs de risque d'escarre mis en évidence dans Pressure sont (en plus de l'IGS II): 
+
 - Sexe
 - Alité 7jours avant l'admission
-- Poids
-- Albumine
-- CRP
-- Ventilation
-- Corticoïdes
-- maladie neurologique
-- Type de nutrition
+ - Poids
+ - Albumine
+ - CRP
+ - Ventilation
+ - Corticoïdes
+ - maladie neurologique
+ - Type de nutrition
 
 
 Pour mémoire, en régression, les facteurs retrouvés sont :
+
 - Poids >  90 Kg
 - Corticoïdes
 - Maladie neurologique
@@ -76,6 +83,7 @@ Pour mémoire, en régression, les facteurs retrouvés sont :
 Pour les variables numériques (poids, albumine, CRP), on recherche un seuil * significatif *  par les courbes de ROC.
 
 Malheureusement ces trois variables ont des courbes ROC très plates sans seuil bien défini. Néanmoins des seuils un peu moins mauvais ont pu être trouvés : 
+
 - Poids : 90 Kg
 - Albumine: 23
 - CRP : 90
@@ -87,17 +95,17 @@ rocph <- function(zz,titre,cutx){
   plot(zz, colorize = TRUE, print.cutoffs.at = cutx, main = titre)
 }
 #
-rocph(tt$poids_ad, "Escarre selon le poids", seq(40,140,20))
+rocph(tt$poids_ad, "Escarre selon le poids", seq(40,100,10))
 rocph(tt$alb, "Escarre selon l'albumine", c(10,20,25,30,35,40,50))
 rocph(tt$crp, "Escarre selon la CRP", c(seq(20,140,20),seq(160,320,40)))
 #
-ttc$poids <- ifelse(tt$poids_ad<90,"bas","haut")
+ttc$poids <- as.factor(ifelse(tt$poids_ad<90,"bas","haut"))
 cc(ttc$escarrej,ttc$poids)
 #
 ttc$albumine <- ifelse(tt$alb<23,"bas","haut")
 cc(ttc$escarrej, ttc$albumine)
 #
-ttc$crp<- ifelse(tt$crp,"bas","haut")
+ttc$crp <- as.factor(ifelse(tt$crp<90,"bas","haut"))
 cc(ttc$escarrej, ttc$crp)
 #
 ```
@@ -108,29 +116,30 @@ On dispose ainsi de variables factorielles simples, binaires pour tous les facte
 
 Pour ces travaux préparatoires j'utilise tout l'échantillon. Le protocole complet ne sear utilisé que lorsqu'un score semblera être meilleur. On lance la régression sur les variables retenues. 
 
+## Sans pondération
 ```{r}
 ll <- glm(escarrej ~
-            alite.avant +
+            alité.avant +
             sexe +
             poids + 
             albumine +
             crp +
-            vent +
-            cort +
-            mal_ad + 
-            nut,
+            ventilation +
+            corticoïdes +
+            déficit.neuro + 
+            nutrition ,
           data = ttc,
           family = "binomial"
             )
-summary(ll)
+logistic.display(ll, simplified = TRUE)
 ```
  Si on ne retint que les variables significatives on garde : alité avant, poids, corticoïdes, déficit neurologique. En donnant le même poids à toute les variables on obtient un score simple à quatre items noté de 0 à 4.
  
 ```{r}
-sc1 = (ttc$alite.avant == "oui") +
+sc1 = (ttc$alité.avant == "oui") +
      (ttc$poids == "haut") +
-     (ttc$cort == "oui") + 
-     (ttc$mal_ad == "oui") 
+     (ttc$corticoïdes == "oui") + 
+     (ttc$déficit.neuro == "oui") 
 tzz <- table(sc1,tt$escarrej)
 tsc1 <- tzz[,2]
 ssc1 <- rowSums(tzz)
@@ -144,25 +153,112 @@ for (ll in 1:5){
   bsup <- c(bsup,round(bzz$conf.int[[2]]*100,1))
   #lig <- paste0(pcx," [",binf,";",bsup,"]")
 }
-zz <- data.frame(0:4,cpc,binf,bsup)
-names(zz) <- c("score","percent", "binf","bsup")
-kable(zz)
+zz <- data.frame(0:4,ssc1, cpc,binf,bsup)
+names(zz) <- c("score","n","risque", "binf","bsup")
+kable(zz, row.names = FALSE)
 ggplot(zz) +
-  aes(x = score, y = percent, fill = score) +
-  geom_bar(stat="identity") + 
+  aes(x = score, y = risque, fill = score) +
+  geom_bar(stat = "identity") + 
   geom_errorbar(ymin = binf, ymax = bsup) +
-  labs(title = "Score 1",
+  labs(title = "Score 1 (sans pondération)",
        x = "Score",
        y = " % escarres"
   ) + 
   theme_light() + 
-  theme(plot.title = element_text(size= 12, face="bold"),
-        axis.title.x = element_text(size= 12),
-        axis.title.y = element_text(size= 12),
-        axis.text.x = element_text(size= 12),
-        axis.text.y = element_text(size= 12),
+  theme(plot.title = element_text(size = 12, face="bold"),
+        axis.title.x = element_text(size = 12),
+        axis.title.y = element_text(size = 12),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
         legend.position = "none")
 ```
  
+## Avec pondération
  
+ On applique une pondération basée sur les OD en gardant les mêmes items. On obtient donc 
+ alite avant x 2 + poids x 2 + corticïdes  x 2 + deficit neuro  x 3
  
+Le plus grand nombre de niveaux rend la lecture moins nette, il faudra prévoir des regroupements de niveau. 
+
+```{r sc2}
+sc2 = (ttc$alité.avant == "oui") * 2 +
+     (ttc$poids == "haut") * 2  +
+     (ttc$corticoïdes == "oui") * 2 + 
+     (ttc$déficit.neuro == "oui") * 3
+tzz <- table(sc2,tt$escarrej)
+tsc2 <- tzz[,2]
+ssc2 <- rowSums(tzz)
+cpc <- NULL
+binf <- NULL
+bsup <- NULL
+for (ll in 1:8){
+  bzz <- binom.test(tsc2[[ll]],ssc2[[ll]])
+  cpc <- c(cpc,round(bzz$estimate[[1]]*100,1))
+  binf <- c(binf,round(bzz$conf.int[[1]]*100,1))
+  bsup <- c(bsup,round(bzz$conf.int[[2]]*100,1))
+  #lig <- paste0(pcx," [",binf,";",bsup,"]")
+}
+zz <- data.frame(row.names(tzz),ssc2,cpc,binf,bsup)
+names(zz) <- c("score","n","risque", "binf","bsup")
+kable(zz, row.names = FALSE)
+ggplot(zz) +
+  aes(x = score, y = risque, fill = score) +
+  geom_bar(stat = "identity") + 
+  geom_errorbar(ymin = binf, ymax = bsup) +
+  labs(title = "Score 2 (avec pondération)",
+       x = "Score",
+       y = " % escarres"
+  ) + 
+  theme_light() + 
+  theme(plot.title = element_text(size = 12, face="bold"),
+        axis.title.x = element_text(size = 12),
+        axis.title.y = element_text(size = 12),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        legend.position = "none")
+```    
+
+## Scores "habituels"
+ 
+ Pour avoir un point de comparaison, voici la prédiction obtenue dans PRESSURE par l'échelle habituelle du service. 
+ 
+    
+```{r schab}
+schab = tt$classification.risque
+tzz <- table(schab,tt$escarrej)
+tschab <- tzz[,2]
+sschab <- rowSums(tzz)
+cpc <- NULL
+binf <- NULL
+bsup <- NULL
+lg <- dim(tzz)[1]
+for (ll in 1:lg){
+  bzz <- binom.test(tschab[[ll]],sschab[[ll]])
+  cpc <- c(cpc,round(bzz$estimate[[1]]*100,1))
+  binf <- c(binf,round(bzz$conf.int[[1]]*100,1))
+  bsup <- c(bsup,round(bzz$conf.int[[2]]*100,1))
+  #lig <- paste0(pcx," [",binf,";",bsup,"]")
+}
+zz <- data.frame(row.names(tzz),sschab,cpc,binf,bsup)
+names(zz) <- c("score","n","risque", "binf","bsup")
+kable(zz, row.names = FALSE, format = "latex", booktabs = TRUE)
+ggplot(zz) +
+  aes(x = fct_relevel(score,"Pas de risque","Risque faible", "Risque moyen"), y = risque, fill = score) +
+  geom_bar(stat = "identity") + 
+  geom_errorbar(ymin = binf, ymax = bsup) +
+  labs(title = "Échelles usuelles",
+       x = "Score",
+       y = " % escarres"
+  ) + 
+  theme_light() + 
+  theme(plot.title = element_text(size = 12, face="bold"),
+        axis.title.x = element_text(size = 12),
+        axis.title.y = element_text(size = 12),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        legend.position = "none")
+```
+
+## Conclusion  
+
+Les scores proposés isolent plus de patients avec un risque faible que les échelles habituelles. Donc un intérêt économique (moins de patients chez qui utiliser des méthodes de préventrions complexes & chères).
