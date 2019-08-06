@@ -1,12 +1,12 @@
-#' Courbe ROC pour un score
-#'
+#' Pré-validation d'un score
+#' Calcule le tableau du risque et des effectifs par niveau, avec son histogramme, courbe ROC avec l'AUC.
 #' @param sc : score à tester
 #' @param varx : variable d'outcome
 #' @param titre : titre du graphique
-#' @return Courbe ROC
+#' @return Tableau, histogramme, courbe ROC
 #' @import ggplot2
 #'
-#' @examples a=1
+#' @examples a = 2
 valscore <- function(sc, varx, titre = "Score"){
   tt$sc <- sc
   tzz <- table(sc,varx)
@@ -40,5 +40,5 @@ valscore <- function(sc, varx, titre = "Score"){
           axis.text.y = element_text(size = 12),
           legend.position = "none")
   #
-  rocph(sc,titre, min(sc, na.rm = TRUE):max(sc, na.rm = TRUE))
+  rocph(sc,varx, titre, min(sc, na.rm = TRUE):max(sc, na.rm = TRUE))
 }

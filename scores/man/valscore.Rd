@@ -2,7 +2,8 @@
 % Please edit documentation in R/valscore.R
 \name{valscore}
 \alias{valscore}
-\title{Courbe ROC pour un score}
+\title{Pré-validation d'un score
+Calcule le tableau du risque et des effectifs par niveau, avec son histogramme, courbe ROC avec l'AUC.}
 \usage{
 valscore(sc, varx, titre = "Score")
 }
@@ -14,11 +15,12 @@ valscore(sc, varx, titre = "Score")
 \item{titre}{: titre du graphique}
 }
 \value{
-Courbe ROC
+Tableau, histogramme, courbe ROC
 }
 \description{
-Courbe ROC pour un score
+Pré-validation d'un score
+Calcule le tableau du risque et des effectifs par niveau, avec son histogramme, courbe ROC avec l'AUC.
 }
 \examples{
-a=1
+a = 2
 }

@@ -17,5 +17,5 @@ rocph <- function(zz, varx, titre, cutx){
   aucx <- round(aucz@y.values[[1]],3 )
   plot(zz, colorize = FALSE, print.cutoffs.at = cutx, main = titre, text.adj=c(1.2,0.1))
   abline(a = 0, b = 1, col = "grey", lty = 2)
-  text( x= 0.8, y = 0.2, paste0("AUC = ", aucx))
+  text( x = 0.8, y = 0.2, paste0("AUC = ", aucx))
 }
