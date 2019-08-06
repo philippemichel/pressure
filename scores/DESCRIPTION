@@ -1,0 +1,17 @@
+Package: scores
+Title: Utilitaire pour la validation de scores
+Version: 0.1
+Authors@R: person("Philippe", "MICHEL", email = "philippe@docteur-michel.fr", role = c("aut", "cre"))
+Description: Tout pour élaborer un score, tracé des courbes ROC etc. 
+Depends: R (>= 3.5.1)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    stats,
+    ggplot2,
+    ROCR
+RoxygenNote: 6.1.0
+Collate: 
+    'rocph.R'
+    'valscore.R'

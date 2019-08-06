@@ -315,10 +315,74 @@ Risque élevé & 387 & 26.9 & 22.5 & 31.6\\
 \bottomrule
 \end{tabular}
 
-\includegraphics{book_escarre_files/figure-latex/schab-1.pdf}
+\includegraphics{book_escarre_files/figure-latex/schab-1.pdf} \#\#
+Validation des seuils
+
+Pour chacun des deux scores étudiés on cherche le moins mauvais seuil.
+
+\hypertarget{score-non-modere}{%
+\subsection{Score non modéré}\label{score-non-modere}}
+
+\includegraphics{book_escarre_files/figure-latex/seuil1-1.pdf}
+
+\begin{verbatim}
+## 
+##            tt$seuil11
+## tt$escarrej bas haut Total
+##       non   697  156   853
+##       oui    66   70   136
+##       Total 763  226   989
+## 
+## OR =  4.74 
+## Exact 95% CI =  3.18, 7.04  
+## Chi-squared = 73.26, 1 d.f., P value = 0
+## Fisher's exact test (2-sided) P value = 0
+\end{verbatim}
+
+\includegraphics{book_escarre_files/figure-latex/seuil1-2.pdf}
+
+\begin{verbatim}
+## 
+##            tt$seuil12
+## tt$escarrej bas haut Total
+##       non   831   22   853
+##       oui   113   23   136
+##       Total 944   45   989
+## 
+## OR =  7.69 
+## Exact 95% CI =  3.94, 14.94  
+## Chi-squared = 55.48, 1 d.f., P value = 0
+## Fisher's exact test (2-sided) P value = 0
+\end{verbatim}
+
+Le seuil \textless{}=3 semble plus discriminant avec 11 \%
+{[}9,9;14,2{]} d'escarre dans le groupe à faible risque vs 48,9 \%
+{[}33,7;64,2{]} dans le groupe à haut risque.
+
+\hypertarget{score-pondere}{%
+\subsection{Score pondéré}\label{score-pondere}}
+
+En essayant tous les seuils posiibles le meilleur OD est trouvé pour
+\textgreater{}=6 avec 12,0 \% {[}10,0;14,2{]} d'escarre dans le groupe à
+bas risque vs 51,1 \% {[}35,8;66,2{]} pour le groupe à haut risque.
+\includegraphics{book_escarre_files/figure-latex/seuil2-1.pdf}
+
+\begin{verbatim}
+## 
+##            tt$seuil2
+## tt$escarrej bas haut Total
+##       non   831   22   853
+##       oui   113   23   136
+##       Total 944   45   989
+## 
+## OR =  7.69 
+## Exact 95% CI =  3.94, 14.94  
+## Chi-squared = 55.48, 1 d.f., P value = 0
+## Fisher's exact test (2-sided) P value = 0
+\end{verbatim}
 
 \hypertarget{conclusion}{%
-\subsection{Conclusion}\label{conclusion}}
+\section{Conclusion}\label{conclusion}}
 
 Les scores proposés isolent plus de patients avec un risque faible que
 les échelles habituelles. Donc un intérêt économique (moins de patients
